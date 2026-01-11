@@ -16,12 +16,11 @@ While these terms are sometimes used interchangeably, they serve different purpo
 | **Design Focus** | Data accuracy | Visual appeal & storytelling |
 | **Audience** | Often specialists | General public |
 
-```{admonition} Think of it this way
-:class: tip
+:::{tip} Think of it this way
 A **data visualization** is like a scientific paper—accurate, detailed, meant for analysis.
 
 An **infographic** is like a magazine article—engaging, simplified, meant to inform and entertain.
-```
+:::
 
 ---
 
@@ -51,46 +50,14 @@ Unlike data visualizations that prioritize precision, infographics can use icons
 
 ## Types of Infographics
 
-::::{grid} 1 1 2 2
-:gutter: 3
-
-:::{grid-item-card} 📊 Statistical
-Numbers and data presented visually. Think "data + design."
-
-*Example: "X% of people do Y" with icons*
-:::
-
-:::{grid-item-card} 🕐 Timeline
-Events or processes shown in chronological order.
-
-*Example: "History of Social Media"*
-:::
-
-:::{grid-item-card} 🔄 Process
-Step-by-step explanations or flowcharts.
-
-*Example: "How a Bill Becomes a Law"*
-:::
-
-:::{grid-item-card} 🆚 Comparison
-Two or more things shown side-by-side.
-
-*Example: "iPhone vs. Android"*
-:::
-
-:::{grid-item-card} 🗺️ Geographic
-Data mapped to locations.
-
-*Example: "Coffee Consumption by Country"*
-:::
-
-:::{grid-item-card} 📋 List
-Ranked items or collections.
-
-*Example: "10 Tips for Better Sleep"*
-:::
-
-::::
+| Type | Description | Example |
+|------|-------------|---------|
+| 📊 **Statistical** | Numbers and data presented visually | "X% of people do Y" with icons |
+| 🕐 **Timeline** | Events or processes in chronological order | "History of Social Media" |
+| 🔄 **Process** | Step-by-step explanations or flowcharts | "How a Bill Becomes a Law" |
+| 🆚 **Comparison** | Two or more things shown side-by-side | "iPhone vs. Android" |
+| 🗺️ **Geographic** | Data mapped to locations | "Coffee Consumption by Country" |
+| 📋 **List** | Ranked items or collections | "10 Tips for Better Sleep" |
 
 ---
 
@@ -114,10 +81,9 @@ When consuming infographics, be skeptical if you notice:
 - **Cherry-picked data**: Only showing what supports one viewpoint
 - **Outdated information**: Especially relevant for fast-changing topics
 
-```{admonition} Real Talk
-:class: warning
+:::{warning} Real Talk
 Infographics are **designed to persuade**. That's not inherently bad, but it means you should always engage your critical thinking. Who created this? What are they trying to convince me of? What might be left out?
-```
+:::
 
 ---
 
@@ -168,4 +134,4 @@ Consider sharing your analysis in this week's reflection!
 
 ## Next Up
 
-Ready to create your own visualizations? In {doc}`hands-on-charts`, you'll use Python to build real charts from real data—and you don't need any prior coding experience to follow along!
+Ready to create your own visualizations? In [Hands-On Charts](hands-on-charts.ipynb), you'll use Python to build real charts from real data—and you don't need any prior coding experience to follow along!

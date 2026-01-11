@@ -16,10 +16,9 @@ Not all visualizations are created equal—and choosing the wrong type can confu
 | **Column Chart** | Similar to bar, but vertical—works well for time-based categories |
 | **Pie Chart** | Showing proportions of a whole (**use sparingly!** Hard to compare slices accurately) |
 
-```{admonition} Pro Tip
-:class: tip
+:::{tip} Pro Tip
 Pie charts are often overused. If you have more than 5-6 categories, or if the slices are similar in size, consider a bar chart instead—it's much easier to compare lengths than angles!
-```
+:::
 
 ---
 
@@ -32,10 +31,9 @@ Line graphs connect data points to emphasize continuity and direction. They're p
 - Temperature changes through a day
 - Website traffic over a year
 
-```{admonition} When NOT to use
-:class: warning
+:::{warning} When NOT to use
 Don't use line graphs for categorical data that doesn't have a natural order. A line connecting "apples" to "oranges" to "bananas" implies a progression that doesn't exist!
-```
+:::
 
 ---
 
@@ -67,10 +65,9 @@ Maps use our intuitive understanding of physical space to display data. Types in
 - **Dot maps**: Individual points on a map (e.g., store locations)
 - **Heat maps**: Density of occurrences (e.g., crime hotspots)
 
-```{admonition} Real-World Example
-:class: note
+:::{note} Real-World Example
 Remember John Snow's 1854 cholera map? By plotting deaths on a London street map, he discovered they clustered around a contaminated water pump—a breakthrough in epidemiology that came from visualization.
-```
+:::
 
 ---
 
@@ -114,26 +111,12 @@ Here's a quick decision guide—ask yourself: **"What's my goal?"**
 
 ## Common Mistakes to Avoid
 
-::::{grid} 1 1 2 2
-:gutter: 3
-
-:::{grid-item-card} ❌ Too Many Colors
-Using rainbow palettes makes it hard to distinguish categories. Stick to 3-5 colors max.
-:::
-
-:::{grid-item-card} ❌ Unlabeled Axes
-Never assume your audience knows what the numbers mean. Label everything!
-:::
-
-:::{grid-item-card} ❌ Missing Context
-A chart without a title, source, or date leaves readers guessing.
-:::
-
-:::{grid-item-card} ❌ Chartjunk
-3D effects, unnecessary icons, and decorative elements distract from the data.
-:::
-
-::::
+| Mistake | Why It's a Problem |
+|---------|-------------------|
+| ❌ **Too Many Colors** | Using rainbow palettes makes it hard to distinguish categories. Stick to 3-5 colors max. |
+| ❌ **Unlabeled Axes** | Never assume your audience knows what the numbers mean. Label everything! |
+| ❌ **Missing Context** | A chart without a title, source, or date leaves readers guessing. |
+| ❌ **Chartjunk** | 3D effects, unnecessary icons, and decorative elements distract from the data. |
 
 ---
 
@@ -152,4 +135,4 @@ Share an interesting example in this week's reflection!
 
 ## Next Up
 
-We've covered traditional data visualizations, but there's a special category designed specifically for communication: {doc}`infographics`. Let's explore what makes them different.
+We've covered traditional data visualizations, but there's a special category designed specifically for communication: [Infographics](infographics.md). Let's explore what makes them different.

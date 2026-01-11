@@ -16,25 +16,17 @@ Welcome! This guide will help you get the most out of your interactive textbook 
 
 Throughout the book, you'll encounter special callout boxes:
 
-```{admonition} Tips
-:class: tip
+:::{tip} Tips
 Green boxes like this contain helpful suggestions and best practices.
-```
+:::
 
-```{admonition} Important Notes
-:class: note
+:::{note} Important Notes
 Blue boxes highlight key concepts or information to remember.
-```
+:::
 
-```{admonition} Warnings
-:class: warning
+:::{warning} Warnings
 Yellow boxes alert you to common pitfalls or things to watch out for.
-```
-
-```{admonition} Discussion Questions
-:class: seealso
-Purple boxes contain questions to ponder or discuss with classmates.
-```
+:::
 
 ---
 
@@ -66,12 +58,11 @@ In a notebook:
 3. **Wait** for the output to appear below the cell
 4. **Experiment** by changing values and re-running!
 
-```{admonition} Don't Panic!
-:class: tip
+:::{tip} Don't Panic!
 You can't break anything permanently. If something goes wrong:
 - Use `Kernel → Restart` to start fresh
 - Or just close the browser tab and launch again
-```
+:::
 
 ---
 
@@ -118,7 +109,6 @@ If you encounter any accessibility issues, please let your instructor know.
 - **Questions about content**: Post in Canvas Discussions or ask in class
 - **Coding problems in notebooks**: Check the error message, try restarting, then ask for help
 
-```{admonition} Remember
-:class: tip
+:::{tip} Remember
 This textbook is a *companion* to our class discussions, not a replacement. The real learning happens when you engage with the material, your classmates, and your own curiosity!
-```
+:::

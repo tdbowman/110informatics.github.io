@@ -16,26 +16,12 @@ As informatics students, you'll learn to see these connections everywhere—from
 
 By the end of this course, you will be able to:
 
-::::{grid} 1 1 2 2
-:gutter: 3
-
-:::{grid-item-card} 📚 Articulate Foundations
-Describe the intellectual foundations of informatics as an area of study and practice.
-:::
-
-:::{grid-item-card} 🤝 Develop an Ethos
-Develop an informatics ethos based on respect for the rights of information users.
-:::
-
-:::{grid-item-card} 🔍 Investigate Specializations
-Explore areas of specialization within informatics—from data science to AI ethics.
-:::
-
-:::{grid-item-card} 🌍 Understand Impact
-Explain how ethical problems, legal issues, and social dynamics interact with information technology.
-:::
-
-::::
+| Objective | Description |
+|-----------|-------------|
+| 📚 **Articulate Foundations** | Describe the intellectual foundations of informatics as an area of study and practice. |
+| 🤝 **Develop an Ethos** | Develop an informatics ethos based on respect for the rights of information users. |
+| 🔍 **Investigate Specializations** | Explore areas of specialization within informatics—from data science to AI ethics. |
+| 🌍 **Understand Impact** | Explain how ethical problems, legal issues, and social dynamics interact with information technology. |
 
 ## Who Is This Book For?
 

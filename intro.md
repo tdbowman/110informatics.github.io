@@ -18,31 +18,19 @@ Throughout this course, you'll explore fascinating questions like:
 
 ## How This Book Works
 
-::::{grid} 1 1 2 3
-:class-container: landing-grid
-
-:::{grid-item-card} 📖 Read & Reflect
-Each module includes readings, videos, and discussion prompts to get you thinking critically.
-:::
-
-:::{grid-item-card} 💻 Try It Yourself
-Interactive notebooks let you experiment with real data—no prior coding experience needed!
-:::
-
-:::{grid-item-card} 🗣️ Join the Conversation
-Your reflections and class discussions are where the real learning happens.
-:::
-
-::::
+| Feature | Description |
+|---------|-------------|
+| 📖 **Read & Reflect** | Each module includes readings, videos, and discussion prompts to get you thinking critically. |
+| 💻 **Try It Yourself** | Interactive notebooks let you experiment with real data—no prior coding experience needed! |
+| 🗣️ **Join the Conversation** | Your reflections and class discussions are where the real learning happens. |
 
 ## Ready to Begin?
 
-Use the navigation on the left to explore the modules, or check out {doc}`how-to-use` if you want to learn how to get the most out of this interactive book.
+Use the navigation on the left to explore the modules, or check out [How to Use This Book](how-to-use.md) if you want to learn how to get the most out of this interactive book.
 
-```{admonition} A Note from Dr. Bowman
-:class: tip
-Welcome! I'm excited to be your guide through the Foundations of Informatics. This isn't just a course about technology—it's about *you* and how you interact with the information systems that shape our world. Bring your curiosity, your questions, and your unique perspective. Let's learn together! 
-```
+:::{tip} A Note from Dr. Bowman
+Welcome! I'm excited to be your guide through the Foundations of Informatics. This isn't just a course about technology—it's about *you* and how you interact with the information systems that shape our world. Bring your curiosity, your questions, and your unique perspective. Let's learn together!
+:::
 
 ---
 

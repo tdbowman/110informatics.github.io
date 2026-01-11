@@ -63,7 +63,6 @@ Key terms you'll encounter throughout this course.
 
 ---
 
-```{admonition} Suggest a Term
-:class: tip
+:::{tip} Suggest a Term
 Is there a term you think should be added to this glossary? Let your instructor know!
-```
+:::
