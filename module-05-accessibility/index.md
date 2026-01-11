@@ -1,7 +1,154 @@
-# Coming Soon
+# Module 5: Accessibility & Inclusion ♿
 
-This module is under development. Check back soon!
+**Week of February 3 | Designing for Everyone**
 
-:::{note} Placeholder
-This is a placeholder page. Content will be added as the textbook is developed.
+---
+
+## The Big Picture
+
+Over 1 billion people worldwide experience some form of disability. When technology isn't designed with accessibility in mind, it creates barriers that exclude people from education, employment, and social connection.
+
+This week, we explore how to design information systems that work for everyone.
+
+### 🎯 What You'll Learn
+
+- Understand why accessibility matters (legally, ethically, and practically)
+- Learn about different types of disabilities and assistive technologies
+- Explore accessibility guidelines and standards
+- Distinguish between accessible design and inclusive design
+- Evaluate the accessibility of real-world technologies
+
+### 🧠 Big Questions to Consider
+
+- What assumptions do we make about how users interact with technology?
+- Is accessibility a feature or a fundamental right?
+- How does designing for disability benefit everyone?
+- What barriers exist in technologies you use daily?
+
+---
+
+## Why Accessibility Matters
+
+### The Numbers
+
+- **1 in 4** US adults has a disability
+- **15%** of the world's population experiences disability
+- **100%** of us will likely experience temporary or situational disability
+
+### It's the Law
+
+- **Section 508**: US federal agencies must make technology accessible
+- **ADA**: Americans with Disabilities Act applies to digital spaces
+- **WCAG**: Web Content Accessibility Guidelines (international standard)
+
+### It's Good Design
+
+Accessible design often benefits everyone:
+- Captions help in noisy environments
+- High contrast helps in bright sunlight
+- Simple navigation helps everyone find things faster
+
+---
+
+## Types of Disabilities & Assistive Technologies
+
+| Disability Type | Examples | Assistive Technologies |
+|----------------|----------|----------------------|
+| **Visual** | Blindness, low vision, color blindness | Screen readers, magnifiers, high contrast |
+| **Auditory** | Deafness, hard of hearing | Captions, transcripts, visual alerts |
+| **Motor** | Limited mobility, tremors | Keyboard navigation, voice control, switches |
+| **Cognitive** | Learning disabilities, attention disorders | Simple layouts, clear language, consistent navigation |
+
+---
+
+## Accessible vs. Inclusive Design
+
+These terms are related but different:
+
+### Accessible Design
+Designing an experience that **meets the needs** of everyone within your audience, including those with disabilities.
+
+*Example: Adding alt text to images so screen readers can describe them*
+
+### Inclusive Design
+Creating content that is **mindful of a broad range** of users, their abilities, environments, situations, and contexts.
+
+*Example: Designing a form that doesn't assume binary gender, specific name formats, or physical addresses*
+
+> Inclusiveness doesn't just question if a user CAN use something—it goes further to consider if they WANT to use something.
+
+---
+
+## Web Accessibility Guidelines (WCAG)
+
+WCAG is organized around four principles—**POUR**:
+
+| Principle | Meaning |
+|-----------|---------|
+| **Perceivable** | Information must be presentable in ways users can perceive |
+| **Operable** | Interface components must be operable by all users |
+| **Understandable** | Information and operation must be understandable |
+| **Robust** | Content must work with current and future assistive technologies |
+
+### Common Accessibility Issues
+
+- Missing alt text on images
+- Poor color contrast
+- No keyboard navigation
+- Videos without captions
+- Complex forms without labels
+- Time limits without extensions
+
+---
+
+## This Week's Journey
+
+### 📚 Core Readings & Videos
+
+| Resource | Type | Notes |
+|----------|------|-------|
+| Introduction to Web Accessibility | Video | W3C overview |
+| WCAG 2.1 Guidelines | Reference | International standard |
+| Screen Reader Demo | Video | Experience using assistive tech |
+| Inclusive Design Toolkit | Interactive | Microsoft's design resources |
+
+### 🤔 Make You Think
+
+- [The Curb Cut Effect](https://ssir.org/articles/entry/the_curb_cut_effect): How designing for disability benefits everyone
+- How do algorithms perpetuate ableism?
+- What does accessibility look like for AI systems?
+
+---
+
+## Testing for Accessibility
+
+Quick tests you can do:
+
+1. **Keyboard Only**: Can you navigate without a mouse?
+2. **Screen Reader**: Does it make sense when read aloud?
+3. **Zoom**: Does it work at 200% magnification?
+4. **Color**: Is information conveyed without relying on color alone?
+5. **Captions**: Do videos have accurate captions?
+
+:::{tip} Try It!
+Turn on VoiceOver (Mac) or Narrator (Windows) and try navigating a website you use frequently. What works? What's frustrating?
 :::
+
+---
+
+## 📝 This Week's Assignments
+
+| Assignment | Due | Notes |
+|------------|-----|-------|
+| Weekly Reflection | Friday by class | Connect to accessibility concepts |
+| Usability Project | Continues | Include accessibility evaluation |
+
+:::{tip} Reflection Prompt
+Choose a website or app you use regularly. Evaluate its accessibility using the concepts from this module. What works well? What could be improved? How might someone with a disability experience this technology differently than you do?
+:::
+
+---
+
+## Looking Ahead
+
+Next week, we dive into **Data Analytics & Data Science**—how we extract meaning and insights from data.

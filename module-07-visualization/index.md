@@ -1,5 +1,7 @@
 # Module 7: Data Visualization & Infographics 📊
 
+**Week of February 17 | Communicating with Data**
+
 ---
 
 ## The Big Picture
@@ -85,6 +87,17 @@ Don't worry—we'll be using **Python** in this course, which is free and incred
 :::{tip} Reflection Prompt
 For this week's reflection, focus on **one** of the readings above. Consider: How does visualization relate to the themes we've explored in informatics—the intersection of data, technology, and people? Include an image or visualization in your post that helps illustrate your point!
 :::
+
+---
+
+## Module Contents
+
+This module contains several sections:
+
+1. **[Why Visualize Data?](why-visualize.md)** - The power and purpose of visualization
+2. **[Types of Visualizations](visualization-types.md)** - Charts, graphs, maps, and networks
+3. **[Infographics](infographics.md)** - Visualization for communication
+4. **[Hands-On: Creating Charts](hands-on-charts.ipynb)** - Build your own visualizations with Python
 
 ---
 

@@ -87,21 +87,6 @@ Infographics are **designed to persuade**. That's not inherently bad, but it mea
 
 ---
 
-## Infographics in the Wild
-
-Let's look at where you encounter infographics in daily life:
-
-| Context | Example Uses |
-|---------|--------------|
-| **Social Media** | Shareable facts, tips, and awareness campaigns |
-| **News** | Explaining complex stories (elections, pandemics, economics) |
-| **Marketing** | Product comparisons, company achievements |
-| **Education** | Study guides, concept explanations |
-| **Healthcare** | Patient information, public health campaigns |
-| **Workplace** | Reports, presentations, internal communications |
-
----
-
 ## Tools for Creating Infographics
 
 Want to try making your own? Here are some accessible tools:

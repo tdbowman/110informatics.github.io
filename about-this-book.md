@@ -4,13 +4,28 @@ This interactive textbook was created for **INF 110: Foundations of Informatics*
 
 ## What is Informatics?
 
-Informatics sits at the intersection of three domains:
+Informatics involves examining how information technologies are developed, applied, and utilized in society. It sits at the intersection of:
 
-- **Data**: The raw material of the information age
+- **Data**: Raw facts and figures that become meaningful when processed
 - **Systems**: The technologies that store, process, and transmit information
 - **Society**: The people who create, use, and are affected by information systems
 
-As informatics students, you'll learn to see these connections everywhere—from the apps on your phone to the policies that govern how your data is used.
+## Areas of Informatics
+
+Informatics is a broad field with many specializations:
+
+- BioInformatics
+- Business Informatics
+- Clinical Informatics
+- Computational Informatics
+- Data Mining
+- GeoInformatics
+- Health Informatics
+- Music Informatics
+- Nursing Informatics
+- Pharmaceutical Informatics
+- Social Informatics
+- ...and more!
 
 ## Course Learning Objectives
 
@@ -42,5 +57,3 @@ This book was built using:
 - **[MyST Markdown](https://myst-parser.readthedocs.io/)**: For rich, structured content
 - **[Python](https://www.python.org/)**: For the interactive coding examples
 - **[GitHub Pages](https://pages.github.com/)**: For hosting
-
-The source code is available on GitHub, and you're welcome to suggest improvements or report issues!

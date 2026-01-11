@@ -6,6 +6,16 @@
 
 This interactive textbook is your companion for exploring how **information**, **people**, and **technology** intersect in our modern world. Whether you're scrolling through social media, searching for information online, or wondering how your data is being used, informatics touches every part of your daily life.
 
+## What is Informatics?
+
+Informatics sits at the intersection of three domains:
+
+- **Data**: The raw material of the information age
+- **Systems**: The technologies that store, process, and transmit information  
+- **Society**: The people who create, use, and are affected by information systems
+
+As James Gleick wrote: *"We can see now that information is what our world runs on: the blood and the fuel, the vital principle."*
+
 ## What You'll Discover
 
 Throughout this course, you'll explore fascinating questions like:

@@ -90,19 +90,6 @@ Each week, you'll write a reflection connecting the readings to your own experie
 
 ---
 
-## Accessibility
-
-This book is designed to be accessible:
-
-- All images include descriptive alt text
-- Content can be zoomed without losing functionality  
-- Keyboard navigation is supported
-- Code blocks can be copied easily
-
-If you encounter any accessibility issues, please let your instructor know.
-
----
-
 ## Getting Help
 
 - **Technical issues with the book**: Reach out to your instructor
