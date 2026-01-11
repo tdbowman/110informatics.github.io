@@ -10,12 +10,6 @@ Not all visualizations are created equal—and choosing the wrong type can confu
 
 **Best for**: Comparing categories or showing parts of a whole
 
-```{image} ../images/chart-types.png
-:alt: Examples of bar, column, and pie charts
-:width: 80%
-:align: center
-```
-
 | Type | Use When... |
 |------|-------------|
 | **Bar Chart** | Comparing values across categories (horizontal orientation good for long labels) |
@@ -91,12 +85,6 @@ Common uses:
 - Organizational structures
 - How websites link to each other
 - Character relationships in literature
-
-```{image} ../images/network-example.png
-:alt: A network graph showing connections between nodes
-:width: 60%
-:align: center
-```
 
 ---
 

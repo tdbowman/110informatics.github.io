@@ -1,11 +1,5 @@
 # Module 7: Data Visualization & Infographics 📊
 
-```{image} ../images/viz-hero.png
-:alt: Various data visualizations including charts, graphs, and infographics
-:class: bg-primary mb-1
-:width: 100%
-```
-
 ---
 
 ## The Big Picture

@@ -1,11 +1,5 @@
 # Welcome to Foundations of Informatics! 👋
 
-```{image} images/informatics-venn.png
-:alt: Informatics at the intersection of Data, Systems, and Society
-:width: 400px
-:align: center
-```
-
 **INF 110 @ Dominican University | The iSchool**
 
 ---

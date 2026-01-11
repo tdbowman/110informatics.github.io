@@ -2,11 +2,11 @@
 title: "Foundations of Informatics"
 author: "Dr. Timothy D. Bowman"
 copyright: "2026"
-logo: images/logo.png
+# logo: images/logo.png  # Uncomment when you add a logo image
 
 # Force re-execution of notebooks on each build
 execute:
-  execute_notebooks: auto
+  execute_notebooks: 'off'  # Set to 'auto' or 'force' if you want notebooks to run during build
   timeout: 120
 
 # Define the name of the latex output file for PDF builds
@@ -31,7 +31,7 @@ html:
   use_edit_page_button: true
   home_page_in_navbar: true
   baseurl: "https://yourusername.github.io/inf110-textbook"
-  favicon: "images/favicon.ico"
+  # favicon: "images/favicon.ico"  # Uncomment when you add a favicon
   comments:
     hypothesis: false
   extra_css:

@@ -6,12 +6,6 @@ This interactive textbook was created for **INF 110: Foundations of Informatics*
 
 Informatics sits at the intersection of three domains:
 
-```{image} images/informatics-venn.png
-:alt: Informatics Venn diagram showing Data, Systems, and Society
-:width: 400px
-:align: center
-```
-
 - **Data**: The raw material of the information age
 - **Systems**: The technologies that store, process, and transmit information
 - **Society**: The people who create, use, and are affected by information systems

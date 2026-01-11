@@ -44,13 +44,7 @@ Some sections include **Jupyter notebooks**—documents that mix text explanatio
 
 ### Option 1: Run in Your Browser (Easiest)
 
-Look for these buttons at the top of notebook pages:
-
-```{image} images/launch-buttons.png
-:alt: Launch buttons showing Binder and Colab options
-:width: 300px
-:align: center
-```
+Look for the **🚀 Binder** and **Colab** buttons at the top of notebook pages:
 
 - **🚀 Binder**: Launches a free cloud environment (may take a minute to start)
 - **📓 Colab**: Opens in Google Colaboratory (requires Google account)
