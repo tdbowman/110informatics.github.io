@@ -60,6 +60,8 @@ These foundational works inform much of what we discuss in this course:
 
 ## 📖 Bibliography
 
-```{bibliography}
-:style: unsrt
-```
+- **Tufte, E. R.** (2001). *The Visual Display of Quantitative Information* (2nd ed.). Graphics Press.
+- **Norman, D.** (2013). *The Design of Everyday Things* (Revised ed.). Basic Books.
+- **Gleick, J.** (2011). *The Information: A History, a Theory, a Flood*. Pantheon Books.
+- **Buckland, M. K.** (1991). Information as Thing. *Journal of the American Society for Information Science*, 42(5), 351-360.
+- **Nye, D. E.** (2006). *Technology Matters: Questions to Live With*. MIT Press.

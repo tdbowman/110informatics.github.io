@@ -90,22 +90,13 @@ Common uses:
 
 ## Choosing the Right Visualization
 
-Here's a quick decision guide:
+Here's a quick decision guide—ask yourself: **"What's my goal?"**
 
-```{mermaid}
-flowchart TD
-    A[What's your goal?] --> B{Comparison}
-    A --> C{Composition}
-    A --> D{Distribution}
-    A --> E{Relationship}
-    A --> F{Location}
-    
-    B --> B1[Bar/Column Chart]
-    C --> C1[Pie Chart or Stacked Bar]
-    D --> D1[Histogram or Box Plot]
-    E --> E1[Scatter Plot or Network]
-    F --> F1[Map]
-```
+- **Comparison?** → Bar/Column Chart
+- **Composition (parts of a whole)?** → Pie Chart or Stacked Bar
+- **Distribution?** → Histogram or Box Plot
+- **Relationship between variables?** → Scatter Plot or Network
+- **Location-based data?** → Map
 
 ### Quick Reference Table
 
