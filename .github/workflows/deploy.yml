@@ -33,7 +33,7 @@ jobs:
       
       - name: Build the book
         run: |
-          jupyter-book build . --verbose
+          jupyter-book build . --vvv
       
       - name: List build output
         run: |
