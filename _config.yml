@@ -1,50 +1,19 @@
-# Book settings
-title: "Foundations of Informatics"
-author: "Dr. Timothy D. Bowman"
-copyright: "2026"
-# logo: images/logo.png  # Uncomment when you add a logo image
+title: Foundations of Informatics
+author: Timothy D. Bowman
 
-# Force re-execution of notebooks on each build
 execute:
-  execute_notebooks: 'off'  # Set to 'auto' or 'force' if you want notebooks to run during build
-  timeout: 120
-
-# Define the name of the latex output file for PDF builds
-latex:
-  latex_documents:
-    targetname: inf110-textbook.tex
-
-# Information about where the book exists on the web
-repository:
-  url: https://github.com/yourusername/inf110-textbook
-  path_to_book: ""
-  branch: main
-
-# Add GitHub buttons to your book
+  execute_notebooks: auto
+  
 html:
-  use_issues_button: true
-  use_repository_button: true
-  use_edit_page_button: true
-  home_page_in_navbar: true
-  baseurl: "https://yourusername.github.io/inf110-textbook"
-  # favicon: "images/favicon.ico"  # Uncomment when you add a favicon
-  comments:
-    hypothesis: false
-  extra_css:
-    - _static/custom.css
+  use_repository_button: false
+  use_issues_button: false
 
-# Launch button settings
-launch_buttons:
-  notebook_interface: "classic"
-  binderhub_url: "https://mybinder.org"
-  colab_url: "https://colab.research.google.com"
-  thebe: true
+# Add this for GitHub Pages
+project:
+  github: https://github.com/tdbowman/110informatics.github.io
 
-sphinx:
-  config:
-    html_theme_options:
-      navigation_with_keys: false
-      announcement: "Welcome to INF 110! 📊 This interactive textbook accompanies our class."
-    html_show_copyright: true
-  extra_extensions:
-    - sphinx_design
+# IMPORTANT: Set correct base URL
+site:
+  template: book-theme
+  options:
+    favicon: favicon.ico
