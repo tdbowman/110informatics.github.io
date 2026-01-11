@@ -1,0 +1,78 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+parts:
+  - caption: Getting Started
+    chapters:
+      - file: about-this-book
+      - file: how-to-use
+
+  - caption: "Part 1: Foundations"
+    chapters:
+      - file: module-01-intro/index
+        sections:
+          - file: module-01-intro/what-is-informatics
+          - file: module-01-intro/data-tech-society
+      - file: module-02-infrastructure/index
+        sections:
+          - file: module-02-infrastructure/digital-divide
+          - file: module-02-infrastructure/data-centers
+      - file: module-03-design/index
+        sections:
+          - file: module-03-design/design-thinking
+          - file: module-03-design/ui-ux-basics
+
+  - caption: "Part 2: Data & Systems"
+    chapters:
+      - file: module-04-databases/index
+        sections:
+          - file: module-04-databases/what-are-databases
+          - file: module-04-databases/database-models
+          - file: module-04-databases/hands-on-sql
+      - file: module-05-accessibility/index
+        sections:
+          - file: module-05-accessibility/why-accessibility
+          - file: module-05-accessibility/inclusive-design
+      - file: module-06-analytics/index
+        sections:
+          - file: module-06-analytics/data-science-intro
+          - file: module-06-analytics/hands-on-pandas
+      - file: module-07-visualization/index
+        sections:
+          - file: module-07-visualization/why-visualize
+          - file: module-07-visualization/visualization-types
+          - file: module-07-visualization/infographics
+          - file: module-07-visualization/hands-on-charts
+
+  - caption: "Part 3: Information in Society"
+    chapters:
+      - file: module-08-search/index
+        sections:
+          - file: module-08-search/how-search-works
+          - file: module-08-search/ai-and-search
+      - file: module-09-security/index
+        sections:
+          - file: module-09-security/security-basics
+          - file: module-09-security/privacy-matters
+      - file: module-10-copyright/index
+        sections:
+          - file: module-10-copyright/intellectual-property
+          - file: module-10-copyright/net-neutrality
+
+  - caption: "Part 4: Emerging Technologies"
+    chapters:
+      - file: module-11-autonomous/index
+        sections:
+          - file: module-11-autonomous/autonomous-systems
+          - file: module-11-autonomous/ethics-discussion
+      - file: module-12-ai/index
+        sections:
+          - file: module-12-ai/ai-fundamentals
+          - file: module-12-ai/ai-in-society
+
+  - caption: Resources
+    chapters:
+      - file: glossary
+      - file: references
