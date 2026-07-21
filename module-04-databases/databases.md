@@ -157,7 +157,6 @@ This matters even more in the AI era: modern AI systems are trained on enormous 
 | Assignment | Due | Notes |
 |------------|-----|-------|
 | Weekly Reflection | Friday by class | Connect to database concepts |
-| Usability Project | Continues | See assignment details |
 
 :::{tip} Reflection Prompt
 Think about the databases that contain information about YOU (school records, social media, shopping history, medical records). What do you know about how this data is organized? What might be inaccurate or missing?

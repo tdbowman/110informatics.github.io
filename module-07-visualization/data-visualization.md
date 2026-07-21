@@ -90,7 +90,6 @@ Visualization has its own accessibility rules: don't encode meaning in color alo
 | Assignment | Due | Points |
 |------------|-----|--------|
 | Weekly Reflection (Module 7) | Friday by class | Part of Reflection grade |
-| Continue: Usability Project | See syllabus | Part of project grade |
 | Continue: Research Questions | See syllabus | Part of research grade |
 
 :::{tip} Reflection Prompt

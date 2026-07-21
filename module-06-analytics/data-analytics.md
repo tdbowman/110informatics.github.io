@@ -160,7 +160,6 @@ Want to explore data analysis yourself? Try these beginner-friendly datasets:
 | Assignment | Due | Notes |
 |------------|-----|-------|
 | Weekly Reflection | Friday by class | Connect to data analytics concepts |
-| Usability Project | Continues | See assignment details |
 
 :::{tip} Reflection Prompt
 Think about a decision you've seen made based on data (in news, at work, in your life). What data was used? What might have been missing? How could bias have affected the conclusions?

@@ -156,7 +156,6 @@ Pick one pattern from [deceptive.design](https://www.deceptive.design/) and find
 | Assignment | Due | Notes |
 |------------|-----|-------|
 | Weekly Reflection | Friday by class | Connect to design readings |
-| Usability Project | Begins this week | See assignment details |
 | Research Questions | Begin thinking | Topics for your research report |
 
 :::{tip} Reflection Prompt

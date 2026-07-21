@@ -153,7 +153,6 @@ Turn on VoiceOver (Mac) or Narrator (Windows) and try navigating a website you u
 | Assignment | Due | Notes |
 |------------|-----|-------|
 | Weekly Reflection | Friday by class | Connect to accessibility concepts |
-| Usability Project | Continues | Include accessibility evaluation |
 
 :::{tip} Reflection Prompt
 Choose a website or app you use regularly. Evaluate its accessibility using the concepts from this module. What works well? What could be improved? How might someone with a disability experience this technology differently than you do?
