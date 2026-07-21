@@ -5,12 +5,12 @@ Congratulations! You've completed the Foundations of Informatics! 🎉
 Over these weeks together, you've explored:
 
 - ✅ What informatics is and why it matters (Module 1)
-- ✅ The physical infrastructure of the internet — and its very real costs (Module 2)
+- ✅ The physical infrastructure of the internet, and its very real costs (Module 2)
 - ✅ Design thinking, UX, and deceptive patterns (Module 3)
 - ✅ Databases, from SQL to the vector stores behind AI (Module 4)
 - ✅ Accessibility and inclusive design (Module 5)
 - ✅ Data analytics in the age of AI copilots (Module 6)
-- ✅ Data visualization — honest and misleading (Module 7)
+- ✅ Data visualization, honest and misleading (Module 7)
 - ✅ Search, retrieval, and what AI answers change (Module 8)
 - ✅ Security, privacy, and digital trust (Module 9)
 - ✅ Copyright, fair use, and the new AI case law (Module 10)
@@ -20,13 +20,13 @@ Over these weeks together, you've explored:
 
 ## The Journey Continues
 
-Informatics isn't just an academic subject—it's a lens for understanding the world around you. As you encounter new technologies (and they will keep coming, faster than any textbook can track), remember to ask:
+Informatics is more than an academic subject; it's a lens for understanding the world around you. As you encounter new technologies (and they will keep coming, faster than any textbook can track), remember to ask:
 
 - **Data**: What information is being collected? By whom? Why?
 - **Systems**: How does this technology work? What are its limitations?
 - **Society**: Who benefits? Who might be harmed? What are the implications?
 
-Notice something about this course: several things we studied *changed while the field was being taught* — court rulings landed, rules were struck down, companies collapsed, capabilities leapt. That's not a bug in informatics; it *is* informatics. The facts will keep expiring. The questions won't.
+Notice something about this course: several things we studied *changed while the field was being taught*. Court rulings landed, rules were struck down, companies collapsed, capabilities leapt. That churn is the nature of informatics itself. The facts will keep expiring. The questions won't.
 
 ## Where To From Here?
 

@@ -39,7 +39,7 @@ Informatics sits at the intersection of three domains:
 Informatics involves examining how information technologies are developed, applied, and utilized in society.
 
 :::{note} Informatics in the Age of AI
-When this field was named, "information technology" mostly meant databases, networks, and websites. Today, artificial intelligence is woven through every informatics subdomain — health informatics uses AI to read medical images, legal informatics uses it to search case law, and you probably used it to answer a question this week. Throughout this course, we'll keep asking the same three questions about AI that we ask about every technology: What data does it use? How does the system work? And who in society benefits, or is harmed?
+When this field was named, "information technology" mostly meant databases, networks, and websites. Today, artificial intelligence is woven through every informatics subdomain: health informatics uses AI to read medical images, legal informatics uses it to search case law, and you probably used it to answer a question this week. Throughout this course, we'll keep asking the same three questions about AI that we ask about every technology: What data does it use? How does the system work? And who in society benefits, or is harmed?
 :::
 
 ### The Data-Information-Knowledge-Wisdom Pyramid
@@ -98,12 +98,12 @@ Information science is concerned with:
 > "We can see now that information is what our world runs on: the blood and the fuel, the vital principle. It pervades the sciences from top to bottom, transforming every branch of knowledge."
 
 :::{tip} From Shannon to ChatGPT
-Claude Shannon, the founder of information theory, ran an experiment in the 1940s: he asked people to guess the next letter of a partially hidden sentence, showing that human language is highly *predictable*. Today's AI chatbots are, at their core, that same idea made industrial — enormously powerful systems for predicting the next word. The 75-year-old theory you're reading about this week is the foundation of the newest technology in your pocket. We'll return to this idea in Modules 12 and 13.
+Claude Shannon, the founder of information theory, ran an experiment in the 1940s: he asked people to guess the next letter of a partially hidden sentence, showing that human language is highly *predictable*. Today's AI chatbots are, at their core, that same idea made industrial: enormously powerful systems for predicting the next word. The 75-year-old theory you're reading about this week is the foundation of the newest technology in your pocket. We'll return to this idea in Modules 12 and 13.
 :::
 
 ### 🗝️ Key Terms This Week
 
-*Data · Information · Knowledge · Informatics · Information science* — see the [Glossary](../glossary.md) for definitions.
+*Data · Information · Knowledge · Informatics · Information science*: see the [Glossary](../glossary.md) for definitions.
 
 ---
 

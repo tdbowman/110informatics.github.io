@@ -24,14 +24,14 @@ Throughout this course, you'll explore fascinating questions like:
 - 🌐 **How does the internet actually work?** (Hint: it involves a lot of really big buildings)
 - 🎨 **Why do some apps feel easy to use while others frustrate you?**
 - 🔐 **Who has access to your data, and should you care?**
-- 🤖 **When an AI answers your questions, acts on your behalf, or generates your entertainment — who's in control, and who's responsible?**
+- 🤖 **When an AI answers your questions, acts on your behalf, or generates your entertainment, who's in control, and who's responsible?**
 
 ## How This Book Works
 
 | Feature | Description |
 |---------|-------------|
 | 📖 **Read & Reflect** | Each module includes readings, videos, and discussion prompts to get you thinking critically. |
-| 💻 **Try It Yourself** | Interactive notebooks let you experiment with real data—no prior coding experience needed! |
+| 💻 **Try It Yourself** | Interactive notebooks let you experiment with real data (no prior coding experience needed!). |
 | 🗣️ **Join the Conversation** | Your reflections and class discussions are where the real learning happens. |
 
 ## Ready to Begin?
@@ -39,9 +39,9 @@ Throughout this course, you'll explore fascinating questions like:
 Use the navigation on the left to explore the modules, or check out [How to Use This Book](how-to-use.md) if you want to learn how to get the most out of this interactive book.
 
 :::{tip} A Note from Dr. Bowman
-Welcome! I'm excited to be your guide through the Foundations of Informatics. This isn't just a course about technology—it's about *you* and how you interact with the information systems that shape our world. Bring your curiosity, your questions, and your unique perspective. Let's learn together!
+Welcome! I'm excited to be your guide through the Foundations of Informatics. This course is about technology, but it's also about *you* and how you interact with the information systems that shape our world. Bring your curiosity, your questions, and your unique perspective. Let's learn together!
 :::
 
 ---
 
-*Revised Summer 2026 for the Winter 2027 offering. Built with [Jupyter Book](https://jupyterbook.org) / [MyST Markdown](https://mystmd.org/).*
+*Revised Summer 2026 for the Fall 2026 offering. Built with [Jupyter Book](https://jupyterbook.org) / [MyST Markdown](https://mystmd.org/).*

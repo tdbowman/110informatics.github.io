@@ -6,7 +6,7 @@
 
 ## The Big Picture
 
-Every time you search for a product, check your bank balance, or scroll through social media, you're interacting with a database. Databases are the backbone of our information systems—organizing, storing, and retrieving the data that powers our digital world.
+Every time you search for a product, check your bank balance, or scroll through social media, you're interacting with a database. Databases are the backbone of our information systems, organizing, storing, and retrieving the data that powers our digital world.
 
 This week, we explore how databases work and why they matter for informatics.
 
@@ -42,9 +42,9 @@ A **database** is an organized collection of data stored and accessed electronic
 | **Vector** | Stores meaning as lists of numbers ("embeddings") | AI search, chatbot memory |
 
 :::{note} 🤖 Vector Databases: How AI Systems "Remember"
-The newest member of the database family exists because of AI. A **vector database** stores text, images, or audio as *embeddings* — long lists of numbers that capture meaning — so a system can find items that are *similar in meaning*, not just items that match keywords.
+The newest member of the database family exists because of AI. A **vector database** stores text, images, or audio as *embeddings* (long lists of numbers that capture meaning) so a system can find items that are *similar in meaning*, not just items that match keywords.
 
-This is how a company chatbot "remembers" thousands of internal documents: your question is converted to numbers, the database finds the most similar passages, and the AI writes an answer from them. (This technique is called **retrieval-augmented generation**, or RAG — remember the term, because it connects this module directly to Module 8 on search and Module 12 on AI.)
+This is how a company chatbot "remembers" thousands of internal documents: your question is converted to numbers, the database finds the most similar passages, and the AI writes an answer from them. (This technique is called **retrieval-augmented generation**, or RAG. Remember the term, because it connects this module directly to Module 8 on search and Module 12 on AI.)
 :::
 
 ---
@@ -119,14 +119,14 @@ You don't need to memorize SQL. The goal is to understand what databases *do* an
 |----------|------|-------|
 | [What is a Database?](https://www.oracle.com/database/what-is-database/) | Reading | Oracle's plain-language introduction |
 | [Database Models](https://www.lucidchart.com/pages/database-diagram/database-models) | Reading | Visual guide to how databases are structured |
-| [SQLBolt](https://sqlbolt.com/) | Interactive | Learn SQL by doing — work through Lessons 1–6 |
+| [SQLBolt](https://sqlbolt.com/) | Interactive | Learn SQL by doing; work through Lessons 1–6 |
 
 ### 🤔 Make You Think
 
 - How do databases encode assumptions about identity? (Think: gender fields, name formats)
 - What happens when categories don't fit real people?
 - Who decides the structure of a database?
-- **AI twist:** Try asking an AI chatbot to design a database schema for a club you belong to. Then critique it — what did it get wrong or assume? (Being able to *evaluate* an AI's database design is quickly becoming more valuable than memorizing syntax.)
+- **AI twist:** Try asking an AI chatbot to design a database schema for a club you belong to. Then critique it: what did it get wrong or assume? (Being able to *evaluate* an AI's database design is quickly becoming more valuable than memorizing syntax.)
 
 ---
 
@@ -148,7 +148,7 @@ This matters even more in the AI era: modern AI systems are trained on enormous 
 
 ### 🗝️ Key Terms This Week
 
-*Database · Table · Primary key · SQL · NoSQL · Vector database · Embedding · RAG* — see the [Glossary](../glossary.md).
+*Database · Table · Primary key · SQL · NoSQL · Vector database · Embedding · RAG*: see the [Glossary](../glossary.md).
 
 ---
 
@@ -167,4 +167,4 @@ Think about the databases that contain information about YOU (school records, so
 
 ## Looking Ahead
 
-Next week, we explore **accessibility**—designing information systems that work for everyone, regardless of ability.
+Next week, we explore **accessibility**: designing information systems that work for everyone, regardless of ability.

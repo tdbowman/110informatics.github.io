@@ -6,7 +6,7 @@
 
 ## The Big Picture
 
-Artificial Intelligence is transforming every aspect of our lives—from how we search for information to how we receive medical diagnoses. AI chatbots, image generators, and AI agents have moved from science fiction to everyday tools. But with great power comes great responsibility.
+Artificial Intelligence is transforming every aspect of our lives, from how we search for information to how we receive medical diagnoses. AI chatbots, image generators, and AI agents have moved from science fiction to everyday tools. But with great power comes great responsibility.
 
 This module explores AI: what it is, how it works, and what it means for our future.
 
@@ -30,7 +30,7 @@ This module explores AI: what it is, how it works, and what it means for our fut
 
 ## What is Artificial Intelligence?
 
-**Artificial Intelligence (AI)** is the simulation of human intelligence by machines—systems that can learn, reason, and make decisions.
+**Artificial Intelligence (AI)** is the simulation of human intelligence by machines: systems that can learn, reason, and make decisions.
 
 ### Types of AI
 
@@ -42,7 +42,7 @@ This module explores AI: what it is, how it works, and what it means for our fut
 
 ### Machine Learning
 
-Most modern AI uses **machine learning**—systems that learn from data rather than following explicit rules.
+Most modern AI uses **machine learning**: systems that learn from data rather than following explicit rules.
 
 | Approach | How It Works | Example |
 |----------|--------------|---------|
@@ -54,18 +54,18 @@ Most modern AI uses **machine learning**—systems that learn from data rather t
 
 ## The Generative AI Landscape
 
-**Generative AI** creates new content—text, images, music, code, and more. *(Landscape as of mid-2026 — this table ages faster than any other page in this book; treat checking it as an exercise!)*
+**Generative AI** creates new content: text, images, music, code, and more. *(Landscape as of mid-2026. This table ages faster than any other page in this book; treat checking it as an exercise!)*
 
 | Technology | What It Does | Examples |
 |------------|--------------|---------|
 | **Large Language Models (LLMs)** | Generate and understand text | ChatGPT (OpenAI), Claude (Anthropic), Gemini (Google), Llama (Meta, open-weight) |
-| **Reasoning Models** | LLMs that "think step by step" before answering — much stronger at math, science, and planning | Newer versions of the models above |
+| **Reasoning Models** | LLMs that "think step by step" before answering, making them much stronger at math, science, and planning | Newer versions of the models above |
 | **Image & Video Generators** | Create images and video from text descriptions | DALL-E, Midjourney, Stable Diffusion, Sora |
 | **Code Assistants** | Write and explain code | GitHub Copilot, Claude Code |
-| **AI Agents** | Don't just answer — *act*: browse, book, buy, and complete multi-step tasks | The frontier — covered in Module 13 |
+| **AI Agents** | Go beyond answering to *act*: browse, book, buy, and complete multi-step tasks | The frontier, covered in Module 13 |
 | **Voice Synthesis** | Create realistic speech | ElevenLabs |
 
-Remember Module 1? LLMs are Shannon's next-word prediction experiment made industrial — and Module 4's vector databases plus Module 8's RAG are how they're connected to real knowledge.
+Remember Module 1? LLMs are Shannon's next-word prediction experiment made industrial, and Module 4's vector databases plus Module 8's RAG are how they're connected to real knowledge.
 
 ---
 
@@ -84,9 +84,9 @@ Remember Module 1? LLMs are Shannon's next-word prediction experiment made indus
 
 ### 🤔 Make You Think
 
-- AI-generated deepfakes in schools and elections — who should be liable? (Connect to Module 9's TAKE IT DOWN Act)
+- AI-generated deepfakes in schools and elections: who should be liable? (Connect to Module 9's TAKE IT DOWN Act)
 - Educators worry about AI cheating; students worry about AI-driven grading. Is there a version of AI in education both sides would trust?
-- AI and art: if a model trained on a million artists produces a beautiful image, who — if anyone — is the artist? (Connect to Module 10's cases)
+- AI and art: if a model trained on a million artists produces a beautiful image, who, if anyone, is the artist? (Connect to Module 10's cases)
 
 ---
 
@@ -97,12 +97,12 @@ Remember Module 1? LLMs are Shannon's next-word prediction experiment made indus
 | Issue | Description |
 |-------|-------------|
 | **Bias** | AI can perpetuate and amplify existing biases in training data |
-| **Misinformation** | AI can generate convincing but false content — including fabricated citations (ask the expert witnesses who've been caught!) |
+| **Misinformation** | AI can generate convincing but false content, including fabricated citations (ask the expert witnesses who've been caught!) |
 | **Job Displacement** | Automation may eliminate certain types of work |
 | **Privacy** | AI enables unprecedented surveillance capabilities |
 | **Accountability** | Who's responsible when AI causes harm? |
 | **Concentration of Power** | AI development concentrated in few companies |
-| **Environmental Cost** | Remember Module 2 — every model runs on physical infrastructure |
+| **Environmental Cost** | Remember Module 2: every model runs on physical infrastructure |
 
 ### The Alignment Problem
 
@@ -120,12 +120,12 @@ For years, "AI regulation" meant "nothing yet." That era is over:
 
 | Development | What It Does |
 |-------------|--------------|
-| **EU AI Act** (in force Aug 2024, obligations phasing in through 2027) | The world's first comprehensive AI law — bans some uses (social scoring), imposes strict rules on "high-risk" AI (hiring, credit, policing), transparency rules for chatbots and deepfakes |
+| **EU AI Act** (in force Aug 2024, obligations phasing in through 2027) | The world's first comprehensive AI law: bans some uses (social scoring), imposes strict rules on "high-risk" AI (hiring, credit, policing), transparency rules for chatbots and deepfakes |
 | **US approach** | No comprehensive federal AI law; instead a patchwork of executive orders (which have swung between administrations), state laws, and agency enforcement |
 | **The courts** | The AI copyright rulings you met in Module 10 (*Thaler*, *Bartz*, *Kadrey*, *NYT v. OpenAI*) are effectively writing AI law case-by-case ([US Copyright Office AI reports](https://www.copyright.gov/ai/)) |
-| **Targeted laws** | TAKE IT DOWN Act (deepfake abuse), Tennessee's ELVIS Act (voice cloning) — Module 9 and 10 |
+| **Targeted laws** | TAKE IT DOWN Act (deepfake abuse), Tennessee's ELVIS Act (voice cloning), covered in Module 9 and 10 |
 
-The pattern to notice: technology first, law scrambling after — the same story as net neutrality, but compressed into a few years.
+The pattern here is technology first, law scrambling after: the same story as net neutrality, but compressed into a few years.
 
 ---
 
@@ -145,12 +145,12 @@ Remember: this course has an AI Use Policy!
 - AI-assisted research without proper attribution
 
 :::{warning} Academic Integrity
-If AI contributes to your work, you must disclose this. Example: "This response was developed with assistance from ChatGPT (OpenAI) and revised for clarity and accuracy." (And note the AI Journal assignment *requires* AI use — the policy's rule is about disclosure, not prohibition.)
+If AI contributes to your work, you must disclose this. Example: "This response was developed with assistance from ChatGPT (OpenAI) and revised for clarity and accuracy." (And note the AI Journal assignment *requires* AI use; the policy's rule is about disclosure, not prohibition.)
 :::
 
 ### 🗝️ Key Terms This Week
 
-*Artificial intelligence · Machine learning · Neural network · Large language model · Generative AI · Hallucination · Alignment · AI agent* — see the [Glossary](../glossary.md).
+*Artificial intelligence · Machine learning · Neural network · Large language model · Generative AI · Hallucination · Alignment · AI agent*; see the [Glossary](../glossary.md).
 
 ---
 
@@ -170,4 +170,4 @@ Reflect on your experience with AI throughout this course and your AI Journal. H
 
 ## Looking Ahead
 
-One more frontier: next week we look at **Robotics & Generative AI** — what happens when AI gets a body, and when it gets the keys to act on your behalf.
+One more frontier: next week we look at **Robotics & Generative AI**, which asks what happens when AI gets a body, and when it gets the keys to act on your behalf.

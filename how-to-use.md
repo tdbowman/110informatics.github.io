@@ -32,17 +32,17 @@ Boxes like this alert you to common pitfalls or things to watch out for.
 
 ## Interactive Notebooks
 
-Some sections include **Jupyter notebooks**—documents that mix text explanations with runnable code. Every notebook in this book shows its charts and outputs right on the page, so you can simply **read along** — no setup required.
+Some sections include **Jupyter notebooks**: documents that mix text explanations with runnable code. Every notebook in this book shows its charts and outputs right on the page, so you can simply **read along** with no setup required.
 
 Want to actually run and modify the code? Two options:
 
-### Option 1: Google Colab (Recommended — free, in your browser)
+### Option 1: Google Colab (Recommended; free, in your browser)
 
 Each notebook page includes an **Open in Colab** link. Colab is Google's free notebook environment:
 
 1. Click the Colab link (you'll need a free Google account)
 2. Click **Runtime → Run all**, or run cells one at a time
-3. Change values and re-run — experiment freely!
+3. Change values and re-run. Experiment freely!
 
 ### Option 2: Download and Run Locally
 
@@ -73,8 +73,8 @@ You can't break anything permanently. If something goes wrong:
 
 You will be tempted to paste this book's exercises into ChatGPT or Claude. Sometimes that's *exactly the assignment* (several modules ask you to test an AI and critique its output!). The rule of thumb, straight from the course AI policy:
 
-- ✅ Use AI to **understand** — explain a concept differently, debug an error, explore an idea
-- ❌ Don't use AI to **replace** the learning — generating your reflections or doing an exercise *for* you
+- ✅ Use AI to **understand**: explain a concept differently, debug an error, explore an idea
+- ❌ Don't use AI to **replace** the learning by generating your reflections or doing an exercise *for* you
 - 📝 When AI contributes to graded work, **disclose it**
 
 If you're ever unsure which side of the line something falls on, just ask Dr. Bowman.
@@ -86,19 +86,19 @@ If you're ever unsure which side of the line something falls on, just ask Dr. Bo
 ### Before Each Module
 
 1. Read the **module introduction** to understand the week's themes
-2. Review the **learning objectives**—what should you be able to do by the end?
+2. Review the **learning objectives**: what should you be able to do by the end?
 3. Check the **readings and videos** to complete before class
 
 ### During Your Reading
 
-- Don't just skim—engage with the content
+- Don't just skim; engage with the content
 - Try the **"Your Turn"** activities in the notebooks
 - Note questions or confusions to bring to class
 
 ### For Your Reflections
 
 - Connect the module's concepts to your own experiences
-- Reference specific readings — and check their dates! (Is this still true?)
+- Reference specific readings, and check their dates! (Is this still true?)
 - Include images, links, and media in your posts
 
 ---
@@ -107,4 +107,4 @@ If you're ever unsure which side of the line something falls on, just ask Dr. Bo
 
 - **Course questions**: Ask in class, in office hours, or via the Canvas Inbox (put '110' in the subject line)
 - **Canvas Discussions**: Post questions where classmates can help too
-- **Technical trouble with notebooks**: Try the restart tip above first, then bring it to office hours — troubleshooting is a skill worth practicing
+- **Technical trouble with notebooks**: Try the restart tip above first, then bring it to office hours; troubleshooting is a skill worth practicing

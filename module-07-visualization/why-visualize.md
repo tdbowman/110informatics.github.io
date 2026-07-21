@@ -8,7 +8,7 @@
 ## 🎯 In This Section
 
 - Understand the two purposes of visualization: exploration and communication
-- Recognize when visualizations illuminate — and when they mislead
+- Recognize when visualizations illuminate, and when they mislead
 - Trace the surprisingly long history of showing data visually
 
 ---
@@ -20,15 +20,15 @@ You've probably heard claims like these:
 > "65% of people are visual learners."
 > "Your brain processes images 60,000 times faster than text."
 
-:::{warning} 🧟 Zombie Statistics — A Lesson Hiding in Plain Sight
-Both of those famous claims are, in fact, **unsupported**. The "65% visual learners" figure comes from the learning-styles theory, which education researchers have repeatedly failed to validate. The "60,000 times faster" number has been traced back to a 1982 corporate marketing claim — no study has ever produced it.
+:::{warning} 🧟 Zombie Statistics: A Lesson Hiding in Plain Sight
+Both of those famous claims are, in fact, **unsupported**. The "65% visual learners" figure comes from the learning-styles theory, which education researchers have repeatedly failed to validate. The "60,000 times faster" number has been traced back to a 1982 corporate marketing claim; no study has ever produced it.
 
-Why put debunked claims in a textbook? Because they're *perfect specimens*. They sound scientific, they flatter our intuition, they spread on every "power of visuals" infographic — and nobody checks them. This chapter is about visual communication; these stats are a live demonstration of how confident-sounding numbers travel without evidence. When you see a tidy statistic, ask: *who measured this, how, and when?*
+Why put debunked claims in a textbook? Because they're *perfect specimens*. They sound scientific, they flatter our intuition, they spread on every "power of visuals" infographic, and nobody checks them. This chapter is about visual communication; these stats are a live demonstration of how confident-sounding numbers travel without evidence. When you see a tidy statistic, ask: *who measured this, how, and when?*
 
-(What IS well-supported: humans do extract certain visual patterns — trends, outliers, relative sizes — far faster from a good chart than from a table of numbers. That's the real, and sufficient, case for visualization.)
+(What IS well-supported: humans do extract certain visual patterns (trends, outliers, relative sizes) far faster from a good chart than from a table of numbers. That's the real, and sufficient, case for visualization.)
 :::
 
-Think about the last time you checked the weather. Did you read a paragraph describing atmospheric conditions? Or did you glance at a sunny icon and a temperature number? That's visualization at work.
+Think about the last time you checked the weather. Did you read a paragraph describing atmospheric conditions? Or did you glance at a sunny icon and a temperature number? That icon and number are a small piece of visualization doing its job.
 
 ---
 
@@ -38,15 +38,15 @@ Data visualization serves two distinct purposes, and understanding the differenc
 
 ### 🔍 Exploration: "What's in this data?"
 
-When you're **exploring** data, you're looking for patterns, outliers, and relationships you didn't know existed. Think of it like being a detective—you're asking questions and letting the data reveal answers.
+When you're **exploring** data, you're looking for patterns, outliers, and relationships you didn't know existed. Think of it like being a detective: you're asking questions and letting the data reveal answers.
 
 :::{note} Example
-A hospital administrator might visualize patient wait times across different days and departments to discover that Tuesday afternoons in the ER are unusually slow—an insight that could reshape staffing decisions.
+A hospital administrator might visualize patient wait times across different days and departments to discover that Tuesday afternoons in the ER are unusually slow, an insight that could reshape staffing decisions.
 :::
 
 ### 📢 Communication: "Let me show you what I found."
 
-When you're **communicating** with data, you already know the story—now you're helping others understand it. Your goal is clarity and persuasion.
+When you're **communicating** with data, you already know the story; now you're helping others understand it. Your goal is clarity and persuasion.
 
 :::{note} Example
 A journalist might create a chart showing the rise in housing costs over time, helping readers immediately grasp a trend that would be hard to convey in words alone.
@@ -67,7 +67,7 @@ Visualizations are most powerful when:
 
 ### ⚠️ When Visualization Misleads
 
-But visualizations can also deceive—sometimes intentionally, sometimes accidentally:
+But visualizations can also deceive, sometimes intentionally and sometimes accidentally:
 
 | Deceptive Technique | What It Does |
 |---------------------|--------------|
@@ -78,7 +78,7 @@ But visualizations can also deceive—sometimes intentionally, sometimes acciden
 | **Fabricated Data** 🤖 | AI image generators now produce polished "infographics" whose numbers were simply invented. The chart looks professional; the data never existed. |
 
 :::{warning} Critical Thinking Tip
-Whenever you see a visualization—in the news, on social media, in a presentation—ask yourself:
+Whenever you see a visualization (in the news, on social media, in a presentation), ask yourself:
 - What is the source?
 - What might be hidden or left out?
 - Does the visual accurately represent the underlying numbers?
@@ -90,7 +90,7 @@ Whenever you see a visualization—in the news, on social media, in a presentati
 
 ## A Brief History
 
-Data visualization isn't new—humans have been using visual representations of information for centuries:
+Data visualization isn't new: humans have been using visual representations of information for centuries.
 
 | Year | Milestone |
 |------|-----------|
@@ -101,7 +101,7 @@ Data visualization isn't new—humans have been using visual representations of 
 | 1983 | Edward Tufte publishes "The Visual Display of Quantitative Information" |
 | 2005 | Hans Rosling's Gapminder brings animated data visualization to the masses |
 | 2010s | Interactive dashboards become standard in business and journalism |
-| 2023– | Generative AI begins producing charts from plain-language prompts — moving the hard problem from *making* charts to *verifying* them |
+| 2023– | Generative AI begins producing charts from plain-language prompts, moving the hard problem from *making* charts to *verifying* them |
 
 ---
 

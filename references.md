@@ -22,7 +22,7 @@ These foundational works inform much of what we discuss in this course:
 
 ## ⚖️ Law & Policy Primary Sources
 
-The cases and rules that anchor Modules 5 and 8–12 — go straight to the source:
+The cases and rules that anchor Modules 5 and 8–12; go straight to the source:
 
 | Topic | Source |
 |-------|--------|

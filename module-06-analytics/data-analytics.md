@@ -11,9 +11,9 @@ We generate a staggering amount of data every day. But raw data isn't useful on 
 This week, we explore how organizations extract meaning from data.
 
 :::{warning} 🧟 Zombie Statistic Alert
-You may have heard that humanity creates "2.5 quintillion bytes of data every day." That number traces back to an IBM marketing page from around 2017, and it has been copy-pasted ever since — usually with no date and no source. It's a perfect example of a **zombie statistic**: a number that keeps shambling around the internet long after its evidence died.
+You may have heard that humanity creates "2.5 quintillion bytes of data every day." That number traces back to an IBM marketing page from around 2017, and it has been copy-pasted ever since, usually with no date and no source. It's a perfect example of a **zombie statistic**: a number that keeps shambling around the internet long after its evidence died.
 
-An informatics student's move: when you meet a dramatic statistic, ask *who measured it, how, and when?* (Current estimates of global data creation are tracked by firms like IDC — and they're wildly larger than the zombie number. The honest answer is "hundreds of zettabytes per year, and growing fast.")
+An informatics student's move: when you meet a dramatic statistic, ask *who measured it, how, and when?* (Current estimates of global data creation are tracked by firms like IDC, and they're wildly larger than the zombie number. The honest answer is "hundreds of zettabytes per year, and growing fast.")
 :::
 
 ### 🎯 What You'll Learn
@@ -22,7 +22,7 @@ An informatics student's move: when you meet a dramatic statistic, ask *who meas
 - Learn the data analysis process
 - Explore how organizations use data to make decisions
 - Consider the ethical implications of data-driven decision making
-- Understand how AI copilots are changing analytical work — and why statistical literacy matters more than ever
+- Understand how AI copilots are changing analytical work, and why statistical literacy matters more than ever
 
 ### 🧠 Big Questions to Consider
 
@@ -43,7 +43,7 @@ An informatics student's move: when you meet a dramatic statistic, ask *who meas
 | **Methods** | Statistics, visualization | Machine learning, algorithms |
 | **Output** | Reports, dashboards | Predictive models |
 
-Both are essential for turning raw data into actionable insights! And both remain strong career paths: the US Bureau of Labor Statistics projects data scientist employment to grow about **34% this decade** — among the fastest of any occupation ([BLS Occupational Outlook](https://www.bls.gov/ooh/math/data-scientists.htm)).
+Both are essential for turning raw data into actionable insights! And both remain strong career paths: the US Bureau of Labor Statistics projects data scientist employment to grow about **34% this decade**, among the fastest of any occupation ([BLS Occupational Outlook](https://www.bls.gov/ooh/math/data-scientists.htm)).
 
 ---
 
@@ -69,7 +69,7 @@ Remember: "Garbage in, garbage out." Analysis is only as good as the data it's b
 
 ## 🤖 The AI Copilot Era
 
-Here's the biggest change in this field since this course was first taught: **AI assistants can now do much of the mechanical work of analysis**. You can hand ChatGPT or Claude a spreadsheet and get charts and summaries in seconds; Microsoft Copilot lives inside Excel; Google's Gemini works in Sheets.
+The biggest change in this field since this course was first taught: **AI assistants can now do much of the mechanical work of analysis**. You can hand ChatGPT or Claude a spreadsheet and get charts and summaries in seconds; Microsoft Copilot lives inside Excel; Google's Gemini works in Sheets.
 
 So is statistical literacy obsolete? Exactly the opposite:
 
@@ -80,7 +80,7 @@ So is statistical literacy obsolete? Exactly the opposite:
 | Chart whatever you ask for | Ask whether it's the *right* question |
 | Analyze the data it's given | Ask where the data came from and who's excluded |
 
-AI copilots make analysis *faster* — including faster at being wrong. The analyst's job is shifting from writing code to **framing questions and verifying answers**. That's why the concepts in this module (bias, sampling, the analysis process) matter *more* in the AI era, not less.
+AI copilots make analysis *faster*, including faster at being wrong. The analyst's job is shifting from writing code to **framing questions and verifying answers**. That's why the concepts in this module (bias, sampling, the analysis process) matter *more* in the AI era, not less.
 
 **Try it:** Give an AI assistant a small dataset (like the practice datasets below) and ask for an analysis. Then fact-check it. What did it do well? Where did it overreach?
 
@@ -94,7 +94,7 @@ AI copilots make analysis *faster* — including faster at being wrong. The anal
 |----------|------|-------|
 | [What Do Data Scientists Do?](https://www.youtube.com/watch?v=qrhRfPY4F4w) | Video | Overview of the field |
 | [The Secret Data Collected by Dockless Bikes](https://www.technologyreview.com/2018/09/28/139983/the-secret-data-collected-by-dockless-bikes-is-helping-cities-map-your-movement/) | Article | MIT Technology Review on real-world data collection |
-| [Data Scientists — Occupational Outlook](https://www.bls.gov/ooh/math/data-scientists.htm) | Reference | What the job actually pays and requires (BLS) |
+| [Data Scientists: Occupational Outlook](https://www.bls.gov/ooh/math/data-scientists.htm) | Reference | What the job actually pays and requires (BLS) |
 
 ### 🤔 Make You Think (Optional)
 
@@ -135,7 +135,7 @@ Data can perpetuate and amplify existing biases:
 | **Measurement Bias** | How data is collected affects results | Fitness trackers designed for one skin tone |
 | **Algorithm Bias** | Model amplifies patterns including biased ones | Hiring algorithms that favor male applicants |
 
-These biases don't disappear when AI does the analysis — they get *automated*. Every large AI model was trained on data collected by someone, somewhere, with all the gaps and biases that implies.
+These biases don't disappear when AI does the analysis; they get *automated*. Every large AI model was trained on data collected by someone, somewhere, with all the gaps and biases that implies.
 
 ---
 
@@ -151,7 +151,7 @@ Want to explore data analysis yourself? Try these beginner-friendly datasets:
 
 ### 🗝️ Key Terms This Week
 
-*Data analytics · Data science · Big data · Algorithm · Machine learning · Bias · Correlation vs. causation* — see the [Glossary](../glossary.md).
+*Data analytics · Data science · Big data · Algorithm · Machine learning · Bias · Correlation vs. causation*: see the [Glossary](../glossary.md).
 
 ---
 
@@ -170,4 +170,4 @@ Think about a decision you've seen made based on data (in news, at work, in your
 
 ## Looking Ahead
 
-Next week, we explore **Data Visualization**—how to communicate data insights effectively through visual representations.
+Next week, we explore **Data Visualization**: how to communicate data insights effectively through visual representations.

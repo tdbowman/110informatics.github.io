@@ -6,7 +6,7 @@
 
 ## The Big Picture
 
-Every day, you share personal information—sometimes knowingly, sometimes not. Your location, browsing history, purchases, and social connections create a detailed digital portrait. Who has access to this information? How is it protected? What are your rights?
+Every day, you share personal information, sometimes knowingly, sometimes not. Your location, browsing history, purchases, and social connections create a detailed digital portrait. Who has access to this information? How is it protected? What are your rights?
 
 This week, we explore the crucial intersection of security and privacy in the digital age.
 
@@ -39,10 +39,10 @@ These terms are related but different:
 
 You can have security without privacy (your data is safe but shared widely), and privacy concerns even when security is strong (companies legally collecting your data).
 
-:::{important} 📌 Case Study: 23andMe — When the Company Holding Your DNA Goes Bankrupt
-In 2023, attackers used **credential stuffing** (trying passwords stolen from *other* breaches) to access millions of 23andMe accounts and scrape genetic-ancestry data. Then in 2025, 23andMe filed for bankruptcy — and its most valuable asset was the DNA data of some 15 million customers, which came up for sale as part of the proceedings. State attorneys general publicly urged customers to delete their data.
+:::{important} 📌 Case Study: 23andMe, or When the Company Holding Your DNA Goes Bankrupt
+In 2023, attackers used **credential stuffing** (trying passwords stolen from *other* breaches) to access millions of 23andMe accounts and scrape genetic-ancestry data. Then in 2025, 23andMe filed for bankruptcy, and its most valuable asset was the DNA data of some 15 million customers, which came up for sale as part of the proceedings. State attorneys general publicly urged customers to delete their data.
 
-This one story contains the whole module: a security failure (weak authentication + reused passwords), a privacy question (who should be able to buy genetic data?), and a trust question nobody had thought to ask (what does "we protect your data" mean when the company itself can be sold?). Your DNA doesn't just identify you — it partially identifies your relatives, who never signed up at all.
+This one story contains the whole module: a security failure (weak authentication + reused passwords), a privacy question (who should be able to buy genetic data?), and a trust question nobody had thought to ask (what does "we protect your data" mean when the company itself can be sold?). Your DNA identifies more than you alone; it partially identifies your relatives, who never signed up at all.
 :::
 
 ---
@@ -132,13 +132,13 @@ Free services often monetize your data. Consider what you're really trading.
 |------------|--------|----------------|
 | **GDPR** | European Union | Right to access, delete, and port your data |
 | **CCPA / CPRA** | California | Right to know what's collected and opt out |
-| **State privacy laws** | ~20 US states (and counting) | California started it; comprehensive laws now cover a growing share of Americans — check yours |
-| **BIPA** | Illinois 📍 | The nation's strongest biometric privacy law — right here in Illinois; it's why some face-recognition features simply aren't offered in this state |
-| **TAKE IT DOWN Act (2025)** | US Federal | Criminalizes publishing nonconsensual intimate images — including AI deepfakes — and requires platforms to remove them within 48 hours ([Congress.gov](https://www.congress.gov/bill/119th-congress/senate-bill/146)) |
+| **State privacy laws** | ~20 US states (and counting) | California started it; comprehensive laws now cover a growing share of Americans; check yours |
+| **BIPA** | Illinois 📍 | The nation's strongest biometric privacy law, right here in Illinois; it's why some face-recognition features simply aren't offered in this state |
+| **TAKE IT DOWN Act (2025)** | US Federal | Criminalizes publishing nonconsensual intimate images, including AI deepfakes, and requires platforms to remove them within 48 hours ([Congress.gov](https://www.congress.gov/bill/119th-congress/senate-bill/146)) |
 | **HIPAA** | US Healthcare | Protects medical information |
 | **FERPA** | US Education | Protects student records |
 
-Notice what's missing: the US still has **no comprehensive federal privacy law** — protection depends on what kind of data it is and which state you live in.
+One thing is missing from this table: the US still has **no comprehensive federal privacy law**. Protection depends on what kind of data it is and which state you live in.
 
 ---
 
@@ -154,7 +154,7 @@ When evaluating if a system is trustworthy, consider:
 
 ### 🗝️ Key Terms This Week
 
-*Security · Privacy · Phishing · Credential stuffing · Encryption · Two-factor authentication · Data breach · Biometric data · Deepfake* — see the [Glossary](../glossary.md).
+*Security · Privacy · Phishing · Credential stuffing · Encryption · Two-factor authentication · Data breach · Biometric data · Deepfake*: see the [Glossary](../glossary.md).
 
 ---
 
@@ -173,4 +173,4 @@ Conduct a "privacy audit" of yourself. Check what apps have access to your locat
 
 ## Looking Ahead
 
-Next week, we explore **Copyright & Law**—the legal frameworks that govern digital information.
+Next week, we explore **Copyright & Law**: the legal frameworks that govern digital information.

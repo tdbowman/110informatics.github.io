@@ -11,7 +11,7 @@ Key terms you'll encounter throughout this course.
 : The relationship between an object's properties and a user's capabilities that suggests how something can be used. A button affords pushing; a handle affords pulling. (Module 3)
 
 **AI Agent**
-: An AI system that pursues goals by taking actions — browsing, booking, buying, running code — rather than only answering questions. (Modules 12–13)
+: An AI system that pursues goals by taking actions (browsing, booking, buying, running code) rather than only answering questions. (Modules 12–13)
 
 **Algorithm**
 : A step-by-step procedure or set of rules for solving a problem or accomplishing a task, especially by a computer. (Module 6)
@@ -23,19 +23,19 @@ Key terms you'll encounter throughout this course.
 : Systems capable of performing tasks with little or no human intervention, using sensors, processors, and software to perceive, decide, and act. (Module 11)
 
 **Bandwidth**
-: The maximum amount of data a network connection can carry in a given time — the "width of the pipe" between you and the internet. (Module 2)
+: The maximum amount of data a network connection can carry in a given time: the "width of the pipe" between you and the internet. (Module 2)
 
 **Big Data**
 : Datasets that are too large or complex for traditional data processing. Characterized by volume, velocity, variety, and veracity. (Module 6)
 
 **Cloud Computing**
-: Renting computing power and storage from remote data centers rather than owning the hardware — "someone else's computer," at industrial scale. (Module 2)
+: Renting computing power and storage from remote data centers rather than owning the hardware; in other words, "someone else's computer," at industrial scale. (Module 2)
 
 **Copyright**
 : Legal protection for original creative works, giving creators exclusive rights to reproduce, distribute, and display their work. (Module 10)
 
 **Credential Stuffing**
-: An attack that tries username/password pairs stolen from one breach against other services — which works because people reuse passwords. (Module 9)
+: An attack that tries username/password pairs stolen from one breach against other services, which works because people reuse passwords. (Module 9)
 
 **Data**
 : Raw facts, figures, or observations that have not yet been processed or organized. Data becomes information when given context and meaning. (Module 1)
@@ -56,7 +56,7 @@ Key terms you'll encounter throughout this course.
 : An organized collection of data stored and accessed electronically, allowing for efficient storage, retrieval, and management of information. (Module 4)
 
 **Deceptive Pattern** (formerly "dark pattern")
-: An interface designed to trick or pressure users into things they didn't mean to do — hidden fees, hard-to-cancel subscriptions, sneaky opt-ins. Now the subject of major FTC and EU enforcement. (Module 3)
+: An interface designed to trick or pressure users into things they didn't mean to do: hidden fees, hard-to-cancel subscriptions, sneaky opt-ins. Now the subject of major FTC and EU enforcement. (Module 3)
 
 **Deepfake**
 : AI-generated audio, image, or video that convincingly imitates a real person. (Modules 9, 12)
@@ -71,7 +71,7 @@ Key terms you'll encounter throughout this course.
 : A representation of text, images, or other content as a list of numbers that captures its *meaning*, letting computers compare items by similarity. The foundation of vector databases and semantic search. (Modules 4, 8)
 
 **Encryption**
-: Mathematically scrambling data so only someone with the right key can read it — the backbone of online security. (Module 9)
+: Mathematically scrambling data so only someone with the right key can read it; the backbone of online security. (Module 9)
 
 **Fair Use**
 : A legal doctrine that permits limited use of copyrighted material without permission for purposes such as criticism, commentary, news reporting, teaching, and research. (Module 10)
@@ -80,10 +80,10 @@ Key terms you'll encounter throughout this course.
 : A state of intellectual isolation resulting from personalized searches and feeds showing users only information that confirms their existing beliefs. (Module 8)
 
 **Generative AI**
-: AI systems that create new content — text, images, audio, video, code — rather than only classifying or predicting. (Modules 12–13)
+: AI systems that create new content (text, images, audio, video, code) rather than only classifying or predicting. (Modules 12–13)
 
 **Hallucination**
-: When a generative AI system produces confident but false content — invented facts, fake citations, made-up statistics. (Modules 8, 12)
+: When a generative AI system produces confident but false content: invented facts, fake citations, made-up statistics. (Modules 8, 12)
 
 **HCI (Human-Computer Interaction)**
 : A multidisciplinary field focused on the design of computer technology and the interaction between humans and computers. (Module 3)
@@ -95,22 +95,22 @@ Key terms you'll encounter throughout this course.
 : Data that has been processed, organized, or structured to provide meaning and context. Information is useful for making decisions. (Module 1)
 
 **Informatics**
-: The study of how information technologies are developed, applied, and utilized in society—the intersection of data, systems, and people. (Module 1)
+: The study of how information technologies are developed, applied, and utilized in society; the intersection of data, systems, and people. (Module 1)
 
 **Information Retrieval**
 : The process of obtaining relevant information from a collection of resources. Search engines are common information retrieval systems. (Module 8)
 
 **Intellectual Property**
-: Creations of the mind—inventions, literary and artistic works, designs, and symbols—protected by patents, copyright, and trademarks. (Module 10)
+: Creations of the mind (inventions, literary and artistic works, designs, and symbols) protected by patents, copyright, and trademarks. (Module 10)
 
 **Large Language Model (LLM)**
-: An AI model trained on vast amounts of text to predict and generate language — the technology behind ChatGPT, Claude, and Gemini. (Module 12)
+: An AI model trained on vast amounts of text to predict and generate language; the technology behind ChatGPT, Claude, and Gemini. (Module 12)
 
 **Machine Learning**
 : A subset of AI that enables systems to learn and improve from experience without being explicitly programmed. (Modules 6, 12)
 
 **Multifactor Authentication (MFA/2FA)**
-: Requiring a second proof of identity (a code, an app prompt, a key) beyond your password — the single best account protection you can enable. (Module 9)
+: Requiring a second proof of identity (a code, an app prompt, a key) beyond your password. It is the single best account protection you can enable. (Module 9)
 
 **Net Neutrality**
 : The principle that internet service providers should treat all internet traffic equally, without discrimination based on source, destination, or content. (Federal US rules were struck down in 2025; several states have their own laws.) (Module 10)
@@ -128,7 +128,7 @@ Key terms you'll encounter throughout this course.
 : The instruction or question you give a generative AI system; crafting effective prompts ("prompt engineering") is a skill. (Module 12)
 
 **RAG (Retrieval-Augmented Generation)**
-: An AI technique that first *retrieves* relevant documents (classic information retrieval) and then *generates* an answer from them — how AI systems answer questions about specific or current information. (Modules 4, 8)
+: An AI technique that first *retrieves* relevant documents (classic information retrieval) and then *generates* an answer from them. This is how AI systems answer questions about specific or current information. (Modules 4, 8)
 
 **Robotics**
 : The engineering of machines that sense, decide, and act in the physical world. (Module 13)
@@ -158,7 +158,7 @@ Key terms you'll encounter throughout this course.
 : An approach to technology design that accounts for human values throughout the design process. (Module 3)
 
 **Vector Database**
-: A database that stores embeddings and retrieves items by similarity of meaning — the "memory" behind many AI applications. (Module 4)
+: A database that stores embeddings and retrieves items by similarity of meaning; the "memory" behind many AI applications. (Module 4)
 
 **WCAG (Web Content Accessibility Guidelines)**
 : International standards for making web content more accessible to people with disabilities. The current version is WCAG 2.2 (2023); US regulations reference version 2.1 AA. (Module 5)

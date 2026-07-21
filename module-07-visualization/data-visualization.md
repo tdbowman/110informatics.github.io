@@ -6,7 +6,7 @@
 
 ## The Big Picture
 
-Have you ever looked at a spreadsheet full of numbers and felt your eyes glaze over? You're not alone! Raw data can be overwhelming—but when we transform it into visual form, patterns emerge, stories unfold, and insights become clear.
+Have you ever looked at a spreadsheet full of numbers and felt your eyes glaze over? You're not alone! Raw data can be overwhelming, but when we transform it into visual form, patterns emerge, stories unfold, and insights become clear.
 
 This week, we're diving into the art and science of **data visualization**. You'll discover why a well-designed chart can communicate in seconds what might take paragraphs to explain, and why a *poorly* designed one can mislead even the most careful reader.
 
@@ -14,7 +14,7 @@ This week, we're diving into the art and science of **data visualization**. You'
 
 - Why visualizations are powerful tools for communication
 - The difference between **infographics** and **data visualizations**
-- How to recognize (and avoid!) misleading charts — including AI-generated ones
+- How to recognize (and avoid!) misleading charts, including AI-generated ones
 - The building blocks: charts, graphs, maps, and networks
 - Hands-on practice creating your own visualizations
 
@@ -74,10 +74,10 @@ Curious about what professionals use? Here are some industry-standard tools:
 | **AI assistants** 🤖 | ChatGPT, Claude, and Copilot can now generate charts from a plain-language request |
 
 :::{warning} AI-Generated Charts: Powerful, and Perilous
-AI can produce a chart in seconds — and confidently produce the *wrong* chart: a misleading axis, a poor chart type, or in the worst case, **invented data**. AI-fabricated infographics with made-up statistics now circulate widely on social media. Everything you learn this week about honest visualization applies double when the chart came from a machine: check the axes, check the source, check the numbers exist. (You'll practice exactly this in the hands-on notebook.)
+AI can produce a chart in seconds, and it can just as confidently produce the *wrong* chart: a misleading axis, a poor chart type, or in the worst case, **invented data**. AI-fabricated infographics with made-up statistics now circulate widely on social media. Everything you learn this week about honest visualization applies double when the chart came from a machine: check the axes, check the source, check the numbers exist. (You'll practice exactly this in the hands-on notebook.)
 :::
 
-Don't worry—we'll be using **Python** in this course, which is free and incredibly powerful. The [Hands-On Charts](hands-on-charts.ipynb) notebook will walk you through it step by step.
+Don't worry: we'll be using **Python** in this course, which is free and incredibly powerful. The [Hands-On Charts](hands-on-charts.ipynb) notebook will walk you through it step by step.
 
 ### ♿ Accessible Charts (Bridge to Module 5!)
 
@@ -94,7 +94,7 @@ Visualization has its own accessibility rules: don't encode meaning in color alo
 | Continue: Research Questions | See syllabus | Part of research grade |
 
 :::{tip} Reflection Prompt
-For this week's reflection, focus on **one** of the readings above. Consider: How does visualization relate to the themes we've explored in informatics—the intersection of data, technology, and people? Include an image or visualization in your post that helps illustrate your point!
+For this week's reflection, focus on **one** of the readings above. Consider: How does visualization relate to the themes we've explored in informatics: the intersection of data, technology, and people? Include an image or visualization in your post that helps illustrate your point!
 :::
 
 ---
@@ -114,4 +114,4 @@ This module contains several sections:
 
 Ready to see the world through a new lens? Start with [Why Visualize Data?](why-visualize.md) to understand the "why" behind data visualization, then explore the different [Types of Visualizations](visualization-types.md) you'll encounter in the wild.
 
-When you're ready to get hands-on, the [Hands-On Charts](hands-on-charts.ipynb) notebook will guide you through creating your own visualizations—no prior coding experience required!
+When you're ready to get hands-on, the [Hands-On Charts](hands-on-charts.ipynb) notebook will guide you through creating your own visualizations (no prior coding experience required!).

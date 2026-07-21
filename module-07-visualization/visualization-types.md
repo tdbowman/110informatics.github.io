@@ -1,12 +1,12 @@
 # Types of Visualizations
 
-Not all visualizations are created equal—and choosing the wrong type can confuse your audience or even misrepresent your data. Let's explore the most common types and when to use each.
+Not all visualizations are created equal, and choosing the wrong type can confuse your audience or even misrepresent your data. Let's explore the most common types and when to use each.
 
 ## 🎯 In This Section
 
 - Match common chart types to the questions they answer best
 - Use a decision guide to pick the right visualization
-- Spot the most common charting mistakes — human- and AI-made
+- Spot the most common charting mistakes, human- and AI-made
 
 ---
 
@@ -19,11 +19,11 @@ Not all visualizations are created equal—and choosing the wrong type can confu
 | Type | Use When... |
 |------|-------------|
 | **Bar Chart** | Comparing values across categories (horizontal orientation good for long labels) |
-| **Column Chart** | Similar to bar, but vertical—works well for time-based categories |
+| **Column Chart** | Similar to bar, but vertical; works well for time-based categories |
 | **Pie Chart** | Showing proportions of a whole (**use sparingly!** Hard to compare slices accurately) |
 
 :::{tip} Pro Tip
-Pie charts are often overused. If you have more than 5-6 categories, or if the slices are similar in size, consider a bar chart instead—it's much easier to compare lengths than angles!
+Pie charts are often overused. If you have more than 5-6 categories, or if the slices are similar in size, consider a bar chart instead; it's much easier to compare lengths than angles!
 :::
 
 ---
@@ -72,7 +72,7 @@ Maps use our intuitive understanding of physical space to display data. Types in
 - **Heat maps**: Density of occurrences (e.g., crime hotspots)
 
 :::{note} Real-World Example
-Remember John Snow's 1854 cholera map? By plotting deaths on a London street map, he discovered they clustered around a contaminated water pump—a breakthrough in epidemiology that came from visualization.
+Remember John Snow's 1854 cholera map? By plotting deaths on a London street map, he discovered they clustered around a contaminated water pump, a breakthrough in epidemiology that came from visualization.
 :::
 
 ---
@@ -93,7 +93,7 @@ Common uses:
 
 ## Choosing the Right Visualization
 
-Here's a quick decision guide—ask yourself: **"What's my goal?"**
+Here's a quick decision guide. Ask yourself: **"What's my goal?"**
 
 - **Comparison?** → Bar/Column Chart
 - **Composition (parts of a whole)?** → Pie Chart or Stacked Bar
@@ -133,14 +133,14 @@ Everything from Module 5 applies to charts: use colorblind-safe palettes (search
 
 ## Activity: Chart Detective 🔍
 
-Look at the visualizations you encounter today—in news articles, social media, or apps. For each one, ask:
+Look at the visualizations you encounter today in news articles, social media, or apps. For each one, ask:
 
 1. What type of visualization is this?
 2. Is it the right choice for this data?
 3. What story is it trying to tell?
 4. Is anything confusing or potentially misleading?
 
-**Bonus round** 🤖: Ask an AI assistant to create a chart from some data you give it (or the quarterly sales table above). Then play detective on the *AI's* chart with the same four questions — plus one more: did it choose the chart type you would have? AI tools often default to the wrong chart type or add misleading styling; catching that is the skill.
+**Bonus round** 🤖: Ask an AI assistant to create a chart from some data you give it (or the quarterly sales table above). Then play detective on the *AI's* chart with the same four questions, plus one more: did it choose the chart type you would have? AI tools often default to the wrong chart type or add misleading styling; catching that is the skill.
 
 Share an interesting example in this week's reflection!
 

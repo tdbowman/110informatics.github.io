@@ -6,7 +6,7 @@
 
 ## The Big Picture
 
-How does Google find exactly what you're looking for among billions of web pages in less than a second? The answer lies in **information retrieval**—the science of finding relevant information from large collections.
+How does Google find exactly what you're looking for among billions of web pages in less than a second? The answer lies in **information retrieval**, the science of finding relevant information from large collections.
 
 This week, we explore how search engines work and how AI has transformed the way we find information.
 
@@ -15,7 +15,7 @@ This week, we explore how search engines work and how AI has transformed the way
 - Understand the fundamentals of information retrieval
 - Learn the difference between searching and browsing
 - Explore how search engines are designed and developed
-- Understand how generative AI has reshaped search — and the new questions it raises
+- Understand how generative AI has reshaped search, and the new questions it raises
 - Evaluate the quality and bias of search results
 
 ### 🧠 Big Questions to Consider
@@ -23,7 +23,7 @@ This week, we explore how search engines work and how AI has transformed the way
 - What determines which results appear first?
 - How do search engines shape what we know?
 - What's the difference between finding information and understanding it?
-- When an AI *answers* your question instead of linking to sources, what do we gain — and what do we lose?
+- When an AI *answers* your question instead of linking to sources, what do we gain and what do we lose?
 
 ---
 
@@ -69,17 +69,17 @@ Since 2023, search has changed more than in the previous twenty years combined:
 |-------------|---------------|
 | **AI Overviews / AI Mode** | Google now generates an AI answer *above* the traditional links for many queries (rolled out broadly starting May 2024) |
 | **Answer engines** | Tools like Perplexity and ChatGPT's search mode answer questions directly, citing (some) sources |
-| **Zero-click search** | More searches end without anyone clicking a website — raising hard questions about who sustains the sites the AI learned from |
+| **Zero-click search** | More searches end without anyone clicking a website, raising hard questions about who sustains the sites the AI learned from |
 | **Multimodal search** | Search by image, voice, or by [humming a song](https://blog.google/products/search/hum-to-search/) |
 
 ### RAG: Where This Module Meets AI
 
-The technique behind AI search is called **retrieval-augmented generation (RAG)** — and it is literally this module's two topics fused together:
+The technique behind AI search is called **retrieval-augmented generation (RAG)**, and it is literally this module's two topics fused together:
 
 1. **Retrieve**: A classic IR system (like the ones described above, often powered by the vector databases from Module 4) finds documents relevant to your question.
 2. **Generate**: An AI language model writes an answer *based on those retrieved documents*.
 
-This is why information retrieval concepts still matter in the ChatGPT era. When an AI gives a wrong answer, it's often an **IR failure** — the system retrieved the wrong documents, or none at all, and the model filled the gap by guessing. AI "hallucination" and bad search results are cousins.
+This is why information retrieval concepts still matter in the ChatGPT era. When an AI gives a wrong answer, it's often an **IR failure**: the system retrieved the wrong documents, or none at all, and the model filled the gap by guessing. AI "hallucination" and bad search results are cousins.
 
 :::{note} Discussion Point
 When AI generates an answer instead of linking to sources, how do we verify accuracy? Who is responsible for errors? And what happens to the websites nobody clicks anymore?
@@ -89,7 +89,7 @@ When AI generates an answer instead of linking to sources, how do we verify accu
 
 The biggest tech antitrust case in a generation is about **search defaults**. In August 2024, a federal judge ruled that Google illegally maintained its search monopoly, largely through billions paid to be the default engine on phones and browsers. In September 2025 came the remedies: Google keeps Chrome and Android, but **exclusive default deals are banned** and Google must share certain search data with qualified competitors ([NPR](https://www.npr.org/2025/09/02/nx-s1-5478625/google-chrome-doj-antitrust-ruling)). Google is appealing.
 
-*Why it belongs in this chapter:* everything you just learned — crawling, indexing, ranking, defaults, personalization — is what this case is about. Scale matters: whoever controls retrieval controls what billions of people find. *(Status as of mid-2026; check for appeal developments.)*
+*Why it belongs in this chapter:* everything you just learned (crawling, indexing, ranking, defaults, personalization) is what this case is about. Scale matters: whoever controls retrieval controls what billions of people find. *(Status as of mid-2026; check for appeal developments.)*
 
 ---
 
@@ -109,7 +109,7 @@ Complete the readings below. Pay attention to how search shapes information acce
 
 ### 🤔 Make You Think (Optional)
 
-- Ask the same question to a traditional Google search, Google's AI Overview, and an answer engine like Perplexity. Compare: Which sources did each rely on? Which answer would you trust — and how would you check?
+- Ask the same question to a traditional Google search, Google's AI Overview, and an answer engine like Perplexity. Compare: Which sources did each rely on? Which answer would you trust, and how would you check?
 
 ---
 
@@ -131,7 +131,7 @@ Words that appear frequently in one document but rarely overall are probably imp
 When search results are personalized based on your history and preferences, you may only see information that confirms what you already believe.
 
 :::{warning} Consider This
-Two people searching the same term might get completely different results based on their location, search history, and browsing behavior. What are the implications for shared understanding? Does an AI-generated answer make this better — or just less visible?
+Two people searching the same term might get completely different results based on their location, search history, and browsing behavior. What are the implications for shared understanding? Does an AI-generated answer make this better, or just less visible?
 :::
 
 ### SEO and SEM
@@ -141,11 +141,11 @@ Two people searching the same term might get completely different results based 
 | **SEO** (Search Engine Optimization) | Improving a website to rank higher in organic results |
 | **SEM** (Search Engine Marketing) | Paying for ads to appear in search results |
 
-Understanding these helps you recognize what's organic vs. paid. (A new cousin has emerged: optimizing content so *AI systems* cite it — sometimes called "GEO," generative engine optimization.)
+Understanding these helps you recognize what's organic vs. paid. (A new cousin has emerged: optimizing content so *AI systems* cite it, sometimes called "GEO," generative engine optimization.)
 
 ### 🗝️ Key Terms This Week
 
-*Information retrieval · Crawling · Indexing · Ranking · TF-IDF · Semantic search · RAG · Hallucination · Filter bubble · SEO* — see the [Glossary](../glossary.md).
+*Information retrieval · Crawling · Indexing · Ranking · TF-IDF · Semantic search · RAG · Hallucination · Filter bubble · SEO*: see the [Glossary](../glossary.md).
 
 ---
 
@@ -164,4 +164,4 @@ Try searching for the same controversial topic on a traditional search engine, a
 
 ## Looking Ahead
 
-Spring Break is coming! After the break, we'll explore **Security & Privacy**—how to protect yourself and your data in the digital age.
+Spring Break is coming! After the break, we'll explore **Security & Privacy**: how to protect yourself and your data in the digital age.

@@ -6,7 +6,7 @@
 
 ## The Big Picture
 
-From self-driving taxis to delivery drones, autonomous systems are reshaping our world. These technologies can perform tasks with little or no human intervention—but they also raise profound questions about safety, employment, and responsibility.
+From self-driving taxis to delivery drones, autonomous systems are reshaping our world. These technologies can perform tasks with little or no human intervention, but they also raise profound questions about safety, employment, and responsibility.
 
 This week, we explore what autonomous systems are, how they work, and what they mean for society. And we'll examine a remarkable natural experiment: two companies that bet billions on the same technology and met opposite fates.
 
@@ -44,21 +44,21 @@ The standard framework is SAE International's six levels of driving automation:
 | **4 - High Automation** | System handles all driving in defined conditions | Waymo robotaxi |
 | **5 - Full Automation** | System handles all driving in all conditions | Doesn't exist yet |
 
-Notice that the marketing name of a product ("Full Self-Driving") and its actual SAE level (2 — human must supervise) can be very different. Evaluating that gap between claim and capability is an informatics skill.
+The marketing name of a product ("Full Self-Driving") and its actual SAE level (2, human must supervise) can be very different. Evaluating that gap between claim and capability is an informatics skill.
 
 ---
 
-## 📌 Case Study: Waymo vs. Cruise — Same Bet, Opposite Outcomes
+## 📌 Case Study: Waymo vs. Cruise (Same Bet, Opposite Outcomes)
 
 Two companies spent billions building Level-4 robotaxis. As of mid-2026:
 
-**Waymo** expanded methodically — safety drivers first, small geofenced areas, gradual growth. It now operates paid, fully driverless service in roughly **ten US metro areas** (Phoenix, San Francisco, LA, Austin, Atlanta, Miami, and several Texas cities), delivering hundreds of thousands of rides per week ([TechCrunch](https://techcrunch.com/2026/02/24/waymo-robotaxis-are-now-operating-in-10-us-cities/)).
+**Waymo** expanded methodically: safety drivers first, small geofenced areas, gradual growth. It now operates paid, fully driverless service in roughly **ten US metro areas** (Phoenix, San Francisco, LA, Austin, Atlanta, Miami, and several Texas cities), delivering hundreds of thousands of rides per week ([TechCrunch](https://techcrunch.com/2026/02/24/waymo-robotaxis-are-now-operating-in-10-us-cities/)).
 
-**Cruise** (GM's robotaxi arm) raced to scale. In October 2023, one of its vehicles struck a pedestrian who had been thrown into its path by another car — and then *dragged her about 20 feet* while attempting to pull over. Regulators found Cruise had withheld the full video. California suspended its permits within weeks, and in December 2024 GM shut down the robotaxi program entirely, writing off roughly $10 billion.
+**Cruise** (GM's robotaxi arm) raced to scale. In October 2023, one of its vehicles struck a pedestrian who had been thrown into its path by another car, and then *dragged her about 20 feet* while attempting to pull over. Regulators found Cruise had withheld the full video. California suspended its permits within weeks, and in December 2024 GM shut down the robotaxi program entirely, writing off roughly $10 billion.
 
 **Tesla**, meanwhile, launched a small robotaxi service in Austin in June 2025, still operating at modest scale with safety monitors in many vehicles ([Electrek](https://electrek.co/2026/06/03/tesla-robotaxi-expands-entire-austin-metro-only-20-vehicles/)).
 
-*The lesson isn't "robotaxis are good" or "robotaxis are bad."* It's that **trust is an engineering requirement**. Cruise's technology and Waymo's were comparable; what differed was safety culture, transparency with regulators, and pacing. One incident — handled badly — ended a $10 billion program. *(Status as of mid-2026.)*
+*The lesson here is not that "robotaxis are good" or "robotaxis are bad."* The lesson is that **trust is an engineering requirement**. Cruise's technology and Waymo's were comparable; what differed was safety culture, transparency with regulators, and pacing. One incident, handled badly, ended a $10 billion program. *(Status as of mid-2026.)*
 
 ---
 
@@ -134,7 +134,7 @@ If an autonomous vehicle must choose between two harmful outcomes, how should it
 - Follow traffic laws regardless of consequences?
 
 :::{warning} No Easy Answers
-These decisions encode values into software. Who should make these choices? Engineers? Lawmakers? Society? (Notice that the *real* Cruise failure wasn't a trolley-problem edge case — it was organizational: what the company did *after* the crash. Ethics in autonomy is mostly about institutions, not just algorithms.)
+These decisions encode values into software. Who should make these choices? Engineers? Lawmakers? Society? (The *real* Cruise failure wasn't a trolley-problem edge case; it was organizational: what the company did *after* the crash. Ethics in autonomy is mostly about institutions, not just algorithms.)
 :::
 
 ### Employment Implications
@@ -152,7 +152,7 @@ But they may also create new jobs in:
 
 ### 🗝️ Key Terms This Week
 
-*Autonomous system · SAE levels · Sensor · Actuator · LIDAR · Data fusion · Geofencing* — see the [Glossary](../glossary.md).
+*Autonomous system · SAE levels · Sensor · Actuator · LIDAR · Data fusion · Geofencing*: see the [Glossary](../glossary.md).
 
 ---
 
@@ -165,11 +165,11 @@ But they may also create new jobs in:
 | Research Report | Due soon | See syllabus for date |
 
 :::{tip} Reflection Prompt
-Would you ride in a fully autonomous vehicle today? Does your answer change knowing the Waymo/Cruise story? What would need to be true — technically, legally, institutionally — for you to trust these systems more (or less)?
+Would you ride in a fully autonomous vehicle today? Does your answer change knowing the Waymo/Cruise story? What would need to be true, technically, legally, and institutionally, for you to trust these systems more (or less)?
 :::
 
 ---
 
 ## Looking Ahead
 
-Next week, we explore **Artificial Intelligence** more broadly—its capabilities, limitations, and implications for society.
+Next week, we explore **Artificial Intelligence** more broadly: its capabilities, limitations, and implications for society.

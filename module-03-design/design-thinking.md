@@ -6,7 +6,7 @@
 
 ## The Big Picture
 
-Why do some doors have handles that suggest pulling when you need to push? Why do some apps feel intuitive while others frustrate you? The answer lies in **design**—and design decisions have real consequences.
+Why do some doors have handles that suggest pulling when you need to push? Why do some apps feel intuitive while others frustrate you? The answer lies in **design**, and design decisions have real consequences.
 
 This week, we explore design thinking, human-computer interaction (HCI), and value-sensitive design.
 
@@ -22,7 +22,7 @@ This week, we explore design thinking, human-computer interaction (HCI), and val
 
 - Can we design an experience? Or do we design *for* an experience?
 - What ethical responsibilities do designers have?
-- How do deceptive patterns manipulate users—and what happens when regulators push back?
+- How do deceptive patterns manipulate users, and what happens when regulators push back?
 - What changes about design when the interface is a *conversation with an AI*?
 
 ---
@@ -114,17 +114,17 @@ Computing that relates to, arises from, or deliberately influences emotion. UX f
 A new frontier for UX: when the interface is a chat box or a voice, most of Norman's visual vocabulary disappears. Designers of AI products wrestle with new questions:
 
 - **Discoverability**: How does a user know what an AI assistant *can* do? (There are no buttons to see!)
-- **Feedback & trust**: How should a system communicate *confidence* — and admit when it might be wrong?
+- **Feedback & trust**: How should a system communicate *confidence*, and admit when it might be wrong?
 - **Signifiers for the invisible**: What cues tell you content is AI-generated?
 - **Agency**: When an AI acts on your behalf, how much control should you keep?
 
-Try applying Nielsen's heuristics to an AI chatbot you've used — you'll find several are surprisingly hard to satisfy.
+Try applying Nielsen's heuristics to an AI chatbot you've used; you'll find several are surprisingly hard to satisfy.
 
 ---
 
 ## Value-Sensitive Design
 
-Design isn't neutral—it embeds values. Consider:
+Design isn't neutral: it embeds values. Consider:
 
 - **Who benefits** from design decisions?
 - **Who is excluded** by design choices?
@@ -132,22 +132,22 @@ Design isn't neutral—it embeds values. Consider:
 - **What assumptions** does the design make about users?
 
 :::{warning} Deceptive Patterns (formerly "Dark Patterns")
-Some designs intentionally manipulate users—the field now calls these **deceptive patterns**. Examples include:
+Some designs intentionally manipulate users; the field now calls these **deceptive patterns**. Examples include:
 - Trick questions in forms
 - Hidden costs revealed at checkout
 - Difficult unsubscribe or cancellation processes
 - Shame-based opt-outs ("No thanks, I don't want to save money")
 
-This is no longer just a design-ethics debate — it's law. The FTC sued Amazon over its Prime enrollment and cancellation flow (the internally-named "Iliad" process), and in September 2025 Amazon settled for **\$2.5 billion** — a \$1 billion penalty plus \$1.5 billion in customer refunds ([FTC](https://www.ftc.gov/news-events/news/press-releases/2025/09/ftc-secures-historic-25-billion-settlement-against-amazon)). In the EU, the Digital Services Act now explicitly bans deceptive interface design. Design decisions have consequences — sometimes ten-figure ones.
+This debate has moved beyond design ethics and into law. The FTC sued Amazon over its Prime enrollment and cancellation flow (the internally-named "Iliad" process), and in September 2025 Amazon settled for **\$2.5 billion**: a \$1 billion penalty plus \$1.5 billion in customer refunds ([FTC](https://www.ftc.gov/news-events/news/press-releases/2025/09/ftc-secures-historic-25-billion-settlement-against-amazon)). In the EU, the Digital Services Act now explicitly bans deceptive interface design. Design decisions have consequences, sometimes ten-figure ones.
 :::
 
 ### 📌 Case Study Box
 
-Pick one pattern from [deceptive.design](https://www.deceptive.design/) and find a live example in an app or site you use. What value is the design serving — yours, or the company's? *(Swap in a fresh enforcement case each year — there will be one.)*
+Pick one pattern from [deceptive.design](https://www.deceptive.design/) and find a live example in an app or site you use. What value is the design serving: yours, or the company's? *(Swap in a fresh enforcement case each year; there will be one.)*
 
 ### 🗝️ Key Terms This Week
 
-*Affordance · Signifier · Design thinking · HCI · UI · UX · Deceptive pattern · Value-sensitive design* — see the [Glossary](../glossary.md).
+*Affordance · Signifier · Design thinking · HCI · UI · UX · Deceptive pattern · Value-sensitive design*; see the [Glossary](../glossary.md).
 
 ---
 
@@ -167,4 +167,4 @@ Find an example of good OR bad design in your daily life. Describe it using Norm
 
 ## Looking Ahead
 
-Next week, we dive into **databases**—how information is organized, stored, and retrieved. You'll get hands-on with SQL!
+Next week, we dive into **databases**: how information is organized, stored, and retrieved. You'll get hands-on with SQL!
