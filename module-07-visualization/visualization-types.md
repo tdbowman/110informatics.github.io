@@ -5,8 +5,69 @@ Not all visualizations are created equal, and choosing the wrong type can confus
 ## 🎯 In This Section
 
 - Match common chart types to the questions they answer best
+- Learn a professional framework for classifying visualizations (Börner & Polley 2014)
+- Understand graphic variables: the raw ingredients every chart is built from
 - Use a decision guide to pick the right visualization
 - Spot the most common charting mistakes, human- and AI-made
+
+---
+
+## A Framework Before the Zoo
+
+Before touring individual chart types, it helps to have a map of the territory. In *Visual Insights*, Katy Börner and David Polley offer a practical framework used by professional visualization designers (Börner & Polley 2014). Their starting observation: visualizations can be grouped by the user's insight needs, by task type, or by the kind of data being visualized. In other words, classify by the *question*, not just the picture.
+
+### Three Levels of Analysis: Micro, Meso, Macro
+
+One axis of the framework is scale. How much of the world are you looking at?
+
+| Level | Scale | Rough size | Example |
+|-------|-------|-----------|---------|
+| **Micro** | Individual level | Small datasets, up to about 100 records | One student's study hours across a semester |
+| **Meso** | Group level | Up to about 10,000 records | All INF 110 sections over a decade |
+| **Macro** | Global or population level | Beyond 10,000 records | Every course enrollment in US higher education |
+
+Treat these cutoffs as **conventions, not laws of nature**. Nobody's chart breaks when a dataset hits record 101. The point is that different scales call for different designs: at micro scale you can label every data point by name; at macro scale individual points dissolve into density, and your job becomes showing the shape of the whole. Some of the most interesting visualizations deliberately connect levels, letting you see the population pattern and then zoom to your own dot in it.
+
+### Five Types of Analysis
+
+The other axis is the *kind of question* you're asking. Börner and Polley identify five, and almost any data question you'll ever ask falls into one (or a combination):
+
+**1. Statistical analysis** asks "how much, how many, how do these compare?" It profiles a dataset: distributions, averages, outliers, correlations. Its natural visualizations are the workhorse charts: bar charts, histograms, box plots, scatter plots. Example: a histogram of exam scores showing that the class splits into two clusters.
+
+**2. Temporal analysis** asks "when, and how is it changing?" Time is the organizing dimension. Its signature visualization is the line graph, along with timelines and area charts. Example: a line graph of a city's average temperature across 50 years, making a warming trend visible as a slope.
+
+**3. Geospatial analysis** asks "where?" Data is anchored to physical locations using latitude and longitude. Its visualizations are maps: choropleth maps, dot maps, heat maps. Example: John Snow's cholera map (which you'll meet again below), where *where* the deaths were was the entire discovery.
+
+**4. Topical analysis** asks "what is this about?" It works on text and themes: what topics appear, how often, and how they relate. Its visualizations include word clouds, topic maps, and thematic landscapes. Example: a map of thousands of research papers where papers on similar subjects cluster together, revealing the structure of a scientific field.
+
+**5. Network analysis** asks "who or what is connected to whom?" The data is relationships. Its visualization is the network graph: nodes and edges. Example: a graph of who follows whom in a friend group, instantly revealing who bridges otherwise separate circles.
+
+When you face a new dataset, running through this list ("is my question statistical? temporal? spatial? topical? relational?") does half the chart-choosing work for you. The decision guide later in this page is really this framework in disguise.
+
+---
+
+## Graphic Variables: The Alphabet of Charts
+
+Every chart, no matter how fancy, is built from a small alphabet of visual encodings that Börner and Polley call **graphic variable types**:
+
+- **Position**: where a mark sits along the x, y, or z axis
+- **Form**: the mark's size and shape
+- **Color**: its hue (which color), value (how light or dark), and saturation (how intense)
+- **Texture**: pattern, orientation, or density of fill
+- **Optics**: crispness, transparency, shading
+
+A scatter plot is just position twice. A bubble chart adds size. A choropleth map is position (geographic) plus color value. Once you see charts as combinations of these ingredients, you can read unfamiliar visualizations by decoding one variable at a time.
+
+The crucial fact: **we do not read all graphic variables equally well.** Decades of perception research (the same tradition as Ware's work in the previous section) give a rough accuracy ranking:
+
+1. **Position** on a common scale (most accurate: this is why scatter plots and dot plots work so well)
+2. **Length** (bar charts live here)
+3. **Angle and slope** (pie chart slices; line steepness)
+4. **Area** (bubble sizes: people consistently misjudge these)
+5. **Color value and saturation** (fine for showing "more vs. less," bad for exact values)
+6. **Color hue** (great for *categories*, nearly useless for *quantities*)
+
+This ranking explains most chart advice you'll ever hear. "Prefer bar charts to pie charts" is just "length beats angle." "Don't encode quantity with rainbow colors" is just "hue can't carry numbers." Design isn't about decorating data; it's about spending your most accurate encodings on your most important variables.
 
 ---
 

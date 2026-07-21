@@ -8,6 +8,8 @@
 ## 🎯 In This Section
 
 - Understand the two purposes of visualization: exploration and communication
+- Learn the perceptual science of why visualization works (Ware 2013)
+- Follow the visualization pipeline from raw data to human perception
 - Recognize when visualizations illuminate, and when they mislead
 - Trace the surprisingly long history of showing data visually
 
@@ -29,6 +31,43 @@ Why put debunked claims in a textbook? Because they're *perfect specimens*. They
 :::
 
 Think about the last time you checked the weather. Did you read a paragraph describing atmospheric conditions? Or did you glance at a sunny icon and a temperature number? That icon and number are a small piece of visualization doing its job.
+
+---
+
+## Why Visualization Actually Works: Ware's Argument
+
+So if the famous statistics are bogus, what's the *real* scientific case for visualization? The clearest version comes from Colin Ware, a researcher who spent his career studying the perception side of visualization (Ware 2013). His argument has three parts.
+
+### 1. Vision is your highest-bandwidth channel
+
+Ware puts it directly: visual displays provide the highest-bandwidth channel from the computer to the human. We acquire more information through vision than through all the other senses combined. Reading a table of numbers forces that firehose of visual machinery to trickle through one number at a time. A chart lets it run at full capacity.
+
+Part of the reason is **preattentive processing**: your visual system detects certain features (a red dot among gray ones, one bar much taller than the rest, an outlier far from the cluster) in a fraction of a second, *before* conscious attention kicks in. You don't search for the tall bar; it pops out at you. Good visualizations are engineered so that the important thing is the thing that pops.
+
+The other reason is **pattern recognition**. Human vision is spectacular at spotting trends, clusters, gaps, and shapes, even in noisy input. A scatter plot with an upward drift is instantly legible as "these two things rise together." The same relationship buried in two columns of numbers might take minutes of squinting, or never be noticed at all. Tukey's epigraph at the top of this page is really about pattern recognition: pictures force us to notice what we never expected to see.
+
+### 2. Thinking happens partly outside your head
+
+Ware's second point is subtler and, once you see it, everywhere: thinking is not something that goes on entirely, or even mostly, inside people's heads. Little intellectual work gets done with our eyes and ears closed. Most cognition is an interaction with **cognitive tools**: paper, whiteboards, calculators, screens.
+
+A visualization is exactly such a tool. The word "visualization" used to mean an image constructed *in the mind*; it has come to mean an external artifact, a picture on a screen that supports decision making. When you sketch a problem out, you *offload* part of your thinking onto the page, freeing your limited working memory to do the judging and comparing. A chart is thinking made external.
+
+### 3. Therefore: design for perception
+
+If visualization works because of how human vision works, then chart design isn't a matter of taste. Some encodings genuinely match our perceptual machinery better than others, which is why the next page can give you real rules (bar lengths beat pie angles, position beats color) rather than mere opinions.
+
+---
+
+## The Visualization Pipeline
+
+Where does a chart actually come from? Ware describes the visualization process as a small pipeline with a human at the end (Ware 2013):
+
+1. **Collect and store the data.** Everything from Module 6 applies here: where the data came from and what's missing will haunt every later stage.
+2. **Preprocess and transform.** Raw data is rarely chart-ready. It gets cleaned, filtered, aggregated, and subset. **Data exploration** is the act of changing which subset you're currently viewing.
+3. **Map data to a visual form.** Algorithms turn the selected data into marks on a screen: bars, points, lines, colors. Every choice here (chart type, scale, color) is an argument about what matters.
+4. **The human perceives.** The final component of the system isn't software at all: it's the perceptual and cognitive system of the person looking at the screen.
+
+Crucially, the pipeline runs in **loops**, not a straight line. The viewer notices something odd, adjusts the view, filters differently, and looks again. Exploration is exactly this feedback cycle spinning fast. Even in communication mode, good designers loop: draft the chart, show a colleague, watch where their eyes go, revise. If your first chart is your final chart, you probably skipped the most valuable part of the process.
 
 ---
 

@@ -13,6 +13,7 @@ This week, we're diving into the art and science of **data visualization**. You'
 ### 🎯 What You'll Learn
 
 - Why visualizations are powerful tools for communication
+- How professionals design visualizations around a user's question, not just the data
 - The difference between **infographics** and **data visualizations**
 - How to recognize (and avoid!) misleading charts, including AI-generated ones
 - The building blocks: charts, graphs, maps, and networks
@@ -57,6 +58,24 @@ These go deeper into the ethics and challenges of visualization:
 - [Graphics That Seem Clear Can Easily Be Misread](https://www.scientificamerican.com/article/graphics-that-seem-clear-can-easily-be-misread/) – Scientific American
 - [It's Time for Data Visualizations to Be More Inclusive of Gender](https://www.poynter.org/reporting-editing/2021/its-time-for-data-visualizations-to-be-more-inclusive-of-gender-information/) – Poynter
 - [Information Overload Helps Fake News Spread](https://www.scientificamerican.com/article/information-overload-helps-fake-news-spread-and-social-media-knows-it/) – Scientific American
+
+---
+
+## Start with the Question, Not the Data
+
+Here is the most common beginner mistake in visualization: opening a dataset and asking "what charts can I make from this?" Professionals work in the opposite direction. Börner and Polley call this a **needs-driven workflow** (Börner & Polley 2014): the process begins with a *user* and an *insight need*, not with the data.
+
+The workflow runs roughly like this:
+
+1. **Identify the stakeholder and their question.** Who will look at this, and what decision or curiosity drives them? "The residence hall director wants to know when the laundry rooms are busiest" is a question; "I have laundry data" is not.
+2. **Acquire and prepare the data** that can actually answer that question (and be honest when it can't).
+3. **Analyze** using whichever of the five analysis types fits: statistical, temporal, geospatial, topical, or network (you'll meet these in [Types of Visualizations](visualization-types.md)).
+4. **Design the visualization**, choosing encodings that make the answer visible at a glance.
+5. **Deploy and interpret with the user**, then watch what they actually do with it.
+
+And then, almost always, you go around again. As Börner and Polley put it, information visualization is an **iterative process**. The first version of a chart teaches you what the second version should be: the stakeholder squints at a legend, asks a question the chart can't answer, or spots something you didn't expect (Tukey would be pleased). Treat version one as a conversation starter, not a deliverable.
+
+Keep this workflow in mind through the whole module. Every technique in the following pages, from chart choice to color, is in service of step 1: someone's actual question.
 
 ---
 
