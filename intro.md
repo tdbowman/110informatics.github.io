@@ -36,7 +36,7 @@ Throughout this course, you'll explore fascinating questions like:
 
 ## Ready to Begin?
 
-Use the navigation on the left to explore the modules, or check out [How to Use This Book](how-to-use.md) if you want to learn how to get the most out of this interactive book.
+Use the navigation on the left to explore the modules, check out [How to Use This Book](how-to-use.md) to get the most out of this interactive book, or see [Assignments & Course Timeline](assignments-and-timeline.md) for the full picture of what's due and when.
 
 :::{tip} A Note from Dr. Bowman
 Welcome! I'm excited to be your guide through the Foundations of Informatics. This course is about technology, but it's also about *you* and how you interact with the information systems that shape our world. Bring your curiosity, your questions, and your unique perspective. Let's learn together!

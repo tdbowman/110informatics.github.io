@@ -39,6 +39,7 @@ project:
       children:
         - file: about-this-book.md
         - file: how-to-use.md
+        - file: assignments-and-timeline.md
     - title: 'Part 1: Foundations'
       children:
         - file: module-01-intro/intro-to-informatics.md
