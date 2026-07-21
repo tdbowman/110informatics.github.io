@@ -1,6 +1,6 @@
 # Module 3: Design Thinking & UI/UX 🎨
 
-**Week of January 20 | How Technology is Designed**
+**Week 3 | How Technology is Designed**
 
 ---
 
@@ -16,14 +16,14 @@ This week, we explore design thinking, human-computer interaction (HCI), and val
 - Learn the principles of good design from Don Norman
 - Explore the design thinking process
 - Consider how design can reflect (or challenge) values
-- Acknowledge the importance of thinking about design in your everyday life
+- Recognize deceptive design patterns and the rules now being written against them
 
 ### 🧠 Big Questions to Consider
 
 - Can we design an experience? Or do we design *for* an experience?
 - What ethical responsibilities do designers have?
-- How do "dark patterns" manipulate users?
-- What makes something "cool"?
+- How do deceptive patterns manipulate users—and what happens when regulators push back?
+- What changes about design when the interface is a *conversation with an AI*?
 
 ---
 
@@ -62,8 +62,8 @@ Read Norman chapters and watch the videos. Notice bad design around you this wee
 ### 🤔 Make You Think (Optional)
 
 - [The Questions Concerning Technology](https://theconvivialsociety.substack.com/p/the-questions-concerning-technology)
-- [The Dark Side of UX: Addressing Controversies](https://bootcamp.uxdesign.cc/the-dark-side-of-ux-addressing-controversies-and-promoting-transparency-b206c8b2745c)
-- [Confronting Epistemic Injustice with Humanistic Personalization](https://towardsdatascience.com/confronting-epistemic-injustice-with-humanistic-personalization-6a6cf40d22aa)
+- [Deceptive Patterns](https://www.deceptive.design/) – Harry Brignull's catalog of manipulative design (with a hall of shame!)
+- [10 Usability Heuristics for User Interface Design](https://www.nngroup.com/articles/ten-usability-heuristics/) – Nielsen Norman Group
 
 ---
 
@@ -90,7 +90,7 @@ A non-linear, iterative process involving five phases:
 
 ### Nielsen's Usability Heuristics
 
-Ten principles for good interface design:
+Ten principles for good interface design ([Nielsen Norman Group](https://www.nngroup.com/articles/ten-usability-heuristics/)):
 
 1. Visibility of system status
 2. Match between system and real world
@@ -109,6 +109,17 @@ Computing that relates to, arises from, or deliberately influences emotion. UX f
 - Emotions as consequences of product use
 - Emotions as antecedents of use and judgments
 
+### Designing With (and For) AI
+
+A new frontier for UX: when the interface is a chat box or a voice, most of Norman's visual vocabulary disappears. Designers of AI products wrestle with new questions:
+
+- **Discoverability**: How does a user know what an AI assistant *can* do? (There are no buttons to see!)
+- **Feedback & trust**: How should a system communicate *confidence* — and admit when it might be wrong?
+- **Signifiers for the invisible**: What cues tell you content is AI-generated?
+- **Agency**: When an AI acts on your behalf, how much control should you keep?
+
+Try applying Nielsen's heuristics to an AI chatbot you've used — you'll find several are surprisingly hard to satisfy.
+
 ---
 
 ## Value-Sensitive Design
@@ -120,13 +131,23 @@ Design isn't neutral—it embeds values. Consider:
 - **What behaviors** does the design encourage or discourage?
 - **What assumptions** does the design make about users?
 
-:::{warning} Dark Patterns
-Some designs intentionally manipulate users—these are called "dark patterns." Examples include:
+:::{warning} Deceptive Patterns (formerly "Dark Patterns")
+Some designs intentionally manipulate users—the field now calls these **deceptive patterns**. Examples include:
 - Trick questions in forms
 - Hidden costs revealed at checkout
-- Difficult unsubscribe processes
+- Difficult unsubscribe or cancellation processes
 - Shame-based opt-outs ("No thanks, I don't want to save money")
+
+This is no longer just a design-ethics debate — it's law. The FTC sued Amazon over its Prime enrollment and cancellation flow (the internally-named "Iliad" process), and in September 2025 Amazon settled for **\$2.5 billion** — a \$1 billion penalty plus \$1.5 billion in customer refunds ([FTC](https://www.ftc.gov/news-events/news/press-releases/2025/09/ftc-secures-historic-25-billion-settlement-against-amazon)). In the EU, the Digital Services Act now explicitly bans deceptive interface design. Design decisions have consequences — sometimes ten-figure ones.
 :::
+
+### 📌 Case Study Box
+
+Pick one pattern from [deceptive.design](https://www.deceptive.design/) and find a live example in an app or site you use. What value is the design serving — yours, or the company's? *(Swap in a fresh enforcement case each year — there will be one.)*
+
+### 🗝️ Key Terms This Week
+
+*Affordance · Signifier · Design thinking · HCI · UI · UX · Deceptive pattern · Value-sensitive design* — see the [Glossary](../glossary.md).
 
 ---
 

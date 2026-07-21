@@ -1,12 +1,12 @@
 # Module 5: Accessibility & Inclusion ♿
 
-**Week of February 3 | Designing for Everyone**
+**Week 5 | Designing for Everyone**
 
 ---
 
 ## The Big Picture
 
-Over 1 billion people worldwide experience some form of disability. When technology isn't designed with accessibility in mind, it creates barriers that exclude people from education, employment, and social connection.
+An estimated 1.3 billion people worldwide — about 16% of everyone alive — experience significant disability ([WHO](https://www.who.int/news-room/fact-sheets/detail/disability-and-health)). When technology isn't designed with accessibility in mind, it creates barriers that exclude people from education, employment, and social connection.
 
 This week, we explore how to design information systems that work for everyone.
 
@@ -31,15 +31,15 @@ This week, we explore how to design information systems that work for everyone.
 
 ### The Numbers
 
-- **1 in 4** US adults has a disability
-- **15%** of the world's population experiences disability
+- **1 in 4** US adults has a disability ([CDC](https://www.cdc.gov/disability-and-health/articles-documents/disability-impacts-all-of-us-infographic.html))
+- **1.3 billion people / 16%** of the world's population experiences significant disability ([WHO, 2023](https://www.who.int/news-room/fact-sheets/detail/disability-and-health))
 - **100%** of us will likely experience temporary or situational disability
 
 ### It's the Law
 
 - **Section 508**: US federal agencies must make technology accessible
-- **ADA**: Americans with Disabilities Act applies to digital spaces
-- **WCAG**: Web Content Accessibility Guidelines (international standard)
+- **ADA Title II web rule (2024)**: In April 2024, the Department of Justice issued a landmark rule requiring state and local governments — including public universities — to make their web content and mobile apps conform to **WCAG 2.1 Level AA** ([ADA.gov](https://www.ada.gov/resources/2024-03-08-web-rule/)). Compliance deadlines were extended in 2026 to **April 2027** (larger entities) and **April 2028** (smaller ones) — in other words, this is being implemented *right now*, and people who understand it are in demand.
+- **WCAG**: Web Content Accessibility Guidelines — the international standard. The current version is **WCAG 2.2** ([W3C](https://www.w3.org/TR/WCAG22/)), though US regulations reference 2.1 AA.
 
 ### It's Good Design
 
@@ -59,6 +59,12 @@ Accessible design often benefits everyone:
 | **Motor** | Limited mobility, tremors | Keyboard navigation, voice control, switches |
 | **Cognitive** | Learning disabilities, attention disorders | Simple layouts, clear language, consistent navigation |
 
+:::{note} 🤖 AI as Assistive Technology — Promise and Peril
+AI has produced some of the most meaningful accessibility advances in decades: apps that describe the visual world aloud for blind users (like Be My Eyes' AI mode), real-time AI captioning of any conversation, and voice interfaces that give hands-free control of devices.
+
+But AI has also enabled a shortcut industry. "Accessibility overlay" widgets promised to make any website compliant with one line of code — and in 2025 the FTC ordered overlay vendor accessiBe to pay **$1 million** for falsely claiming its widget could make any site WCAG-compliant ([FTC](https://www.ftc.gov/news-events/news/press-releases/2025/04/ftc-approves-final-order-requiring-accessibe-pay-1-million)). The lesson is very informatics: real accessibility is a design practice, not a product you bolt on.
+:::
+
 ---
 
 ## Accessible vs. Inclusive Design
@@ -76,6 +82,8 @@ Creating content that is **mindful of a broad range** of users, their abilities,
 *Example: Designing a form that doesn't assume binary gender, specific name formats, or physical addresses*
 
 > Inclusiveness doesn't just question if a user CAN use something—it goes further to consider if they WANT to use something.
+
+Microsoft's [Inclusive Design toolkit](https://inclusive.microsoft.design/) offers the classic illustration: disability can be **permanent** (one arm), **temporary** (arm injury), or **situational** (holding a baby) — design for one and you help all three.
 
 ---
 
@@ -107,16 +115,16 @@ WCAG is organized around four principles—**POUR**:
 
 | Resource | Type | Notes |
 |----------|------|-------|
-| Introduction to Web Accessibility | Video | W3C overview |
-| WCAG 2.1 Guidelines | Reference | International standard |
-| Screen Reader Demo | Video | Experience using assistive tech |
-| Inclusive Design Toolkit | Interactive | Microsoft's design resources |
+| [W3C: Introduction to Web Accessibility](https://www.w3.org/WAI/fundamentals/accessibility-intro/) | Reading | The standard-setters' overview |
+| [WCAG 2.2 Guidelines](https://www.w3.org/TR/WCAG22/) | Reference | The current international standard |
+| [DOJ fact sheet: ADA web rule](https://www.ada.gov/resources/2024-03-08-web-rule/) | Reading | The 2024 rule, in plain language |
+| [Microsoft Inclusive Design](https://inclusive.microsoft.design/) | Interactive | The inclusive design toolkit |
 
 ### 🤔 Make You Think
 
 - [The Curb Cut Effect](https://ssir.org/articles/entry/the_curb_cut_effect): How designing for disability benefits everyone
 - How do algorithms perpetuate ableism?
-- What does accessibility look like for AI systems?
+- Voice assistants struggle far more with some accents and speech patterns than others — what does "accessible AI" require?
 
 ---
 
@@ -133,6 +141,10 @@ Quick tests you can do:
 :::{tip} Try It!
 Turn on VoiceOver (Mac) or Narrator (Windows) and try navigating a website you use frequently. What works? What's frustrating?
 :::
+
+### 🗝️ Key Terms This Week
+
+*Accessibility · Assistive technology · WCAG · POUR · Alt text · Inclusive design · Universal design* — see the [Glossary](../glossary.md).
 
 ---
 

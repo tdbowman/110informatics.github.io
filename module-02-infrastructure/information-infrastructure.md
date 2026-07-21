@@ -1,6 +1,6 @@
 # Module 2: Information Infrastructure & Society 🏗️
 
-**Week of January 13 | Technology Embedded in Society**
+**Week 2 | Technology Embedded in Society**
 
 ---
 
@@ -34,6 +34,12 @@ Technology comes with costs that involve:
 - **Infrastructure**: A vast technological network spanning the globe
 - **Social Changes**: Shifts in how we work, communicate, and live
 
+:::{important} 📌 Case Study: The AI Data Center Boom
+The rise of generative AI has turned data centers into front-page news. Training and running AI models requires enormous computing power, and the International Energy Agency projects that global data centre electricity use could roughly double by 2030 — approaching the annual electricity consumption of Japan ([IEA, *Energy and AI*](https://www.iea.org/reports/energy-and-ai/energy-demand-from-ai)). Communities across the US are now debating the water, power, land, and noise costs of proposed AI campuses ([Pew Research: energy use at U.S. data centers](https://www.pewresearch.org/short-reads/2025/10/24/what-we-know-about-energy-use-at-us-data-centers-amid-the-ai-boom/)).
+
+*Discussion:* Every AI answer you get has a physical footprint somewhere. Who bears those costs, and who reaps the benefits? *(Case study current as of mid-2026 — check for newer figures!)*
+:::
+
 ---
 
 ## This Week's Journey
@@ -46,11 +52,10 @@ Complete the readings and videos below. Pay attention to the *physical* nature o
 
 | Resource | Type | Notes |
 |----------|------|-------|
-| [Bridging the Digital Divide](https://www.pbs.org/) | Video (26 min) | PBS documentary on access inequality |
-| [The Internet Lives in a Huge Hotel in Manhattan](https://www.wired.com/) | Article | WIRED's look at 60 Hudson Street |
-| [Peter Garritano's photo series "The Internet"](https://www.petergarritano.com/) | Photo Essay | Visual exploration of internet infrastructure |
-| [World's Largest Data Center: 350 E. Cermak](https://www.datacenterknowledge.com/) | Article | Chicago's massive data center |
-| [12 Largest Data Centers In The World](https://www.rankred.com/) | Article | Scale of global data infrastructure |
+| [Bridging the Digital Divide](https://www.pbs.org/video/bridging-the-digital-divide-36dhyl/) | Video (26 min) | PBS documentary on access inequality |
+| [Inside the New York 'Hotels' Where the Internet Lives](https://time.com/4276215/internet-hotels/) | Photo Essay | TIME feature with Peter Garritano's photos of carrier hotels |
+| [Chicago's Data Fortress for the Digital Economy](https://www.datacenterknowledge.com/business/chicago-s-data-fortress-for-the-digital-economy) | Article | 350 E. Cermak — one of the world's largest carrier hotels, right here in Chicago |
+| [What we know about energy use at U.S. data centers](https://www.pewresearch.org/short-reads/2025/10/24/what-we-know-about-energy-use-at-us-data-centers-amid-the-ai-boom/) | Article | Pew Research on the AI-era energy question |
 
 ### 🗺️ Explore: Internet Maps
 
@@ -62,7 +67,7 @@ Complete the readings and videos below. Pay attention to the *physical* nature o
 
 - [Impact of the Digital Divide](https://ctu.ieee.org/impact-of-the-digital-divide-economic-social-and-educational-consequences/) – IEEE
 - [The Case for Investing in Digital Public Infrastructure](https://hbr.org/2023/05/the-case-for-investing-in-digital-public-infrastructure) – Harvard Business Review
-- [Experts Say the 'New Normal' Will Be Far More Tech-Driven](https://www.pewresearch.org/internet/2021/02/18/experts-say-the-new-normal-in-2025-will-be-far-more-tech-driven-presenting-more-big-challenges/) – Pew Research
+- [Experts Say the 'New Normal' in 2025 Will Be Far More Tech-Driven](https://www.pewresearch.org/internet/2021/02/18/experts-say-the-new-normal-in-2025-will-be-far-more-tech-driven-presenting-more-big-challenges/) – Pew Research. **Time-capsule exercise:** these predictions were made in early 2021, *about a year the world has now lived through*. Which predictions held up? Which missed completely? What does that teach us about forecasting technology?
 
 ---
 
@@ -88,6 +93,10 @@ The gap between those who have access to modern information and communication te
 - **Skills Divide**: Ability to effectively use technology
 - **Usage Divide**: How people use technology (entertainment vs. empowerment)
 
+:::{warning} Policy Snapshot: The Affordable Connectivity Program
+The ACP — a federal subsidy that helped over 23 million US households afford internet access — ran out of funding and ended on June 1, 2024, after Congress declined to renew it ([FCC](https://www.fcc.gov/affordable-connectivity-program)). Millions of households lost their broadband subsidy overnight. As you watch the digital divide documentary, consider: what happens to the divide when support programs disappear?
+:::
+
 ---
 
 ## 🔗 Interesting Links: Internet History
@@ -97,11 +106,16 @@ The gap between those who have access to modern information and communication te
 | 1969 | ARPANET launched |
 | 1971 | First email sent (Ray Tomlinson) |
 | 1983 | TCP/IP adopted, unified internet |
-| 1993 | World Wide Web goes public |
-| 1993 | [First website](https://info.cern.ch/) (CERN) |
+| 1991 | [First website](https://info.cern.ch/) goes live at CERN |
+| 1993 | CERN releases the World Wide Web into the public domain — the web goes public |
 | 2005 | [First YouTube video](https://www.youtube.com/watch?v=jNQXAC9IVRw) |
-| 2006 | [First tweet](https://twitter.com/jack/status/20) |
-| 2010 | [First Instagram photo](https://www.instagram.com/p/G/) |
+| 2006 | [First tweet](https://web.archive.org/web/2023/https://twitter.com/jack/status/20) (via Internet Archive — Twitter is now X) |
+| 2010 | [First Instagram photo](https://web.archive.org/web/2023/https://www.instagram.com/p/G/) (via Internet Archive) |
+| 2022 | ChatGPT launches — generative AI goes mainstream |
+
+### 🗝️ Key Terms This Week
+
+*Infrastructure · Data center · Internet Exchange Point · Digital divide · Bandwidth* — see the [Glossary](../glossary.md).
 
 ---
 

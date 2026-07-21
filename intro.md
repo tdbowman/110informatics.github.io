@@ -24,7 +24,7 @@ Throughout this course, you'll explore fascinating questions like:
 - 🌐 **How does the internet actually work?** (Hint: it involves a lot of really big buildings)
 - 🎨 **Why do some apps feel easy to use while others frustrate you?**
 - 🔐 **Who has access to your data, and should you care?**
-- 🤖 **How is AI changing the way we find and use information?**
+- 🤖 **When an AI answers your questions, acts on your behalf, or generates your entertainment — who's in control, and who's responsible?**
 
 ## How This Book Works
 
@@ -44,4 +44,4 @@ Welcome! I'm excited to be your guide through the Foundations of Informatics. Th
 
 ---
 
-*This book was built with [Jupyter Book](https://jupyterbook.org) using [MyST Markdown](https://myst-parser.readthedocs.io/).*
+*Revised Summer 2026 for the Winter 2027 offering. Built with [Jupyter Book](https://jupyterbook.org) / [MyST Markdown](https://mystmd.org/).*

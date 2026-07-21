@@ -1,250 +1,47 @@
-# INF 110: Foundations of Informatics - Interactive Textbook
+# INF 110: Foundations of Informatics — Interactive Textbook
 
-An interactive online textbook built with [Jupyter Book](https://jupyterbook.org/) for INF 110 at Dominican University.
+The online textbook for **INF 110 Foundations of Informatics** at Dominican University (Dr. Timothy D. Bowman), built with [Jupyter Book / MyST](https://mystmd.org/) and published via GitHub Pages.
 
-## 🚀 Quick Start
+**Live site:** https://tdbowman.github.io/110informatics.github.io/
 
-### Prerequisites
+## Structure
 
-- Python 3.9 or higher
-- Git
+- `myst.yml` — the single source of configuration **and the table of contents**. Add/remove/reorder chapters here.
+- `intro.md` — the landing page.
+- `module-NN-topic/` — one folder per module; the chapter file inside carries a meaningful name (e.g., `module-08-search/search-and-retrieval.md`) so page URLs are readable and stable.
+- `module-07-visualization/hands-on-charts.ipynb` — the interactive notebook. Its outputs are committed, so charts render on the static site; students can also open it in Colab.
+- `data/` — datasets used by notebooks (vendored so the book has no third-party data dependencies).
+- `glossary.md`, `references.md`, `course-wrapup.md` — back matter.
+- `.github/workflows/deploy.yml` — builds and deploys the site on every push to `main` (uses the npm `jupyter-book` CLI, i.e., the MyST engine).
 
-### Local Development
+## Editing workflow
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/yourusername/inf110-textbook.git
-   cd inf110-textbook
-   ```
+1. Edit or add markdown/notebook files.
+2. If you added or renamed a file, update `toc:` in `myst.yml`.
+3. Preview locally (optional): `npm install -g jupyter-book`, then `jupyter-book start`.
+4. Commit and push to `main` — GitHub Actions rebuilds and deploys automatically (takes a few minutes).
 
-2. **Create a virtual environment** (recommended)
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   ```
+### Re-running the notebook
 
-3. **Install dependencies**
-   ```bash
-   pip install -r requirements.txt
-   ```
+If you edit `hands-on-charts.ipynb` code, re-execute it before committing so the site shows fresh outputs:
 
-4. **Build the book**
-   ```bash
-   jupyter-book build .
-   ```
+```bash
+pip install jupyter pandas matplotlib
+jupyter nbconvert --to notebook --execute --inplace module-07-visualization/hands-on-charts.ipynb
+```
 
-5. **View locally**
-   Open `_build/html/index.html` in your browser
+## Annual refresh checklist (start of each offering)
+
+- [ ] Anything marked **"as of"** in the text — legal statuses, AI landscape tables, deployment snapshots
+- [ ] The 📌 case study boxes (designed to be swapped without touching surrounding prose)
+- [ ] Social-media user numbers in the notebook
+- [ ] Run a link check (consider a `lychee` GitHub Action)
+- [ ] The revision date in `intro.md` and `about-this-book.md`
+
+## Requirements
+
+`requirements.txt` covers the Python packages needed to run the notebooks locally. The site build itself needs only Node (the deploy workflow handles it).
 
 ---
 
-## 📦 Deploying to GitHub Pages
-
-### Option 1: Manual Deployment
-
-1. Build the book locally:
-   ```bash
-   jupyter-book build .
-   ```
-
-2. Use `ghp-import` to publish:
-   ```bash
-   pip install ghp-import
-   ghp-import -n -p -f _build/html
-   ```
-
-### Option 2: Automatic Deployment with GitHub Actions (Recommended)
-
-Create `.github/workflows/deploy.yml`:
-
-```yaml
-name: deploy-book
-
-on:
-  push:
-    branches:
-      - main
-
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-      
-      - name: Install dependencies
-        run: |
-          pip install -r requirements.txt
-      
-      - name: Build the book
-        run: |
-          jupyter-book build .
-      
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: '_build/html'
-
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
-```
-
-Then in your repository settings:
-1. Go to **Settings → Pages**
-2. Under "Build and deployment", select **GitHub Actions**
-
----
-
-## 📁 Project Structure
-
-```
-inf110-textbook/
-├── _config.yml              # Jupyter Book configuration
-├── _toc.yml                 # Table of contents
-├── intro.md                 # Landing page
-├── about-this-book.md       # About page
-├── how-to-use.md            # User guide
-├── requirements.txt         # Python dependencies
-├── references.bib           # Bibliography (create as needed)
-├── glossary.md              # Glossary (create as needed)
-├── _static/
-│   └── custom.css           # Custom styling
-├── images/                  # Shared images
-│   ├── logo.png
-│   └── informatics-venn.png
-└── module-XX-name/          # Each module folder
-    ├── index.md             # Module introduction
-    ├── topic-1.md           # Content pages
-    ├── topic-2.md
-    └── hands-on.ipynb       # Interactive notebooks
-```
-
----
-
-## ✏️ Adding Content
-
-### Adding a New Module
-
-1. Create a new folder: `module-XX-name/`
-2. Add an `index.md` for the module introduction
-3. Add content pages (`.md`) and notebooks (`.ipynb`)
-4. Update `_toc.yml` to include the new module
-
-### MyST Markdown Tips
-
-**Admonitions (callout boxes):**
-```markdown
-```{admonition} Title Here
-:class: tip  # or note, warning, seealso
-Content goes here.
-```
-```
-
-**Grid layouts:**
-```markdown
-::::{grid} 1 1 2 2
-:gutter: 3
-
-:::{grid-item-card} Card Title
-Card content
-:::
-
-::::
-```
-
-**Images:**
-```markdown
-```{image} ../images/filename.png
-:alt: Description for accessibility
-:width: 400px
-:align: center
-```
-```
-
----
-
-## 🔧 Configuration
-
-### Key settings in `_config.yml`:
-
-| Setting | Description |
-|---------|-------------|
-| `title` | Book title (appears in header) |
-| `author` | Your name |
-| `repository.url` | Your GitHub repo URL |
-| `html.baseurl` | Your GitHub Pages URL |
-| `launch_buttons.binderhub_url` | URL for Binder launches |
-| `execute.execute_notebooks` | `auto`, `force`, `off`, or `cache` |
-
-### Enabling Binder
-
-1. Ensure `requirements.txt` includes all dependencies
-2. Set `launch_buttons.binderhub_url` in `_config.yml`
-3. Users can click the Binder button to launch notebooks in the cloud
-
----
-
-## 📝 For Canvas Integration
-
-### Embedding in Canvas Pages
-
-You can link to specific pages or embed them:
-
-**Direct link:**
-```
-https://yourusername.github.io/inf110-textbook/module-07-visualization/index.html
-```
-
-**Embed in Canvas (iframe):**
-```html
-<iframe src="https://yourusername.github.io/inf110-textbook/module-07-visualization/hands-on-charts.html" 
-        width="100%" 
-        height="800px" 
-        frameborder="0">
-</iframe>
-```
-
-### Module Introduction Template for Canvas
-
-You can keep module introductions in both places:
-- **Canvas**: For assignment links, due dates, discussion forums
-- **Jupyter Book**: For content, readings, and interactive elements
-
-Or use the Jupyter Book as the canonical source and link to it from Canvas.
-
----
-
-## 🤝 Contributing
-
-Suggestions and corrections are welcome! Please open an issue or submit a pull request.
-
----
-
-## 📄 License
-
-[Add your preferred license here]
-
----
-
-## 🙏 Acknowledgments
-
-- Built with [Jupyter Book](https://jupyterbook.org/)
-- Styled with [Sphinx Book Theme](https://sphinx-book-theme.readthedocs.io/)
-- Interactive notebooks powered by [Binder](https://mybinder.org/)
+*Last major revision: Summer 2026 (for the Winter 2027 offering) — full audit, currency corrections, AI-thread integration, Modules 1 slug fix and 13 added.*

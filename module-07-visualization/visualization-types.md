@@ -2,6 +2,12 @@
 
 Not all visualizations are created equal—and choosing the wrong type can confuse your audience or even misrepresent your data. Let's explore the most common types and when to use each.
 
+## 🎯 In This Section
+
+- Match common chart types to the questions they answer best
+- Use a decision guide to pick the right visualization
+- Spot the most common charting mistakes — human- and AI-made
+
 ---
 
 ## The Big Five
@@ -117,6 +123,11 @@ Here's a quick decision guide—ask yourself: **"What's my goal?"**
 | ❌ **Unlabeled Axes** | Never assume your audience knows what the numbers mean. Label everything! |
 | ❌ **Missing Context** | A chart without a title, source, or date leaves readers guessing. |
 | ❌ **Chartjunk** | 3D effects, unnecessary icons, and decorative elements distract from the data. |
+| ❌ **Color-Only Encoding** | If the meaning disappears in grayscale, colorblind readers never had it. Use position, shape, or labels too. |
+
+:::{note} ♿ Accessible Charts
+Everything from Module 5 applies to charts: use colorblind-safe palettes (search "ColorBrewer"), never rely on color alone to carry meaning, write alt text that states the chart's *takeaway* (not just "a bar chart"), and check that text is readable at a glance. Accessibility is part of choosing the right visualization, not an afterthought.
+:::
 
 ---
 
@@ -128,6 +139,8 @@ Look at the visualizations you encounter today—in news articles, social media,
 2. Is it the right choice for this data?
 3. What story is it trying to tell?
 4. Is anything confusing or potentially misleading?
+
+**Bonus round** 🤖: Ask an AI assistant to create a chart from some data you give it (or the quarterly sales table above). Then play detective on the *AI's* chart with the same four questions — plus one more: did it choose the chart type you would have? AI tools often default to the wrong chart type or add misleading styling; catching that is the skill.
 
 Share an interesting example in this week's reflection!
 

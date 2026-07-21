@@ -1,20 +1,11 @@
-# Requirements for INF 110 Interactive Textbook
-# These are needed for running the Jupyter notebooks
+# Python requirements for running this book's Jupyter notebooks locally.
+# (The site itself is built with the npm `jupyter-book` CLI — see .github/workflows/deploy.yml.)
 
-# Data manipulation
 pandas>=2.0.0
-
-# Visualization
 matplotlib>=3.7.0
 seaborn>=0.12.0
 
-# Jupyter Book building
-jupyter-book>=0.15.0
-sphinx-design>=0.4.0
-
-# For interactive widgets (optional)
-ipywidgets>=8.0.0
-
-# For launching notebooks
+# For running notebooks locally
 jupyterlab>=4.0.0
 notebook>=7.0.0
+ipywidgets>=8.0.0

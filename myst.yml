@@ -2,14 +2,76 @@
 version: 1
 project:
   id: 8b524184-434a-41d4-b3e2-3f825cfac9df
-  # title:
-  # description:
-  # keywords: []
-  # authors: []
-  # github:
-  # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
+  title: Foundations of Informatics
+  description: >-
+    Interactive textbook for INF 110 Foundations of Informatics at Dominican
+    University's School of Information Studies — exploring the intersections
+    of information, people, and technology.
+  keywords:
+    - informatics
+    - information science
+    - textbook
+  authors:
+    - name: Timothy D. Bowman
+      affiliations:
+        - Dominican University
+  github: https://github.com/tdbowman/110informatics.github.io
+  copyright: '2026'
+  exclude:
+    # Old chapter filenames (renamed for meaningful URLs); excluded so stale
+    # copies in synced folders can never build as stray "Coming Soon" pages.
+    - module-01-intro/index.md
+    - module-02-infrastructure/index.md
+    - module-03-design/index.md
+    - module-04-databases/index.md
+    - module-05-accessibility/index.md
+    - module-06-analytics/index.md
+    - module-07-visualization/index.md
+    - module-08-search/index.md
+    - module-09-security/index.md
+    - module-10-copyright/index.md
+    - module-11-autonomous/index.md
+    - module-12-ai/index.md
+    - README.md
+  toc:
+    - file: intro.md
+    - title: Getting Started
+      children:
+        - file: about-this-book.md
+        - file: how-to-use.md
+    - title: 'Part 1: Foundations'
+      children:
+        - file: module-01-intro/intro-to-informatics.md
+        - file: module-02-infrastructure/information-infrastructure.md
+        - file: module-03-design/design-thinking.md
+    - title: 'Part 2: Data & Systems'
+      children:
+        - file: module-04-databases/databases.md
+        - file: module-05-accessibility/accessibility-inclusion.md
+        - file: module-06-analytics/data-analytics.md
+        - file: module-07-visualization/data-visualization.md
+          children:
+            - file: module-07-visualization/why-visualize.md
+            - file: module-07-visualization/visualization-types.md
+            - file: module-07-visualization/infographics.md
+            - file: module-07-visualization/hands-on-charts.ipynb
+    - title: 'Part 3: Information in Society'
+      children:
+        - file: module-08-search/search-and-retrieval.md
+        - file: module-09-security/security-privacy.md
+        - file: module-10-copyright/copyright-law.md
+    - title: 'Part 4: Emerging Technologies'
+      children:
+        - file: module-11-autonomous/autonomous-systems.md
+        - file: module-12-ai/artificial-intelligence.md
+        - file: module-13-robotics-genai/robotics-genai.md
+    - title: Wrapping Up
+      children:
+        - file: course-wrapup.md
+    - title: Resources
+      children:
+        - file: glossary.md
+        - file: references.md
 site:
   template: book-theme
-  # options:
-  #   favicon: favicon.ico
-  #   logo: site_logo.png
+  title: Foundations of Informatics

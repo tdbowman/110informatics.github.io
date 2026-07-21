@@ -2,6 +2,12 @@
 
 You've probably seen them everywhere—on social media, in presentations, hanging in waiting rooms. Infographics are visual explanations designed to communicate information quickly and memorably. But what makes them different from the data visualizations we just learned about?
 
+## 🎯 In This Section
+
+- Distinguish infographics from data visualizations
+- Learn what makes an infographic effective — and what makes one deceptive
+- Analyze real (and AI-generated) infographics with a critical eye
+
 ---
 
 ## Infographics vs. Data Visualizations
@@ -80,24 +86,30 @@ When consuming infographics, be skeptical if you notice:
 - **Distorted proportions**: Visual size doesn't match actual values
 - **Cherry-picked data**: Only showing what supports one viewpoint
 - **Outdated information**: Especially relevant for fast-changing topics
+- **AI tells** 🤖: Garbled text in image corners, icons that don't quite make sense, suspiciously round numbers with no source — hallmarks of fully AI-generated infographics whose "data" was invented on the spot
 
 :::{warning} Real Talk
 Infographics are **designed to persuade**. That's not inherently bad, but it means you should always engage your critical thinking. Who created this? What are they trying to convince me of? What might be left out?
+
+This matters more than ever: generative AI can now produce a polished, professional-looking infographic in seconds — *including the statistics*. The "no sources cited" red flag used to indicate laziness; today it may indicate that the numbers never existed at all.
 :::
 
 ---
 
 ## Tools for Creating Infographics
 
-Want to try making your own? Here are some accessible tools:
+Want to try making your own? Here are some accessible tools *(free tiers change often — check current pricing)*:
 
-| Tool | Cost | Best For |
-|------|------|----------|
-| [Canva](https://www.canva.com) | Free tier available | Beginners, quick designs |
-| [Piktochart](https://piktochart.com) | Free tier available | Professional infographics |
-| [Infogram](https://infogram.com) | Free tier available | Data-driven infographics |
-| [Venngage](https://venngage.com) | Free tier available | Business infographics |
-| [Adobe Express](https://www.adobe.com/express/) | Free tier available | Integration with Adobe ecosystem |
+| Tool | Best For |
+|------|----------|
+| [Canva](https://www.canva.com) | Beginners, quick designs — now heavily AI-assisted ("Magic Design") |
+| [Piktochart](https://piktochart.com) | Professional infographics, AI generation |
+| [Infogram](https://infogram.com) | Data-driven infographics |
+| [Adobe Express](https://www.adobe.com/express/) | Integration with Adobe ecosystem |
+
+:::{tip} Using AI Tools Honestly
+AI design assistants are legitimately useful for layout, icons, and drafts. The line to hold: **the data must be yours.** Let AI arrange the pixels; never let it supply the numbers. And if AI contributed substantially, disclose it — the same rule as this course's AI policy.
+:::
 
 ---
 
@@ -112,6 +124,7 @@ Analyze it using these questions:
 3. **What type of infographic is it?** (Statistical, timeline, process, etc.)
 4. **Is it effective?** Does the design support the message?
 5. **Is it trustworthy?** Are sources cited? Does the data seem accurate?
+6. **Could it be AI-generated?** Check for the AI tells above. Does that change your trust?
 
 Consider sharing your analysis in this week's reflection!
 

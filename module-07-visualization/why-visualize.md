@@ -5,11 +5,28 @@
 
 ---
 
+## 🎯 In This Section
+
+- Understand the two purposes of visualization: exploration and communication
+- Recognize when visualizations illuminate — and when they mislead
+- Trace the surprisingly long history of showing data visually
+
+---
+
 ## Your Brain on Visuals
 
-Here's a number for you: **65%**
+You've probably heard claims like these:
 
-That's the percentage of people who are visual learners. But even if you're not primarily a visual learner, your brain processes images *60,000 times faster* than text. When you see a well-designed chart, your brain can grasp relationships and patterns almost instantly—no reading required.
+> "65% of people are visual learners."
+> "Your brain processes images 60,000 times faster than text."
+
+:::{warning} 🧟 Zombie Statistics — A Lesson Hiding in Plain Sight
+Both of those famous claims are, in fact, **unsupported**. The "65% visual learners" figure comes from the learning-styles theory, which education researchers have repeatedly failed to validate. The "60,000 times faster" number has been traced back to a 1982 corporate marketing claim — no study has ever produced it.
+
+Why put debunked claims in a textbook? Because they're *perfect specimens*. They sound scientific, they flatter our intuition, they spread on every "power of visuals" infographic — and nobody checks them. This chapter is about visual communication; these stats are a live demonstration of how confident-sounding numbers travel without evidence. When you see a tidy statistic, ask: *who measured this, how, and when?*
+
+(What IS well-supported: humans do extract certain visual patterns — trends, outliers, relative sizes — far faster from a good chart than from a table of numbers. That's the real, and sufficient, case for visualization.)
+:::
 
 Think about the last time you checked the weather. Did you read a paragraph describing atmospheric conditions? Or did you glance at a sunny icon and a temperature number? That's visualization at work.
 
@@ -58,6 +75,7 @@ But visualizations can also deceive—sometimes intentionally, sometimes acciden
 | **Cherry-Picked Timeframes** | Showing only the data that supports your argument while hiding contradictory periods. |
 | **Misleading 3D Effects** | 3D charts often distort proportions, making some values appear larger than they are. |
 | **Wrong Chart Types** | Using a pie chart for data that doesn't represent parts of a whole creates confusion. |
+| **Fabricated Data** 🤖 | AI image generators now produce polished "infographics" whose numbers were simply invented. The chart looks professional; the data never existed. |
 
 :::{warning} Critical Thinking Tip
 Whenever you see a visualization—in the news, on social media, in a presentation—ask yourself:
@@ -65,6 +83,7 @@ Whenever you see a visualization—in the news, on social media, in a presentati
 - What might be hidden or left out?
 - Does the visual accurately represent the underlying numbers?
 - Who benefits from me interpreting this a certain way?
+- Could this chart have been generated (or hallucinated) by AI?
 :::
 
 ---
@@ -81,7 +100,8 @@ Data visualization isn't new—humans have been using visual representations of 
 | 1900 | W.E.B. Du Bois creates stunning visualizations of Black American life for the Paris Exposition |
 | 1983 | Edward Tufte publishes "The Visual Display of Quantitative Information" |
 | 2005 | Hans Rosling's Gapminder brings animated data visualization to the masses |
-| Today | Interactive dashboards and AI-assisted visualization are everywhere |
+| 2010s | Interactive dashboards become standard in business and journalism |
+| 2023– | Generative AI begins producing charts from plain-language prompts — moving the hard problem from *making* charts to *verifying* them |
 
 ---
 
@@ -92,7 +112,7 @@ Data visualization isn't new—humans have been using visual representations of 
 
 2. Can you think of a visualization you've seen that felt misleading? What made it problematic?
 
-3. Consider your social media feeds, news sources, and apps—how many visualizations do you encounter in a typical day?
+3. This page opened by debunking two famous statistics. Find one more "everybody knows" number in the wild and try to trace it to a source. How far did you get?
 :::
 
 ---

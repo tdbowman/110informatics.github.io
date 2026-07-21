@@ -1,6 +1,6 @@
 # Module 7: Data Visualization & Infographics 📊
 
-**Week of February 17 | Communicating with Data**
+**Week 7 | Communicating with Data**
 
 ---
 
@@ -14,7 +14,7 @@ This week, we're diving into the art and science of **data visualization**. You'
 
 - Why visualizations are powerful tools for communication
 - The difference between **infographics** and **data visualizations**
-- How to recognize (and avoid!) misleading charts
+- How to recognize (and avoid!) misleading charts — including AI-generated ones
 - The building blocks: charts, graphs, maps, and networks
 - Hands-on practice creating your own visualizations
 
@@ -23,7 +23,7 @@ This week, we're diving into the art and science of **data visualization**. You'
 - When is a visualization more effective than words?
 - How can the same data tell completely different stories?
 - What responsibility do we have when creating visualizations?
-- How do your daily apps use visualization to influence your behavior?
+- Now that AI can generate a chart from a sentence, who checks the chart?
 
 ---
 
@@ -37,7 +37,7 @@ Complete the readings and videos below before our class session. Come ready to d
 
 | Resource | Type | Time | Notes |
 |----------|------|------|-------|
-| [A Short History of Data Visualization](https://datavisualizationsociety.org) | Article | ~15 min | Where did this all begin? |
+| [A Short History of Data Visualisation](https://medium.com/data-science/a-short-history-of-data-visualisation-de2f81ed0b23) | Article | ~15 min | Where did this all begin? |
 | [W.E.B. Du Bois's Data Visualizations](https://www.smithsonianmag.com/history/web-du-bois-visualized-black-experience-180976253/) | Article | ~10 min | Beautiful, powerful, and over 100 years old |
 | [Chart Wars: The Political Power of Data Visualization](https://www.youtube.com/watch?v=N9Mqu2Hp2pg) | Video | ~18 min | How charts shape our political views |
 
@@ -69,10 +69,19 @@ Curious about what professionals use? Here are some industry-standard tools:
 | [Tableau](https://www.tableau.com/) | Industry-leading visualization platform |
 | [Power BI](https://powerbi.microsoft.com/) | Microsoft's business intelligence tool |
 | [Looker Studio](https://lookerstudio.google.com/) | Google's free reporting tool |
-| [Canva](https://www.canva.com/) | Easy infographic and design creation |
-| [Datawrapper](https://www.datawrapper.de/) | Simple, clean chart creation |
+| [Datawrapper](https://www.datawrapper.de/) | Simple, clean chart creation (used by major newsrooms) |
+| [Flourish](https://flourish.studio/) | Interactive data stories |
+| **AI assistants** 🤖 | ChatGPT, Claude, and Copilot can now generate charts from a plain-language request |
+
+:::{warning} AI-Generated Charts: Powerful, and Perilous
+AI can produce a chart in seconds — and confidently produce the *wrong* chart: a misleading axis, a poor chart type, or in the worst case, **invented data**. AI-fabricated infographics with made-up statistics now circulate widely on social media. Everything you learn this week about honest visualization applies double when the chart came from a machine: check the axes, check the source, check the numbers exist. (You'll practice exactly this in the hands-on notebook.)
+:::
 
 Don't worry—we'll be using **Python** in this course, which is free and incredibly powerful. The [Hands-On Charts](hands-on-charts.ipynb) notebook will walk you through it step by step.
+
+### ♿ Accessible Charts (Bridge to Module 5!)
+
+Visualization has its own accessibility rules: don't encode meaning in color alone (about 1 in 12 men has some color-vision deficiency), use colorblind-safe palettes, write real alt text for charts, and make sure the takeaway survives in grayscale. A chart nobody can read isn't communication.
 
 ---
 

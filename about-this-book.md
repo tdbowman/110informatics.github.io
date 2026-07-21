@@ -2,29 +2,24 @@
 
 This interactive textbook was created for **INF 110: Foundations of Informatics** at Dominican University's School of Information Studies (The iSchool).
 
-## What is Informatics?
-
-Informatics involves examining how information technologies are developed, applied, and utilized in society. It sits at the intersection of:
-
-- **Data**: Raw facts and figures that become meaningful when processed
-- **Systems**: The technologies that store, process, and transmit information
-- **Society**: The people who create, use, and are affected by information systems
+**Current edition:** revised Summer 2026 for the Winter 2027 offering. Statistics and legal statuses were checked as of mid-2026; fast-moving topics carry an "as of" date on the page so you can tell when a fact needs re-checking (and catching one that's gone stale is always worth bringing to class!).
 
 ## Areas of Informatics
 
 Informatics is a broad field with many specializations:
 
-- BioInformatics
+- Bioinformatics
 - Business Informatics
-- Clinical Informatics
+- Clinical & Health Informatics
 - Computational Informatics
-- Data Mining
+- Data Science & Data Mining
 - GeoInformatics
-- Health Informatics
+- Legal Informatics
 - Music Informatics
 - Nursing Informatics
 - Pharmaceutical Informatics
 - Social Informatics
+- AI & Machine Learning applications across all of the above
 - ...and more!
 
 ## Course Learning Objectives
@@ -53,7 +48,8 @@ You don't need any prior programming experience or technical background. The int
 
 This book was built using:
 
-- **[Jupyter Book](https://jupyterbook.org/)**: For combining narrative content with executable code
-- **[MyST Markdown](https://myst-parser.readthedocs.io/)**: For rich, structured content
+- **[Jupyter Book / MyST](https://mystmd.org/)**: For combining narrative content with executable code
 - **[Python](https://www.python.org/)**: For the interactive coding examples
 - **[GitHub Pages](https://pages.github.com/)**: For hosting
+
+AI tools assisted with drafting and fact-checking portions of this book; all content was reviewed and approved by the instructor. (That disclosure practice should look familiar — it's the same one this course's AI policy asks of you.)
