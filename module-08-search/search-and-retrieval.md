@@ -1,3 +1,8 @@
+---
+banner: images/module-08-banner.png
+thumbnail: images/module-08-banner.png
+---
+
 # Module 8: Search Engines & Information Retrieval 🔍
 
 **Week 8 | Finding Information**

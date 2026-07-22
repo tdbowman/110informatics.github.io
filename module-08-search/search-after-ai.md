@@ -31,6 +31,14 @@ The technique behind AI search is called **retrieval-augmented generation (RAG)*
 1. **Retrieve**: A classic IR system (like the ones described in [How Search Engines Work](how-search-engines-work.md), often powered by the vector databases from Module 4) finds documents relevant to your question.
 2. **Generate**: An AI language model writes an answer *based on those retrieved documents*.
 
+```{figure} images/rag-pipeline.svg
+:alt: Diagram of retrieval-augmented generation. A user question flows to a retrieval step, which finds relevant documents from a search index or vector database. Those documents flow to a generation step, where an AI model writes an answer grounded in them, producing an answer with citations. A red dashed path warns that when retrieval fails, the model fills the gap by guessing, one source of hallucination.
+:width: 100%
+:name: fig-rag-pipeline
+
+RAG is this module in one picture: classic information retrieval on the left, AI generation on the right — and hallucination is what leaks out when the left half fails.
+```
+
 This is why information retrieval concepts still matter in the ChatGPT era. When an AI gives a wrong answer, it's often an **IR failure**: the system retrieved the wrong documents, or none at all, and the model filled the gap by guessing. AI "hallucination" and bad search results are cousins.
 
 :::{note} Discussion Point

@@ -32,6 +32,14 @@ Good information systems support both!
 
 Long before web search, librarians and information scientists were solving the same problem: how do you organize information so someone can find it later? Their tools form a kind of ladder, from lightweight and informal at the bottom to rigorous and expensive at the top. Every modern system, including search engines and the AI tools later in this module, still leans on these ideas.
 
+```{figure} images/knowledge-ladder.svg
+:alt: Staircase diagram of knowledge organization systems. From bottom to top: metadata, synonym rings, controlled vocabulary, taxonomy, authority files, and ontology. Both precision and cost increase as you climb. A folksonomy floats off to the side, labeled as user tags with no control.
+:width: 100%
+:name: fig-knowledge-ladder
+
+The ladder of knowledge organization: each rung buys more precision and consistency at a higher cost to build and maintain. Folksonomies opt out of the ladder entirely.
+```
+
 **Metadata** is the foundation: data about data. A song file's metadata includes its title, artist, album, and length; a photo's includes when and where it was taken; a library record describes a book's author, subject, and publisher. Search engines rely heavily on metadata because it provides context the raw content may not: a page's title, description, and language tell a crawler a great deal before it reads a single sentence.
 
 **Synonym rings** solve the "many words, one meaning" problem: a group of terms treated as semantically equivalent for retrieval purposes. If "car," "auto," and "automobile" are ringed together, a search for one finds documents using any of them. Search engines automate this idea as *query expansion*, which you'll meet in [How Search Engines Work](how-search-engines-work.md); synonym rings are the curated, human-built version.

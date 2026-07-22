@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 400" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" role="img" aria-label="Diagram of an inverted index: three documents on the left are inverted into a table on the right that lists, for each word, the documents it appears in.">
+  <defs>
+    <marker id="arrow2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 9 5 L 0 9 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="960" height="400" fill="#ffffff"/>
+
+  <text x="200" y="42" font-size="17" font-weight="700" fill="#334155" text-anchor="middle">Documents (in page order)</text>
+
+  <!-- Doc 1 -->
+  <g>
+    <rect x="60" y="62" width="280" height="86" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+    <rect x="60" y="62" width="280" height="28" rx="10" fill="#e3f2fd"/>
+    <rect x="60" y="76" width="280" height="14" fill="#e3f2fd"/>
+    <text x="74" y="82" font-size="14" font-weight="700" fill="#0d47a1">Doc 1</text>
+    <text x="74" y="112" font-size="13.5" fill="#475569">The <tspan font-weight="700" fill="#1565c0">octopus</tspan> shows striking</text>
+    <text x="74" y="132" font-size="13.5" fill="#475569"><tspan font-weight="700" fill="#2e7d32">intelligence</tspan> in lab puzzles…</text>
+  </g>
+
+  <!-- Doc 2 -->
+  <g>
+    <rect x="60" y="162" width="280" height="86" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+    <rect x="60" y="162" width="280" height="28" rx="10" fill="#e3f2fd"/>
+    <rect x="60" y="176" width="280" height="14" fill="#e3f2fd"/>
+    <text x="74" y="182" font-size="14" font-weight="700" fill="#0d47a1">Doc 2</text>
+    <text x="74" y="212" font-size="13.5" fill="#475569">Machine <tspan font-weight="700" fill="#2e7d32">intelligence</tspan> research</text>
+    <text x="74" y="232" font-size="13.5" fill="#475569">explores the deep <tspan font-weight="700" fill="#6a1b9a">ocean</tspan>…</text>
+  </g>
+
+  <!-- Doc 3 -->
+  <g>
+    <rect x="60" y="262" width="280" height="86" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+    <rect x="60" y="262" width="280" height="28" rx="10" fill="#e3f2fd"/>
+    <rect x="60" y="276" width="280" height="14" fill="#e3f2fd"/>
+    <text x="74" y="282" font-size="14" font-weight="700" fill="#0d47a1">Doc 3</text>
+    <text x="74" y="312" font-size="13.5" fill="#475569">An <tspan font-weight="700" fill="#1565c0">octopus</tspan> camouflaged on the</text>
+    <text x="74" y="332" font-size="13.5" fill="#475569"><tspan font-weight="700" fill="#6a1b9a">ocean</tspan> floor…</text>
+  </g>
+
+  <!-- invert arrow -->
+  <line x1="366" y1="205" x2="470" y2="205" stroke="#64748b" stroke-width="2.5" marker-end="url(#arrow2)"/>
+  <text x="418" y="188" font-size="14.5" font-weight="600" fill="#475569" text-anchor="middle">invert</text>
+  <text x="418" y="228" font-size="12" fill="#94a3b8" text-anchor="middle">word → where it</text>
+  <text x="418" y="243" font-size="12" fill="#94a3b8" text-anchor="middle">appears</text>
+
+  <text x="700" y="42" font-size="17" font-weight="700" fill="#334155" text-anchor="middle">Inverted index (in word order)</text>
+
+  <!-- index table -->
+  <g>
+    <rect x="500" y="62" width="400" height="286" rx="12" fill="#ffffff" stroke="#94a3b8" stroke-width="1.5"/>
+    <rect x="500" y="62" width="400" height="48" rx="12" fill="#f1f5f9"/>
+    <rect x="500" y="86" width="400" height="24" fill="#f1f5f9"/>
+    <line x1="500" y1="110" x2="900" y2="110" stroke="#94a3b8" stroke-width="1.5"/>
+    <line x1="690" y1="62" x2="690" y2="348" stroke="#e2e8f0" stroke-width="1.5"/>
+    <text x="595" y="92" font-size="14.5" font-weight="700" fill="#334155" text-anchor="middle">term</text>
+    <text x="795" y="92" font-size="14.5" font-weight="700" fill="#334155" text-anchor="middle">appears in</text>
+
+    <line x1="500" y1="190" x2="900" y2="190" stroke="#e2e8f0" stroke-width="1.5"/>
+    <line x1="500" y1="270" x2="900" y2="270" stroke="#e2e8f0" stroke-width="1.5"/>
+
+    <text x="530" y="158" font-size="16.5" font-weight="700" fill="#1565c0">octopus</text>
+    <g font-size="14.5" font-weight="600" fill="#0d47a1">
+      <rect x="722" y="134" width="62" height="32" rx="16" fill="#e3f2fd"/>
+      <text x="753" y="155" text-anchor="middle">Doc 1</text>
+      <rect x="796" y="134" width="62" height="32" rx="16" fill="#e3f2fd"/>
+      <text x="827" y="155" text-anchor="middle">Doc 3</text>
+    </g>
+
+    <text x="530" y="238" font-size="16.5" font-weight="700" fill="#2e7d32">intelligence</text>
+    <g font-size="14.5" font-weight="600" fill="#1b5e20">
+      <rect x="722" y="214" width="62" height="32" rx="16" fill="#e8f5e9"/>
+      <text x="753" y="235" text-anchor="middle">Doc 1</text>
+      <rect x="796" y="214" width="62" height="32" rx="16" fill="#e8f5e9"/>
+      <text x="827" y="235" text-anchor="middle">Doc 2</text>
+    </g>
+
+    <text x="530" y="318" font-size="16.5" font-weight="700" fill="#6a1b9a">ocean</text>
+    <g font-size="14.5" font-weight="600" fill="#4a148c">
+      <rect x="722" y="294" width="62" height="32" rx="16" fill="#f3e5f5"/>
+      <text x="753" y="315" text-anchor="middle">Doc 2</text>
+      <rect x="796" y="294" width="62" height="32" rx="16" fill="#f3e5f5"/>
+      <text x="827" y="315" text-anchor="middle">Doc 3</text>
+    </g>
+  </g>
+
+  <text x="480" y="382" font-size="13.5" fill="#64748b" text-anchor="middle" font-style="italic">Query "octopus intelligence" = look up both terms, intersect the lists → Doc 1. No page-reading required.</text>
+</svg>

@@ -20,6 +20,14 @@
 2. **Indexing**: Pages are analyzed and stored in a massive database
 3. **Ranking**: When you search, results are ordered by relevance
 
+```{figure} images/search-pipeline.svg
+:alt: The three steps of a search engine. Crawlers discover pages from the web, an indexer files every word into an inverted index, and when a user submits a query, ranking orders the best matches by relevance signals.
+:width: 100%
+:name: fig-search-pipeline
+
+The search engine assembly line: pages flow in through crawling, get filed by indexing, and are ordered by ranking the moment you hit Enter.
+```
+
 Those three words carry a lot of machinery, so let's open the hood on each.
 
 ## Crawling: How a Spider Explores the Web
@@ -46,6 +54,14 @@ Once pages are fetched, the search engine builds its **index**: a database of al
 The core trick is called an **inverted index**, and you have used one your whole life: it's the index at the back of a book. A book's pages run in order, and the index *inverts* that: for each important word, it lists the pages where the word appears. A search engine does the same at web scale. Instead of storing "page X contains the words A, B, C," it stores "word A appears on pages X, Y, Z."
 
 Why bother? Speed. When you search for "octopus intelligence," the engine does not read billions of pages looking for those words (that would take days). It looks up "octopus" in the inverted index, looks up "intelligence," and intersects the two lists, all in milliseconds. Nearly everything magical about search speed comes down to this one data structure, prepared ahead of time so your query doesn't have to do the work.
+
+```{figure} images/inverted-index.svg
+:alt: Three documents on the left contain highlighted words. An arrow labeled invert points to a table on the right listing each term and the documents it appears in: octopus appears in documents 1 and 3, intelligence in documents 1 and 2, ocean in documents 2 and 3.
+:width: 100%
+:name: fig-inverted-index
+
+Inverting the web: instead of "which words are on this page?", the index answers "which pages have this word?" — the same trick as the index at the back of a book.
+```
 
 ## Query Processing: What Happens When You Hit Enter
 

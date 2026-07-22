@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 340" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" role="img" aria-label="Diagram of the three steps of a search engine: crawling discovers pages, indexing stores them, ranking orders results for a user query.">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 9 5 L 0 9 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <!-- background -->
+  <rect x="0" y="0" width="960" height="340" fill="#ffffff"/>
+
+  <!-- web pages feeding the crawler -->
+  <g stroke="#cbd5e1" stroke-width="1.5" fill="#f8fafc">
+    <rect x="30" y="60" width="52" height="66" rx="6"/>
+    <rect x="46" y="84" width="52" height="66" rx="6"/>
+    <rect x="62" y="108" width="52" height="66" rx="6"/>
+  </g>
+  <g stroke="#94a3b8" stroke-width="2.5" stroke-linecap="round">
+    <line x1="70" y1="122" x2="106" y2="122"/>
+    <line x1="70" y1="136" x2="98" y2="136"/>
+    <line x1="70" y1="150" x2="106" y2="150"/>
+  </g>
+  <text x="72" y="205" font-size="14" fill="#64748b" text-anchor="middle">the web</text>
+
+  <line x1="122" y1="130" x2="168" y2="130" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- CRAWLING card -->
+  <rect x="176" y="58" width="196" height="144" rx="14" fill="#e3f2fd" stroke="#2196f3" stroke-width="2"/>
+  <circle cx="274" cy="102" r="20" fill="none" stroke="#1565c0" stroke-width="2.5"/>
+  <g stroke="#1565c0" stroke-width="2" stroke-linecap="round">
+    <line x1="274" y1="78" x2="274" y2="70"/>
+    <line x1="274" y1="126" x2="274" y2="134"/>
+    <line x1="250" y1="102" x2="242" y2="102"/>
+    <line x1="298" y1="102" x2="306" y2="102"/>
+    <line x1="257" y1="85" x2="251" y2="79"/>
+    <line x1="291" y1="85" x2="297" y2="79"/>
+    <line x1="257" y1="119" x2="251" y2="125"/>
+    <line x1="291" y1="119" x2="297" y2="125"/>
+  </g>
+  <text x="274" y="162" font-size="19" font-weight="700" fill="#0d47a1" text-anchor="middle">1. Crawling</text>
+  <text x="274" y="185" font-size="13.5" fill="#42586e" text-anchor="middle">spiders follow links,</text>
+  <text x="274" y="202" font-size="13.5" fill="#42586e" text-anchor="middle">page by page</text>
+
+  <line x1="380" y1="130" x2="426" y2="130" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="403" y="118" font-size="12.5" fill="#64748b" text-anchor="middle">pages</text>
+
+  <!-- INDEXING card -->
+  <rect x="434" y="58" width="196" height="144" rx="14" fill="#e8f5e9" stroke="#4caf50" stroke-width="2"/>
+  <g transform="translate(532,100)">
+    <ellipse cx="0" cy="-14" rx="30" ry="10" fill="none" stroke="#2e7d32" stroke-width="2.5"/>
+    <path d="M -30 -14 V 16 A 30 10 0 0 0 30 16 V -14" fill="none" stroke="#2e7d32" stroke-width="2.5"/>
+    <path d="M -30 1 A 30 10 0 0 0 30 1" fill="none" stroke="#2e7d32" stroke-width="2"/>
+  </g>
+  <text x="532" y="162" font-size="19" font-weight="700" fill="#1b5e20" text-anchor="middle">2. Indexing</text>
+  <text x="532" y="185" font-size="13.5" fill="#3f5747" text-anchor="middle">every word filed in an</text>
+  <text x="532" y="202" font-size="13.5" fill="#3f5747" text-anchor="middle">inverted index</text>
+
+  <line x1="638" y1="130" x2="684" y2="130" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="661" y="118" font-size="12.5" fill="#64748b" text-anchor="middle">index</text>
+
+  <!-- RANKING card -->
+  <rect x="692" y="58" width="196" height="144" rx="14" fill="#fff3e0" stroke="#ff9800" stroke-width="2"/>
+  <g stroke-linecap="round">
+    <rect x="756" y="78" width="68" height="11" rx="5.5" fill="#ef6c00"/>
+    <rect x="756" y="96" width="52" height="11" rx="5.5" fill="#fb8c00" opacity="0.75"/>
+    <rect x="756" y="114" width="38" height="11" rx="5.5" fill="#ffb74d" opacity="0.8"/>
+    <rect x="756" y="132" width="26" height="11" rx="5.5" fill="#ffcc80"/>
+  </g>
+  <text x="790" y="162" font-size="19" font-weight="700" fill="#e65100" text-anchor="middle">3. Ranking</text>
+  <text x="790" y="185" font-size="13.5" fill="#6b503a" text-anchor="middle">best matches ordered</text>
+  <text x="790" y="202" font-size="13.5" fill="#6b503a" text-anchor="middle">by relevance signals</text>
+
+  <!-- query coming in from below -->
+  <rect x="330" y="262" width="300" height="46" rx="23" fill="#f1f5f9" stroke="#94a3b8" stroke-width="1.5"/>
+  <circle cx="360" cy="285" r="8" fill="none" stroke="#475569" stroke-width="2.5"/>
+  <line x1="366" y1="291" x2="373" y2="298" stroke="#475569" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="392" y="291" font-size="15" fill="#334155" font-style="italic">octopus intelligence…</text>
+  <path d="M 630 285 H 790 V 210" fill="none" stroke="#64748b" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+  <text x="712" y="273" font-size="12.5" fill="#64748b" text-anchor="middle">your query</text>
+
+  <!-- results going out -->
+  <path d="M 330 285 H 170 V 210" fill="none" stroke="#64748b" stroke-width="0" />
+  <text x="72" y="285" font-size="0" fill="#64748b"></text>
+</svg>
