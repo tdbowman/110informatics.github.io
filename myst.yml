@@ -78,9 +78,5 @@ site:
   title: INF 110 | Foundations of Informatics
   options:
     favicon: images/favicon.ico
-    #logo: images/logo.png
-    logo-alt: Foundations of Informatics
-    logo-text: INF 110 | Foundations of Informatics
-    #logo-link: index.html
-    #show-logo: true
-    show-footer: false
+    logo_text: INF 110 | Foundations of Informatics
+    hide_footer_links: true
