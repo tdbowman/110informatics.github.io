@@ -35,11 +35,11 @@ project:
     - README.md
   toc:
     - file: intro.md
+    - file: assignments-and-timeline.md
     - title: Getting Started
       children:
         - file: about-this-book.md
         - file: how-to-use.md
-        - file: assignments-and-timeline.md
     - title: 'Part 1: Foundations'
       children:
         - file: module-01-intro/intro-to-informatics.md
@@ -59,6 +59,10 @@ project:
     - title: 'Part 3: Information in Society'
       children:
         - file: module-08-search/search-and-retrieval.md
+          children:
+            - file: module-08-search/ir-foundations.md
+            - file: module-08-search/how-search-engines-work.md
+            - file: module-08-search/search-after-ai.md
         - file: module-09-security/security-privacy.md
         - file: module-10-copyright/copyright-law.md
     - title: 'Part 4: Emerging Technologies'
