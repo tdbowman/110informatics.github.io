@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 410" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" role="img" aria-label="Flow diagram of the six-step data analysis process. Step one, ask, define the question. Step two, collect, gather relevant data. Step three, clean, fix errors and missing values. Step four, analyze, apply statistical methods. Step five, visualize, create charts that communicate. Step six, act, make decisions based on insights.">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 9 5 L 0 9 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <!-- background -->
+  <rect x="0" y="0" width="960" height="410" fill="#ffffff"/>
+
+  <!-- row 1 -->
+  <rect x="50" y="50" width="260" height="120" rx="14" fill="#e3f2fd" stroke="#2196f3" stroke-width="2"/>
+  <text x="180" y="95" font-size="19" font-weight="700" fill="#0d47a1" text-anchor="middle">1. Ask</text>
+  <text x="180" y="122" font-size="13" fill="#42586e" text-anchor="middle">define the question</text>
+  <text x="180" y="140" font-size="13" fill="#42586e" text-anchor="middle">you're trying to answer</text>
+
+  <line x1="314" y1="110" x2="346" y2="110" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <rect x="350" y="50" width="260" height="120" rx="14" fill="#e8f5e9" stroke="#4caf50" stroke-width="2"/>
+  <text x="480" y="95" font-size="19" font-weight="700" fill="#1b5e20" text-anchor="middle">2. Collect</text>
+  <text x="480" y="122" font-size="13" fill="#3f5747" text-anchor="middle">gather relevant data</text>
+  <text x="480" y="140" font-size="13" fill="#3f5747" text-anchor="middle">from various sources</text>
+
+  <line x1="614" y1="110" x2="646" y2="110" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <rect x="650" y="50" width="260" height="120" rx="14" fill="#fff3e0" stroke="#ff9800" stroke-width="2"/>
+  <text x="780" y="95" font-size="19" font-weight="700" fill="#e65100" text-anchor="middle">3. Clean</text>
+  <text x="780" y="122" font-size="13" fill="#6b503a" text-anchor="middle">fix errors, missing values,</text>
+  <text x="780" y="140" font-size="13" fill="#6b503a" text-anchor="middle">standardize formats</text>
+
+  <!-- drop to row 2 -->
+  <line x1="780" y1="174" x2="780" y2="246" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- row 2 (flows right to left) -->
+  <rect x="650" y="250" width="260" height="120" rx="14" fill="#f3e5f5" stroke="#9c27b0" stroke-width="2"/>
+  <text x="780" y="295" font-size="19" font-weight="700" fill="#4a148c" text-anchor="middle">4. Analyze</text>
+  <text x="780" y="322" font-size="13" fill="#5d4266" text-anchor="middle">apply statistical methods</text>
+  <text x="780" y="340" font-size="13" fill="#5d4266" text-anchor="middle">and explore patterns</text>
+
+  <line x1="646" y1="310" x2="614" y2="310" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <rect x="350" y="250" width="260" height="120" rx="14" fill="#e3f2fd" stroke="#2196f3" stroke-width="2"/>
+  <text x="480" y="295" font-size="19" font-weight="700" fill="#0d47a1" text-anchor="middle">5. Visualize</text>
+  <text x="480" y="322" font-size="13" fill="#42586e" text-anchor="middle">create charts and graphs</text>
+  <text x="480" y="340" font-size="13" fill="#42586e" text-anchor="middle">that communicate findings</text>
+
+  <line x1="346" y1="310" x2="314" y2="310" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <rect x="50" y="250" width="260" height="120" rx="14" fill="#e8f5e9" stroke="#4caf50" stroke-width="2"/>
+  <text x="180" y="295" font-size="19" font-weight="700" fill="#1b5e20" text-anchor="middle">6. Act</text>
+  <text x="180" y="322" font-size="13" fill="#3f5747" text-anchor="middle">make decisions</text>
+  <text x="180" y="340" font-size="13" fill="#3f5747" text-anchor="middle">based on insights</text>
+</svg>

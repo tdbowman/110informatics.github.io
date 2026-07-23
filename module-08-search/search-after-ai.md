@@ -36,7 +36,7 @@ The technique behind AI search is called **retrieval-augmented generation (RAG)*
 :width: 100%
 :name: fig-rag-pipeline
 
-RAG is this module in one picture: classic information retrieval on the left, AI generation on the right — and hallucination is what leaks out when the left half fails.
+RAG is this module in one picture: classic information retrieval on the left, AI generation on the right. Hallucination is what leaks out when the left half fails.
 ```
 
 This is why information retrieval concepts still matter in the ChatGPT era. When an AI gives a wrong answer, it's often an **IR failure**: the system retrieved the wrong documents, or none at all, and the model filled the gap by guessing. AI "hallucination" and bad search results are cousins.

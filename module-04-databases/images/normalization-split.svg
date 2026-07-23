@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 480" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" role="img" aria-label="Diagram of normalization. On the left, one big unnormalized table repeats Maria's name, her major, and the course title Foundations of Informatics across rows, with a warning box listing the update, insert, and delete anomalies this causes. An arrow labeled normalize points to three clean tables on the right: Students, Enrollments, and Courses, each fact stated once. A note says SQL's JOIN can reassemble the big picture anytime.">
+  <defs>
+    <marker id="arrow5" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 9 5 L 0 9 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <!-- background -->
+  <rect x="0" y="0" width="960" height="480" fill="#ffffff"/>
+
+  <!-- ONE BIG TABLE card (warning red) -->
+  <rect x="25" y="55" width="400" height="220" rx="14" fill="#ffebee" stroke="#ef5350" stroke-width="2"/>
+  <text x="225" y="85" font-size="18" font-weight="700" fill="#b71c1c" text-anchor="middle">One Big Table</text>
+  <text x="225" y="103" font-size="12" font-style="italic" fill="#8d3535" text-anchor="middle">(not normalized!)</text>
+  <!-- table -->
+  <rect x="45" y="116" width="360" height="108" fill="#ffffff" stroke="none"/>
+  <rect x="45" y="116" width="360" height="27" fill="#ffcdd2"/>
+  <rect x="45" y="116" width="360" height="108" fill="none" stroke="#ef9a9a" stroke-width="1.5"/>
+  <line x1="107" y1="116" x2="107" y2="224" stroke="#ef9a9a" stroke-width="1"/>
+  <line x1="203" y1="116" x2="203" y2="224" stroke="#ef9a9a" stroke-width="1"/>
+  <line x1="275" y1="116" x2="275" y2="224" stroke="#ef9a9a" stroke-width="1"/>
+  <line x1="45" y1="143" x2="405" y2="143" stroke="#ef9a9a" stroke-width="1.5"/>
+  <line x1="45" y1="170" x2="405" y2="170" stroke="#ef9a9a" stroke-width="1"/>
+  <line x1="45" y1="197" x2="405" y2="197" stroke="#ef9a9a" stroke-width="1"/>
+  <g font-size="12" font-weight="700" fill="#b71c1c">
+    <text x="51" y="134">Name</text>
+    <text x="113" y="134">Major</text>
+    <text x="209" y="134">CourseID</text>
+    <text x="281" y="134">CourseTitle</text>
+  </g>
+  <g font-size="11.5">
+    <text x="51" y="161" fill="#c62828" font-weight="700">Maria</text>
+    <text x="113" y="161" fill="#c62828" font-weight="700">Informatics</text>
+    <text x="209" y="161" fill="#c62828" font-weight="700">INF110</text>
+    <text x="281" y="161" fill="#c62828" font-weight="700">Foundations of Inf.</text>
+    <text x="51" y="188" fill="#334155">James</text>
+    <text x="113" y="188" fill="#334155">Data Science</text>
+    <text x="209" y="188" fill="#c62828" font-weight="700">INF110</text>
+    <text x="281" y="188" fill="#c62828" font-weight="700">Foundations of Inf.</text>
+    <text x="51" y="215" fill="#c62828" font-weight="700">Maria</text>
+    <text x="113" y="215" fill="#c62828" font-weight="700">Informatics</text>
+    <text x="209" y="215" fill="#334155">INF220</text>
+    <text x="281" y="215" fill="#334155">Database Design</text>
+  </g>
+  <text x="225" y="249" font-size="12" fill="#8d3535" text-anchor="middle">the same facts (in red) repeated again and again</text>
+
+  <!-- anomalies card -->
+  <rect x="25" y="298" width="400" height="122" rx="10" fill="#ffebee" stroke="#ef5350" stroke-width="1.5"/>
+  <text x="45" y="324" font-size="13" font-weight="700" fill="#b71c1c">Redundancy causes three anomalies:</text>
+  <g font-size="12.5" fill="#8d3535">
+    <text x="45" y="348">• update: a title change must hit every copy</text>
+    <text x="45" y="370">• insert: no new course until someone enrolls</text>
+    <text x="45" y="392">• delete: dropping Maria's rows erases Maria</text>
+  </g>
+
+  <!-- normalize arrow -->
+  <line x1="437" y1="238" x2="548" y2="238" stroke="#64748b" stroke-width="2.5" marker-end="url(#arrow5)"/>
+  <text x="494" y="220" font-size="15" font-weight="700" fill="#334155" text-anchor="middle">normalize</text>
+  <text x="494" y="260" font-size="12" font-style="italic" fill="#64748b" text-anchor="middle">one fact, one place</text>
+
+  <!-- STUDENTS card -->
+  <rect x="575" y="55" width="360" height="105" rx="14" fill="#e3f2fd" stroke="#2196f3" stroke-width="2"/>
+  <text x="595" y="85" font-size="16" font-weight="700" fill="#0d47a1">Students</text>
+  <text x="595" y="110" font-size="12.5" fill="#42586e">001 Maria · 002 James · 003 Aisha</text>
+  <text x="595" y="137" font-size="12" font-weight="700" fill="#0d47a1">✓ each student stated once</text>
+
+  <!-- ENROLLMENTS card -->
+  <rect x="575" y="185" width="360" height="105" rx="14" fill="#fff3e0" stroke="#ff9800" stroke-width="2"/>
+  <text x="595" y="215" font-size="16" font-weight="700" fill="#e65100">Enrollments</text>
+  <text x="595" y="240" font-size="12" fill="#6b503a">001·INF110·A&#160;&#160;&#160;002·INF110·B+&#160;&#160;&#160;001·INF220·A-</text>
+  <text x="595" y="267" font-size="12" font-weight="700" fill="#e65100">✓ just foreign keys + the grade (the bridge)</text>
+
+  <!-- COURSES card -->
+  <rect x="575" y="315" width="360" height="105" rx="14" fill="#e8f5e9" stroke="#4caf50" stroke-width="2"/>
+  <text x="595" y="345" font-size="16" font-weight="700" fill="#1b5e20">Courses</text>
+  <text x="595" y="370" font-size="11.5" fill="#3f5747">INF110 Foundations of Inf. · INF220 Database Design</text>
+  <text x="595" y="397" font-size="12" font-weight="700" fill="#1b5e20">✓ each course stated once</text>
+
+  <!-- JOIN pill -->
+  <rect x="280" y="438" width="400" height="34" rx="17" fill="#f1f5f9" stroke="#94a3b8" stroke-width="1.5"/>
+  <text x="480" y="460" font-size="12.5" fill="#334155" text-anchor="middle">Nothing is lost: SQL's JOIN reassembles the view anytime</text>
+</svg>

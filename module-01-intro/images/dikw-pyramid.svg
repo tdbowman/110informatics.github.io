@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 460" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" role="img" aria-label="Pyramid with four layers, from bottom to top: Data (discrete, objective facts), Information (data with relationships analyzed), Knowledge (contextualized information), and Wisdom (applied with values). Human involvement increases toward the top; machine involvement increases toward the bottom.">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 9 5 L 0 9 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <!-- background -->
+  <rect x="0" y="0" width="960" height="460" fill="#ffffff"/>
+
+  <!-- WISDOM (top) -->
+  <polygon points="430,54 352,140 508,140" fill="#f3e5f5" stroke="#9c27b0" stroke-width="2" stroke-linejoin="round"/>
+  <text x="430" y="118" font-size="17" font-weight="700" fill="#4a148c" text-anchor="middle">Wisdom</text>
+  <text x="430" y="134" font-size="11.5" fill="#64748b" text-anchor="middle">Why do?</text>
+
+  <!-- KNOWLEDGE -->
+  <polygon points="345,146 515,146 590,230 270,230" fill="#fff3e0" stroke="#ff9800" stroke-width="2" stroke-linejoin="round"/>
+  <text x="430" y="184" font-size="18" font-weight="700" fill="#e65100" text-anchor="middle">Knowledge</text>
+  <text x="430" y="206" font-size="12.5" fill="#6b503a" text-anchor="middle">contextualized information · How?</text>
+
+  <!-- INFORMATION -->
+  <polygon points="265,236 595,236 670,320 190,320" fill="#e8f5e9" stroke="#4caf50" stroke-width="2" stroke-linejoin="round"/>
+  <text x="430" y="274" font-size="18" font-weight="700" fill="#1b5e20" text-anchor="middle">Information</text>
+  <text x="430" y="296" font-size="12.5" fill="#3f5747" text-anchor="middle">data with relationships and connections analyzed</text>
+
+  <!-- DATA (bottom) -->
+  <polygon points="185,326 675,326 750,410 110,410" fill="#e3f2fd" stroke="#2196f3" stroke-width="2" stroke-linejoin="round"/>
+  <text x="430" y="364" font-size="18" font-weight="700" fill="#0d47a1" text-anchor="middle">Data</text>
+  <text x="430" y="386" font-size="12.5" fill="#42586e" text-anchor="middle">discrete, objective facts · Who? What? Where? When? How many?</text>
+
+  <!-- right axis: more human involvement (up) -->
+  <line x1="830" y1="395" x2="830" y2="75" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+  <text transform="translate(852,235) rotate(-90)" font-size="12.5" fill="#64748b" text-anchor="middle">more human involvement</text>
+
+  <!-- left axis: more machine involvement (down) -->
+  <line x1="48" y1="75" x2="48" y2="395" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+  <text transform="translate(26,235) rotate(-90)" font-size="12.5" fill="#64748b" text-anchor="middle">more machine involvement</text>
+</svg>

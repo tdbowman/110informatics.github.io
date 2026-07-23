@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 400" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" role="img" aria-label="Diagram of the four steps of a cognitive walkthrough, repeated for every step of every task. Step one: the user sets a goal: will they know what to try to do? Step two: the user scans the available actions: will they see the correct action? Step three: the user selects an action: will they connect it with their goal? Step four: the user acts and reads the feedback: will they know they made progress? A red box below notes that any answer of probably not means a usability problem was found before a single real user got confused.">
+  <defs>
+    <marker id="arrowcw" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 9 5 L 0 9 z" fill="#64748b"/>
+    </marker>
+    <marker id="arrowcwr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 9 5 L 0 9 z" fill="#c62828"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="960" height="400" fill="#ffffff"/>
+
+  <!-- repeat loop -->
+  <path d="M 836 60 V 26 H 128 V 52" fill="none" stroke="#64748b" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrowcw)"/>
+  <text x="482" y="18" font-size="12.5" fill="#64748b" text-anchor="middle">repeat for every single step of every task</text>
+
+  <!-- 1. set a goal -->
+  <rect x="26" y="60" width="205" height="170" rx="14" fill="#e3f2fd" stroke="#2196f3" stroke-width="2"/>
+  <text x="128" y="92" font-size="17" font-weight="700" fill="#0d47a1" text-anchor="middle">1. Set a goal</text>
+  <text x="128" y="119" font-size="13" fill="#42586e" text-anchor="middle">the user sets a goal</text>
+  <text x="128" y="136" font-size="13" fill="#42586e" text-anchor="middle">within the system</text>
+  <text x="128" y="172" font-size="12.5" fill="#1565c0" text-anchor="middle" font-style="italic">"Will they know what</text>
+  <text x="128" y="189" font-size="12.5" fill="#1565c0" text-anchor="middle" font-style="italic">to try to do?"</text>
+
+  <line x1="235" y1="145" x2="256" y2="145" stroke="#64748b" stroke-width="2" marker-end="url(#arrowcw)"/>
+
+  <!-- 2. scan actions -->
+  <rect x="262" y="60" width="205" height="170" rx="14" fill="#e8f5e9" stroke="#4caf50" stroke-width="2"/>
+  <text x="364" y="92" font-size="17" font-weight="700" fill="#1b5e20" text-anchor="middle">2. Scan the actions</text>
+  <text x="364" y="119" font-size="13" fill="#3f5747" text-anchor="middle">the user determines what</text>
+  <text x="364" y="136" font-size="13" fill="#3f5747" text-anchor="middle">actions are available</text>
+  <text x="364" y="172" font-size="12.5" fill="#2e7d32" text-anchor="middle" font-style="italic">"Will they see that the</text>
+  <text x="364" y="189" font-size="12.5" fill="#2e7d32" text-anchor="middle" font-style="italic">correct action is there?"</text>
+
+  <line x1="471" y1="145" x2="492" y2="145" stroke="#64748b" stroke-width="2" marker-end="url(#arrowcw)"/>
+
+  <!-- 3. select an action -->
+  <rect x="498" y="60" width="205" height="170" rx="14" fill="#fff3e0" stroke="#ff9800" stroke-width="2"/>
+  <text x="600" y="92" font-size="17" font-weight="700" fill="#e65100" text-anchor="middle">3. Select an action</text>
+  <text x="600" y="119" font-size="13" fill="#6b503a" text-anchor="middle">the user picks the action</text>
+  <text x="600" y="136" font-size="13" fill="#6b503a" text-anchor="middle">that seems right</text>
+  <text x="600" y="172" font-size="12.5" fill="#ef6c00" text-anchor="middle" font-style="italic">"Will they connect it</text>
+  <text x="600" y="189" font-size="12.5" fill="#ef6c00" text-anchor="middle" font-style="italic">with their goal?"</text>
+
+  <line x1="707" y1="145" x2="728" y2="145" stroke="#64748b" stroke-width="2" marker-end="url(#arrowcw)"/>
+
+  <!-- 4. act & evaluate -->
+  <rect x="734" y="60" width="205" height="170" rx="14" fill="#f3e5f5" stroke="#9c27b0" stroke-width="2"/>
+  <text x="836" y="92" font-size="17" font-weight="700" fill="#4a148c" text-anchor="middle">4. Act &amp; evaluate</text>
+  <text x="836" y="119" font-size="13" fill="#54405c" text-anchor="middle">the user acts and reads</text>
+  <text x="836" y="136" font-size="13" fill="#54405c" text-anchor="middle">the system's feedback</text>
+  <text x="836" y="172" font-size="12.5" fill="#6a1b9a" text-anchor="middle" font-style="italic">"Will they know they</text>
+  <text x="836" y="189" font-size="12.5" fill="#6a1b9a" text-anchor="middle" font-style="italic">made progress?"</text>
+
+  <!-- probably-not collector -->
+  <g stroke="#c62828" stroke-width="2" stroke-dasharray="6 5" fill="none">
+    <line x1="128" y1="230" x2="128" y2="258"/>
+    <line x1="364" y1="230" x2="364" y2="258"/>
+    <line x1="600" y1="230" x2="600" y2="258"/>
+    <line x1="836" y1="230" x2="836" y2="258"/>
+    <line x1="128" y1="258" x2="836" y2="258"/>
+  </g>
+  <path d="M 482 258 V 280" fill="none" stroke="#c62828" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrowcwr)"/>
+
+  <rect x="252" y="286" width="460" height="76" rx="10" fill="#ffebee" stroke="#ef5350" stroke-width="1.5"/>
+  <text x="482" y="312" font-size="13" font-weight="700" fill="#b71c1c" text-anchor="middle">answer at any step "probably not"?</text>
+  <text x="482" y="332" font-size="12.5" fill="#8d3535" text-anchor="middle">you've found a usability problem</text>
+  <text x="482" y="350" font-size="12.5" fill="#8d3535" text-anchor="middle">before a single real user got confused</text>
+</svg>

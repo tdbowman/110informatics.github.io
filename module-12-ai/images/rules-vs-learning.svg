@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 480" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" role="img" aria-label="Diagram contrasting rule-based systems, where humans write explicit rules, with machine learning, where systems learn patterns from data. Three branches under machine learning show supervised learning from labeled examples, unsupervised learning finding patterns in unlabeled data, and reinforcement learning through trial and error.">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 9 5 L 0 9 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <!-- background -->
+  <rect x="0" y="0" width="960" height="480" fill="#ffffff"/>
+
+  <!-- RULE-BASED card -->
+  <rect x="40" y="40" width="420" height="164" rx="14" fill="#f1f5f9" stroke="#94a3b8" stroke-width="2"/>
+  <text x="250" y="78" font-size="19" font-weight="700" fill="#334155" text-anchor="middle">Rule-based systems</text>
+  <text x="250" y="104" font-size="13.5" fill="#42586e" text-anchor="middle">Humans write explicit rules by hand</text>
+  <rect x="105" y="120" width="290" height="30" rx="15" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="250" y="140" font-size="13" fill="#475569" font-style="italic" text-anchor="middle">if email contains "FREE $$$" → spam</text>
+  <text x="250" y="180" font-size="12.5" fill="#64748b" text-anchor="middle">the system only knows what it was told</text>
+
+  <!-- vs label -->
+  <text x="480" y="128" font-size="14" font-weight="700" fill="#94a3b8" text-anchor="middle">vs.</text>
+
+  <!-- MACHINE LEARNING card -->
+  <rect x="500" y="40" width="420" height="164" rx="14" fill="#e3f2fd" stroke="#2196f3" stroke-width="2"/>
+  <text x="710" y="78" font-size="19" font-weight="700" fill="#0d47a1" text-anchor="middle">Machine learning</text>
+  <text x="710" y="104" font-size="13.5" fill="#42586e" text-anchor="middle">Systems learn from data instead</text>
+  <rect x="565" y="120" width="290" height="30" rx="15" fill="#ffffff" stroke="#90caf9" stroke-width="1.5"/>
+  <text x="710" y="140" font-size="13" fill="#1565c0" font-style="italic" text-anchor="middle">shown examples, it finds the patterns</text>
+  <text x="710" y="180" font-size="12.5" fill="#64748b" text-anchor="middle">how most modern AI works</text>
+
+  <!-- connector tree from ML card to the three approaches -->
+  <line x1="710" y1="204" x2="710" y2="248" stroke="#64748b" stroke-width="2"/>
+  <line x1="180" y1="248" x2="780" y2="248" stroke="#64748b" stroke-width="2"/>
+  <line x1="180" y1="248" x2="180" y2="286" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="480" y1="248" x2="480" y2="286" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="780" y1="248" x2="780" y2="286" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="710" y="236" font-size="12.5" fill="#64748b" text-anchor="start" dx="12">three ways to learn</text>
+
+  <!-- SUPERVISED card -->
+  <rect x="40" y="294" width="280" height="140" rx="14" fill="#e8f5e9" stroke="#4caf50" stroke-width="2"/>
+  <text x="180" y="330" font-size="18" font-weight="700" fill="#1b5e20" text-anchor="middle">Supervised</text>
+  <text x="180" y="358" font-size="13" fill="#3f5747" text-anchor="middle">learns from</text>
+  <text x="180" y="376" font-size="13" fill="#3f5747" text-anchor="middle">labeled examples</text>
+  <text x="180" y="404" font-size="12.5" fill="#64748b" font-style="italic" text-anchor="middle">e.g. spam detection</text>
+
+  <!-- UNSUPERVISED card -->
+  <rect x="340" y="294" width="280" height="140" rx="14" fill="#fff3e0" stroke="#ff9800" stroke-width="2"/>
+  <text x="480" y="330" font-size="18" font-weight="700" fill="#e65100" text-anchor="middle">Unsupervised</text>
+  <text x="480" y="358" font-size="13" fill="#6b503a" text-anchor="middle">finds patterns in</text>
+  <text x="480" y="376" font-size="13" fill="#6b503a" text-anchor="middle">unlabeled data</text>
+  <text x="480" y="404" font-size="12.5" fill="#64748b" font-style="italic" text-anchor="middle">e.g. customer segmentation</text>
+
+  <!-- REINFORCEMENT card -->
+  <rect x="640" y="294" width="280" height="140" rx="14" fill="#f3e5f5" stroke="#9c27b0" stroke-width="2"/>
+  <text x="780" y="330" font-size="18" font-weight="700" fill="#4a148c" text-anchor="middle">Reinforcement</text>
+  <text x="780" y="358" font-size="13" fill="#544157" text-anchor="middle">learns through</text>
+  <text x="780" y="376" font-size="13" fill="#544157" text-anchor="middle">trial and error</text>
+  <text x="780" y="404" font-size="12.5" fill="#64748b" font-style="italic" text-anchor="middle">e.g. game playing</text>
+</svg>

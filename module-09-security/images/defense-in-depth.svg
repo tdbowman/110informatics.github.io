@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 360" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" role="img" aria-label="Defense in depth shown as five layered shields between an attacker and your data: skepticism, software updates, unique passwords, multi-factor authentication, and tested backups. The attack arrow fades as it crosses each layer.">
+  <defs>
+    <marker id="arrow-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 9 5 L 0 9 z" fill="#ef5350"/>
+    </marker>
+  </defs>
+
+  <!-- background -->
+  <rect x="0" y="0" width="960" height="360" fill="#ffffff"/>
+
+  <!-- attack arrow into first layer, fading segments between layers -->
+  <g stroke="#ef5350" stroke-width="2.5" stroke-dasharray="6 5">
+    <line x1="148" y1="180" x2="170" y2="180" marker-end="url(#arrow-red)"/>
+    <line x1="276" y1="180" x2="300" y2="180" opacity="0.7"/>
+    <line x1="400" y1="180" x2="424" y2="180" opacity="0.5"/>
+    <line x1="524" y1="180" x2="548" y2="180" opacity="0.3"/>
+    <line x1="648" y1="180" x2="672" y2="180" opacity="0.15"/>
+  </g>
+
+  <!-- attacker card -->
+  <rect x="24" y="120" width="120" height="120" rx="14" fill="#ffebee" stroke="#ef5350" stroke-width="2"/>
+  <circle cx="84" cy="158" r="13" fill="none" stroke="#b71c1c" stroke-width="2.5"/>
+  <path d="M 62 196 a 22 22 0 0 1 44 0" fill="none" stroke="#b71c1c" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="84" y="222" font-size="14" font-weight="700" fill="#b71c1c" text-anchor="middle">attacker</text>
+
+  <!-- layer labels -->
+  <text x="226" y="48" font-size="12" fill="#64748b" text-anchor="middle">outermost layer</text>
+  <text x="722" y="48" font-size="12" fill="#64748b" text-anchor="middle">last resort</text>
+
+  <!-- LAYER 1: Skepticism -->
+  <rect x="176" y="60" width="100" height="240" rx="14" fill="#fff3e0" stroke="#ff9800" stroke-width="2"/>
+  <text x="226" y="94" font-size="14" font-weight="700" fill="#e65100" text-anchor="middle">Skepticism</text>
+  <text x="226" y="150" font-size="12" fill="#42586e" text-anchor="middle">verify via a</text>
+  <text x="226" y="166" font-size="12" fill="#42586e" text-anchor="middle">second</text>
+  <text x="226" y="182" font-size="12" fill="#42586e" text-anchor="middle">channel</text>
+  <text x="226" y="280" font-size="11.5" font-style="italic" fill="#64748b" text-anchor="middle">stops phishing</text>
+
+  <!-- LAYER 2: Software updates -->
+  <rect x="300" y="60" width="100" height="240" rx="14" fill="#e3f2fd" stroke="#2196f3" stroke-width="2"/>
+  <text x="350" y="94" font-size="14" font-weight="700" fill="#0d47a1" text-anchor="middle">Software</text>
+  <text x="350" y="112" font-size="14" font-weight="700" fill="#0d47a1" text-anchor="middle">updates</text>
+  <text x="350" y="158" font-size="12" fill="#42586e" text-anchor="middle">patch known</text>
+  <text x="350" y="174" font-size="12" fill="#42586e" text-anchor="middle">holes promptly</text>
+  <text x="350" y="280" font-size="11.5" font-style="italic" fill="#64748b" text-anchor="middle">stops malware</text>
+
+  <!-- LAYER 3: Unique passwords -->
+  <rect x="424" y="60" width="100" height="240" rx="14" fill="#e8f5e9" stroke="#4caf50" stroke-width="2"/>
+  <text x="474" y="94" font-size="14" font-weight="700" fill="#1b5e20" text-anchor="middle">Unique</text>
+  <text x="474" y="112" font-size="14" font-weight="700" fill="#1b5e20" text-anchor="middle">passwords</text>
+  <text x="474" y="158" font-size="12" fill="#42586e" text-anchor="middle">one breach</text>
+  <text x="474" y="174" font-size="12" fill="#42586e" text-anchor="middle">stays one</text>
+  <text x="474" y="190" font-size="12" fill="#42586e" text-anchor="middle">breach</text>
+  <text x="474" y="280" font-size="11.5" font-style="italic" fill="#64748b" text-anchor="middle">stops stuffing</text>
+
+  <!-- LAYER 4: MFA / 2FA -->
+  <rect x="548" y="60" width="100" height="240" rx="14" fill="#f3e5f5" stroke="#9c27b0" stroke-width="2"/>
+  <text x="598" y="94" font-size="14" font-weight="700" fill="#4a148c" text-anchor="middle">MFA / 2FA</text>
+  <text x="598" y="150" font-size="12" fill="#42586e" text-anchor="middle">a stolen</text>
+  <text x="598" y="166" font-size="12" fill="#42586e" text-anchor="middle">password alone</text>
+  <text x="598" y="182" font-size="12" fill="#42586e" text-anchor="middle">is not enough</text>
+  <text x="598" y="280" font-size="11.5" font-style="italic" fill="#64748b" text-anchor="middle">stops takeover</text>
+
+  <!-- LAYER 5: Tested backups -->
+  <rect x="672" y="60" width="100" height="240" rx="14" fill="#f1f5f9" stroke="#94a3b8" stroke-width="2"/>
+  <text x="722" y="94" font-size="14" font-weight="700" fill="#334155" text-anchor="middle">Tested</text>
+  <text x="722" y="112" font-size="14" font-weight="700" fill="#334155" text-anchor="middle">backups</text>
+  <text x="722" y="158" font-size="12" fill="#42586e" text-anchor="middle">turns disaster</text>
+  <text x="722" y="174" font-size="12" fill="#42586e" text-anchor="middle">into an</text>
+  <text x="722" y="190" font-size="12" fill="#42586e" text-anchor="middle">inconvenience</text>
+  <text x="722" y="280" font-size="11.5" font-style="italic" fill="#64748b" text-anchor="middle">the safety net</text>
+
+  <!-- data card -->
+  <rect x="816" y="120" width="120" height="120" rx="14" fill="#e8f5e9" stroke="#4caf50" stroke-width="2"/>
+  <g transform="translate(876,172)">
+    <ellipse cx="0" cy="-14" rx="24" ry="8" fill="none" stroke="#2e7d32" stroke-width="2.5"/>
+    <path d="M -24 -14 V 12 A 24 8 0 0 0 24 12 V -14" fill="none" stroke="#2e7d32" stroke-width="2.5"/>
+    <path d="M -24 -1 A 24 8 0 0 0 24 -1" fill="none" stroke="#2e7d32" stroke-width="2"/>
+  </g>
+  <text x="876" y="222" font-size="14" font-weight="700" fill="#1b5e20" text-anchor="middle">your data</text>
+
+  <!-- bottom note -->
+  <text x="480" y="336" font-size="12.5" fill="#64748b" text-anchor="middle">each layer catches what the one before it missed; no single layer is heroic, and none is optional</text>
+</svg>

@@ -67,6 +67,14 @@ Where does a chart actually come from? Ware describes the visualization process 
 3. **Map data to a visual form.** Algorithms turn the selected data into marks on a screen: bars, points, lines, colors. Every choice here (chart type, scale, color) is an argument about what matters.
 4. **The human perceives.** The final component of the system isn't software at all: it's the perceptual and cognitive system of the person looking at the screen.
 
+```{figure} images/visualization-pipeline.svg
+:alt: Flowchart of Ware's visualization pipeline in four stages. Stage one collects and stores raw data, complete with its gaps and origins. Stage two transforms it by cleaning, filtering, aggregating, and choosing a subset to view. Stage three maps the data to visual marks such as bars, points, lines, and colors. Stage four is a human perceiving the result, shown with an eye icon as the final component of the system. Dashed feedback arrows run from the human back to the transform and mapping stages, showing the loop of noticing something, adjusting the view, and looking again.
+:width: 100%
+:name: fig-visualization-pipeline
+
+Ware's pipeline ends in a human eye, not a chart. The dashed loops back through the system are where exploration actually happens.
+```
+
 Crucially, the pipeline runs in **loops**, not a straight line. The viewer notices something odd, adjusts the view, filters differently, and looks again. Exploration is exactly this feedback cycle spinning fast. Even in communication mode, good designers loop: draft the chart, show a colleague, watch where their eyes go, revise. If your first chart is your final chart, you probably skipped the most valuable part of the process.
 
 ---

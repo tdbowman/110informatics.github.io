@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" role="img" aria-label="Venn diagram of three overlapping circles: Data (raw facts, figures, observations), Systems (technologies that store, process, transmit), and Society (people who create, use, and are affected). The overlap of all three circles is labeled Informatics.">
+  <!-- background -->
+  <rect x="0" y="0" width="960" height="520" fill="#ffffff"/>
+
+  <!-- three circles -->
+  <circle cx="360" cy="200" r="150" fill="#e3f2fd" fill-opacity="0.6" stroke="#2196f3" stroke-width="2"/>
+  <circle cx="600" cy="200" r="150" fill="#e8f5e9" fill-opacity="0.6" stroke="#4caf50" stroke-width="2"/>
+  <circle cx="480" cy="360" r="150" fill="#fff3e0" fill-opacity="0.6" stroke="#ff9800" stroke-width="2"/>
+
+  <!-- DATA circle labels -->
+  <text x="290" y="152" font-size="19" font-weight="700" fill="#0d47a1" text-anchor="middle">Data</text>
+  <text x="290" y="174" font-size="12.5" fill="#42586e" text-anchor="middle">raw facts, figures,</text>
+  <text x="290" y="190" font-size="12.5" fill="#42586e" text-anchor="middle">observations</text>
+
+  <!-- SYSTEMS circle labels -->
+  <text x="668" y="152" font-size="19" font-weight="700" fill="#1b5e20" text-anchor="middle">Systems</text>
+  <text x="668" y="174" font-size="12.5" fill="#3f5747" text-anchor="middle">technologies that</text>
+  <text x="668" y="190" font-size="12.5" fill="#3f5747" text-anchor="middle">store, process, transmit</text>
+
+  <!-- SOCIETY circle labels -->
+  <text x="480" y="434" font-size="19" font-weight="700" fill="#e65100" text-anchor="middle">Society</text>
+  <text x="480" y="456" font-size="12.5" fill="#6b503a" text-anchor="middle">people who create, use,</text>
+  <text x="480" y="472" font-size="12.5" fill="#6b503a" text-anchor="middle">and are affected</text>
+
+  <!-- center overlap label -->
+  <text x="480" y="262" font-size="19" font-weight="700" fill="#334155" text-anchor="middle">Informatics</text>
+</svg>

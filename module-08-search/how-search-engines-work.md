@@ -60,7 +60,7 @@ Why bother? Speed. When you search for "octopus intelligence," the engine does n
 :width: 100%
 :name: fig-inverted-index
 
-Inverting the web: instead of "which words are on this page?", the index answers "which pages have this word?" — the same trick as the index at the back of a book.
+Inverting the web: instead of "which words are on this page?", the index answers "which pages have this word?", the same trick as the index at the back of a book.
 ```
 
 ## Query Processing: What Happens When You Hit Enter

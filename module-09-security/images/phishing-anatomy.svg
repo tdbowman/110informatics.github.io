@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 370" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" role="img" aria-label="Five-step flow of a phishing attack: the lure, the hook, the fake page, the harvest, and the exploitation, with the defense stated below: never log in from a link in a message.">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 9 5 L 0 9 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <!-- background -->
+  <rect x="0" y="0" width="960" height="370" fill="#ffffff"/>
+
+  <!-- 1. THE LURE -->
+  <rect x="24" y="60" width="164" height="180" rx="14" fill="#e3f2fd" stroke="#2196f3" stroke-width="2"/>
+  <text x="106" y="88" font-size="11" font-weight="700" letter-spacing="1.5" fill="#64748b" text-anchor="middle">STEP 1</text>
+  <text x="106" y="112" font-size="16" font-weight="700" fill="#0d47a1" text-anchor="middle">The Lure</text>
+  <text x="106" y="140" font-size="12.5" fill="#42586e" text-anchor="middle">a message that</text>
+  <text x="106" y="157" font-size="12.5" fill="#42586e" text-anchor="middle">looks like your</text>
+  <text x="106" y="174" font-size="12.5" fill="#42586e" text-anchor="middle">bank or campus IT,</text>
+  <text x="106" y="191" font-size="12.5" fill="#42586e" text-anchor="middle">sender spoofed</text>
+
+  <line x1="192" y1="150" x2="212" y2="150" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- 2. THE HOOK -->
+  <rect x="216" y="60" width="164" height="180" rx="14" fill="#f3e5f5" stroke="#9c27b0" stroke-width="2"/>
+  <text x="298" y="88" font-size="11" font-weight="700" letter-spacing="1.5" fill="#64748b" text-anchor="middle">STEP 2</text>
+  <text x="298" y="112" font-size="16" font-weight="700" fill="#4a148c" text-anchor="middle">The Hook</text>
+  <text x="298" y="140" font-size="12.5" fill="#42586e" text-anchor="middle">an urgent reason</text>
+  <text x="298" y="157" font-size="12.5" fill="#42586e" text-anchor="middle">to act right now;</text>
+  <text x="298" y="174" font-size="12.5" fill="#42586e" text-anchor="middle">urgency short-</text>
+  <text x="298" y="191" font-size="12.5" fill="#42586e" text-anchor="middle">circuits suspicion</text>
+
+  <line x1="384" y1="150" x2="404" y2="150" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- 3. THE FAKE PAGE -->
+  <rect x="408" y="60" width="164" height="180" rx="14" fill="#fff3e0" stroke="#ff9800" stroke-width="2"/>
+  <text x="490" y="88" font-size="11" font-weight="700" letter-spacing="1.5" fill="#64748b" text-anchor="middle">STEP 3</text>
+  <text x="490" y="112" font-size="16" font-weight="700" fill="#e65100" text-anchor="middle">The Fake Page</text>
+  <text x="490" y="140" font-size="12.5" fill="#42586e" text-anchor="middle">a pixel-perfect</text>
+  <text x="490" y="157" font-size="12.5" fill="#42586e" text-anchor="middle">login page at an</text>
+  <text x="490" y="174" font-size="12.5" fill="#42586e" text-anchor="middle">almost-right</text>
+  <text x="490" y="191" font-size="12.5" fill="#42586e" text-anchor="middle">web address</text>
+
+  <line x1="576" y1="150" x2="596" y2="150" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- 4. THE HARVEST -->
+  <rect x="600" y="60" width="164" height="180" rx="14" fill="#ffebee" stroke="#ef5350" stroke-width="2"/>
+  <text x="682" y="88" font-size="11" font-weight="700" letter-spacing="1.5" fill="#64748b" text-anchor="middle">STEP 4</text>
+  <text x="682" y="112" font-size="16" font-weight="700" fill="#b71c1c" text-anchor="middle">The Harvest</text>
+  <text x="682" y="140" font-size="12.5" fill="#42586e" text-anchor="middle">you type your</text>
+  <text x="682" y="157" font-size="12.5" fill="#42586e" text-anchor="middle">password; kits can</text>
+  <text x="682" y="174" font-size="12.5" fill="#42586e" text-anchor="middle">capture 2FA</text>
+  <text x="682" y="191" font-size="12.5" fill="#42586e" text-anchor="middle">codes too</text>
+
+  <line x1="768" y1="150" x2="788" y2="150" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- 5. THE EXPLOITATION -->
+  <rect x="792" y="60" width="144" height="180" rx="14" fill="#ffebee" stroke="#ef5350" stroke-width="2"/>
+  <text x="864" y="88" font-size="11" font-weight="700" letter-spacing="1.5" fill="#64748b" text-anchor="middle">STEP 5</text>
+  <text x="864" y="112" font-size="16" font-weight="700" fill="#b71c1c" text-anchor="middle">Exploitation</text>
+  <text x="864" y="140" font-size="12.5" fill="#42586e" text-anchor="middle">attacker logs</text>
+  <text x="864" y="157" font-size="12.5" fill="#42586e" text-anchor="middle">in as you; your</text>
+  <text x="864" y="174" font-size="12.5" fill="#42586e" text-anchor="middle">inbox is the</text>
+  <text x="864" y="191" font-size="12.5" fill="#42586e" text-anchor="middle">master key</text>
+
+  <!-- chain note -->
+  <text x="480" y="272" font-size="12.5" fill="#64748b" text-anchor="middle">break any one step and the whole chain fails</text>
+
+  <!-- defense banner -->
+  <rect x="24" y="288" width="912" height="52" rx="14" fill="#e8f5e9" stroke="#4caf50" stroke-width="2"/>
+  <text x="132" y="320" font-size="15" font-weight="700" fill="#1b5e20">The defense:</text>
+  <text x="254" y="320" font-size="15" fill="#1b5e20">never log in from a link in a message: type the address yourself or use the app</text>
+</svg>

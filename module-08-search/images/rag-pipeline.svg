@@ -71,5 +71,5 @@
   <rect x="400" y="250" width="216" height="70" rx="10" fill="#ffebee" stroke="#ef5350" stroke-width="1.5"/>
   <text x="508" y="273" font-size="12" font-weight="700" fill="#b71c1c" text-anchor="middle">when retrieval fails,</text>
   <text x="508" y="291" font-size="12" fill="#8d3535" text-anchor="middle">the model fills the gap by guessing</text>
-  <text x="508" y="309" font-size="12" fill="#8d3535" text-anchor="middle">— one source of "hallucination"</text>
+  <text x="508" y="309" font-size="12" fill="#8d3535" text-anchor="middle">one source of "hallucination"</text>
 </svg>

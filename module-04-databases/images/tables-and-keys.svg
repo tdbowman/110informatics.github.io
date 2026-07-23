@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 400" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" role="img" aria-label="Three database tables side by side: Students on the left with StudentID as primary key, Courses on the right with CourseID as primary key, and the Enrollments bridge table between them holding StudentID and CourseID as foreign keys, with arrows pointing from each foreign key back to its primary key.">
+  <defs>
+    <marker id="arrow4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 9 5 L 0 9 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <!-- background -->
+  <rect x="0" y="0" width="960" height="400" fill="#ffffff"/>
+
+  <!-- STUDENTS card -->
+  <rect x="20" y="70" width="256" height="210" rx="14" fill="#e3f2fd" stroke="#2196f3" stroke-width="2"/>
+  <text x="148" y="98" font-size="18" font-weight="700" fill="#0d47a1" text-anchor="middle">Students</text>
+  <!-- table -->
+  <rect x="40" y="112" width="216" height="112" fill="#ffffff" stroke="none"/>
+  <rect x="40" y="112" width="216" height="28" fill="#bbdefb"/>
+  <rect x="40" y="112" width="216" height="112" fill="none" stroke="#90caf9" stroke-width="1.5"/>
+  <line x1="132" y1="112" x2="132" y2="224" stroke="#90caf9" stroke-width="1.5"/>
+  <line x1="40" y1="140" x2="256" y2="140" stroke="#90caf9" stroke-width="1.5"/>
+  <line x1="40" y1="168" x2="256" y2="168" stroke="#90caf9" stroke-width="1"/>
+  <line x1="40" y1="196" x2="256" y2="196" stroke="#90caf9" stroke-width="1"/>
+  <text x="48" y="131" font-size="13" font-weight="700" fill="#0d47a1">StudentID</text>
+  <text x="140" y="131" font-size="13" font-weight="700" fill="#0d47a1">Name</text>
+  <g font-size="13" fill="#334155">
+    <text x="48" y="159">001</text><text x="140" y="159">Maria</text>
+    <text x="48" y="187">002</text><text x="140" y="187">James</text>
+    <text x="48" y="215">003</text><text x="140" y="215">Aisha</text>
+  </g>
+  <text x="148" y="248" font-size="12" font-weight="700" fill="#0d47a1" text-anchor="middle">StudentID = primary key</text>
+  <text x="148" y="266" font-size="12" fill="#64748b" text-anchor="middle">uniquely identifies each student</text>
+
+  <!-- ENROLLMENTS bridge card -->
+  <rect x="340" y="40" width="280" height="240" rx="14" fill="#fff3e0" stroke="#ff9800" stroke-width="2"/>
+  <text x="480" y="70" font-size="18" font-weight="700" fill="#e65100" text-anchor="middle">Enrollments</text>
+  <text x="480" y="89" font-size="12.5" font-style="italic" fill="#6b503a" text-anchor="middle">the bridge table</text>
+  <!-- table -->
+  <rect x="360" y="102" width="240" height="112" fill="#ffffff" stroke="none"/>
+  <rect x="360" y="102" width="240" height="28" fill="#ffe0b2"/>
+  <rect x="360" y="102" width="240" height="112" fill="none" stroke="#ffcc80" stroke-width="1.5"/>
+  <line x1="445" y1="102" x2="445" y2="214" stroke="#ffcc80" stroke-width="1.5"/>
+  <line x1="530" y1="102" x2="530" y2="214" stroke="#ffcc80" stroke-width="1.5"/>
+  <line x1="360" y1="130" x2="600" y2="130" stroke="#ffcc80" stroke-width="1.5"/>
+  <line x1="360" y1="158" x2="600" y2="158" stroke="#ffcc80" stroke-width="1"/>
+  <line x1="360" y1="186" x2="600" y2="186" stroke="#ffcc80" stroke-width="1"/>
+  <text x="366" y="121" font-size="13" font-weight="700" fill="#e65100">StudentID</text>
+  <text x="451" y="121" font-size="13" font-weight="700" fill="#e65100">CourseID</text>
+  <text x="536" y="121" font-size="13" font-weight="700" fill="#e65100">Grade</text>
+  <g font-size="13" fill="#334155">
+    <text x="366" y="149">001</text><text x="451" y="149">INF110</text><text x="536" y="149">A</text>
+    <text x="366" y="177">002</text><text x="451" y="177">INF110</text><text x="536" y="177">B+</text>
+    <text x="366" y="205">001</text><text x="451" y="205">INF220</text><text x="536" y="205">A-</text>
+  </g>
+  <text x="480" y="238" font-size="12" font-weight="700" fill="#e65100" text-anchor="middle">StudentID &amp; CourseID = foreign keys</text>
+  <text x="480" y="256" font-size="12" fill="#6b503a" text-anchor="middle">each row = one student in one course</text>
+
+  <!-- COURSES card -->
+  <rect x="684" y="70" width="256" height="210" rx="14" fill="#e8f5e9" stroke="#4caf50" stroke-width="2"/>
+  <text x="812" y="98" font-size="18" font-weight="700" fill="#1b5e20" text-anchor="middle">Courses</text>
+  <!-- table -->
+  <rect x="704" y="112" width="216" height="84" fill="#ffffff" stroke="none"/>
+  <rect x="704" y="112" width="216" height="28" fill="#c8e6c9"/>
+  <rect x="704" y="112" width="216" height="84" fill="none" stroke="#a5d6a7" stroke-width="1.5"/>
+  <line x1="778" y1="112" x2="778" y2="196" stroke="#a5d6a7" stroke-width="1.5"/>
+  <line x1="704" y1="140" x2="920" y2="140" stroke="#a5d6a7" stroke-width="1.5"/>
+  <line x1="704" y1="168" x2="920" y2="168" stroke="#a5d6a7" stroke-width="1"/>
+  <text x="710" y="131" font-size="12.5" font-weight="700" fill="#1b5e20">CourseID</text>
+  <text x="786" y="131" font-size="12.5" font-weight="700" fill="#1b5e20">Title</text>
+  <g font-size="12" fill="#334155">
+    <text x="710" y="159">INF110</text><text x="786" y="159">Foundations of Inf.</text>
+    <text x="710" y="187">INF220</text><text x="786" y="187">Database Design</text>
+  </g>
+  <text x="812" y="230" font-size="12" font-weight="700" fill="#1b5e20" text-anchor="middle">CourseID = primary key</text>
+  <text x="812" y="248" font-size="12" fill="#64748b" text-anchor="middle">uniquely identifies each course</text>
+
+  <!-- FK -> PK arrows -->
+  <line x1="340" y1="164" x2="282" y2="164" stroke="#64748b" stroke-width="2" marker-end="url(#arrow4)"/>
+  <text x="311" y="150" font-size="12" fill="#64748b" text-anchor="middle">FK → PK</text>
+  <line x1="620" y1="164" x2="678" y2="164" stroke="#64748b" stroke-width="2" marker-end="url(#arrow4)"/>
+  <text x="649" y="150" font-size="12" fill="#64748b" text-anchor="middle">FK → PK</text>
+
+  <!-- bottom note -->
+  <text x="480" y="336" font-size="13" fill="#64748b" text-anchor="middle">One many-to-many relationship (students ↔ courses)</text>
+  <text x="480" y="356" font-size="13" fill="#64748b" text-anchor="middle">becomes two one-to-many links through the bridge table.</text>
+</svg>

@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 430" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" role="img" aria-label="Diagram of population versus sample. A large box labeled population holds a grid of dots, the entire group you want to know about. A sampling arrow leads to a smaller box labeled sample holding the few highlighted dots you actually collected data from, and a dashed inference arrow points back from sample to population. Below, descriptive analysis summarizes the data you have, while inferential analysis draws conclusions about the whole population.">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 9 5 L 0 9 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <!-- background -->
+  <rect x="0" y="0" width="960" height="430" fill="#ffffff"/>
+
+  <!-- POPULATION card -->
+  <rect x="50" y="60" width="340" height="250" rx="14" fill="#e3f2fd" stroke="#2196f3" stroke-width="2"/>
+  <text x="220" y="95" font-size="19" font-weight="700" fill="#0d47a1" text-anchor="middle">Population</text>
+  <!-- dot grid: everyone -->
+  <g fill="#90caf9">
+    <circle cx="95" cy="125" r="8"/><circle cx="167" cy="125" r="8"/><circle cx="203" cy="125" r="8"/><circle cx="275" cy="125" r="8"/><circle cx="311" cy="125" r="8"/><circle cx="347" cy="125" r="8"/>
+    <circle cx="95" cy="155" r="8"/><circle cx="131" cy="155" r="8"/><circle cx="203" cy="155" r="8"/><circle cx="239" cy="155" r="8"/><circle cx="275" cy="155" r="8"/><circle cx="311" cy="155" r="8"/>
+    <circle cx="131" cy="185" r="8"/><circle cx="167" cy="185" r="8"/><circle cx="203" cy="185" r="8"/><circle cx="239" cy="185" r="8"/><circle cx="311" cy="185" r="8"/><circle cx="347" cy="185" r="8"/>
+    <circle cx="95" cy="215" r="8"/><circle cx="131" cy="215" r="8"/><circle cx="167" cy="215" r="8"/><circle cx="239" cy="215" r="8"/><circle cx="275" cy="215" r="8"/><circle cx="347" cy="215" r="8"/>
+  </g>
+  <!-- the sampled few, highlighted -->
+  <g fill="#1565c0">
+    <circle cx="131" cy="125" r="8"/><circle cx="239" cy="125" r="8"/>
+    <circle cx="167" cy="155" r="8"/><circle cx="347" cy="155" r="8"/>
+    <circle cx="95" cy="185" r="8"/><circle cx="275" cy="185" r="8"/>
+  </g>
+  <text x="220" y="258" font-size="13" fill="#42586e" text-anchor="middle">the entire group you want to know about</text>
+  <text x="220" y="278" font-size="13" fill="#42586e" text-anchor="middle">(all voters, all students, all customers)</text>
+
+  <!-- SAMPLE card -->
+  <rect x="590" y="95" width="320" height="180" rx="14" fill="#e8f5e9" stroke="#4caf50" stroke-width="2"/>
+  <text x="750" y="130" font-size="19" font-weight="700" fill="#1b5e20" text-anchor="middle">Sample</text>
+  <g fill="#1565c0">
+    <circle cx="640" cy="165" r="8"/><circle cx="684" cy="165" r="8"/><circle cx="728" cy="165" r="8"/>
+    <circle cx="772" cy="165" r="8"/><circle cx="816" cy="165" r="8"/><circle cx="860" cy="165" r="8"/>
+  </g>
+  <text x="750" y="210" font-size="13" fill="#3f5747" text-anchor="middle">the smaller, hopefully representative</text>
+  <text x="750" y="230" font-size="13" fill="#3f5747" text-anchor="middle">group you actually collected data from</text>
+
+  <!-- sampling arrow -->
+  <line x1="398" y1="150" x2="582" y2="150" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="490" y="137" font-size="12.5" fill="#64748b" text-anchor="middle">sampling</text>
+  <text x="490" y="170" font-size="12" fill="#64748b" text-anchor="middle">(must be representative!)</text>
+
+  <!-- inference arrow -->
+  <line x1="582" y1="235" x2="398" y2="235" stroke="#64748b" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+  <text x="490" y="222" font-size="12.5" fill="#64748b" text-anchor="middle">inference</text>
+  <text x="490" y="256" font-size="12" fill="#64748b" text-anchor="middle">conclusions about</text>
+  <text x="490" y="272" font-size="12" fill="#64748b" text-anchor="middle">the whole group</text>
+
+  <!-- bottom: descriptive vs inferential -->
+  <rect x="110" y="340" width="350" height="70" rx="14" fill="#fff3e0" stroke="#ff9800" stroke-width="2"/>
+  <text x="285" y="368" font-size="14" font-weight="700" fill="#e65100" text-anchor="middle">Descriptive analysis</text>
+  <text x="285" y="390" font-size="13" fill="#6b503a" text-anchor="middle">summarizes the data you actually have</text>
+
+  <rect x="500" y="340" width="350" height="70" rx="14" fill="#f3e5f5" stroke="#9c27b0" stroke-width="2"/>
+  <text x="675" y="368" font-size="14" font-weight="700" fill="#4a148c" text-anchor="middle">Inferential analysis</text>
+  <text x="675" y="390" font-size="13" fill="#5d4266" text-anchor="middle">draws conclusions about the whole population</text>
+</svg>

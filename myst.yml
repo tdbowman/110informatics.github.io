@@ -43,13 +43,37 @@ project:
     - title: 'Part 1: Foundations'
       children:
         - file: module-01-intro/intro-to-informatics.md
+          children:
+            - file: module-01-intro/what-is-informatics.md
+            - file: module-01-intro/defining-information.md
+            - file: module-01-intro/key-concepts.md
         - file: module-02-infrastructure/information-infrastructure.md
+          children:
+            - file: module-02-infrastructure/thinking-in-systems.md
+            - file: module-02-infrastructure/how-the-internet-works.md
+            - file: module-02-infrastructure/costs-and-the-digital-divide.md
         - file: module-03-design/design-thinking.md
+          children:
+            - file: module-03-design/understanding-users.md
+            - file: module-03-design/design-thinking-and-ux.md
+            - file: module-03-design/evaluating-and-ethical-design.md
     - title: 'Part 2: Data & Systems'
       children:
         - file: module-04-databases/databases.md
+          children:
+            - file: module-04-databases/database-foundations.md
+            - file: module-04-databases/relational-databases.md
+            - file: module-04-databases/sql-and-data-quality.md
         - file: module-05-accessibility/accessibility-inclusion.md
+          children:
+            - file: module-05-accessibility/understanding-disability.md
+            - file: module-05-accessibility/assistive-tech-and-inclusive-design.md
+            - file: module-05-accessibility/wcag-testing-and-etiquette.md
         - file: module-06-analytics/data-analytics.md
+          children:
+            - file: module-06-analytics/analytics-vs-data-science.md
+            - file: module-06-analytics/statistics-foundations.md
+            - file: module-06-analytics/analysis-process-and-bias.md
         - file: module-07-visualization/data-visualization.md
           children:
             - file: module-07-visualization/why-visualize.md
@@ -64,12 +88,30 @@ project:
             - file: module-08-search/how-search-engines-work.md
             - file: module-08-search/search-after-ai.md
         - file: module-09-security/security-privacy.md
+          children:
+            - file: module-09-security/security-privacy-and-trust.md
+            - file: module-09-security/threats-and-defenses.md
+            - file: module-09-security/privacy-in-practice.md
         - file: module-10-copyright/copyright-law.md
+          children:
+            - file: module-10-copyright/intellectual-property.md
+            - file: module-10-copyright/copyright-and-fair-use.md
+            - file: module-10-copyright/ai-and-net-neutrality.md
     - title: 'Part 4: Emerging Technologies'
       children:
         - file: module-11-autonomous/autonomous-systems.md
+          children:
+            - file: module-11-autonomous/what-makes-a-system-autonomous.md
+            - file: module-11-autonomous/autonomous-systems-in-action.md
+            - file: module-11-autonomous/challenges-and-ethics.md
         - file: module-12-ai/artificial-intelligence.md
+          children:
+            - file: module-12-ai/what-is-ai.md
+            - file: module-12-ai/ai-ethics-law-policy.md
         - file: module-13-robotics-genai/robotics-genai.md
+          children:
+            - file: module-13-robotics-genai/robots-and-embodied-ai.md
+            - file: module-13-robotics-genai/ai-agents.md
     - title: Wrapping Up
       children:
         - file: course-wrapup.md

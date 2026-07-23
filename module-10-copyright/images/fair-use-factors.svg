@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 460" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" role="img" aria-label="The four fair-use factors as four cards, each with signals that lean fair or lean unfair, all feeding into a single balance scale labeled weighed together, case by case.">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 9 5 L 0 9 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <!-- background -->
+  <rect x="0" y="0" width="960" height="460" fill="#ffffff"/>
+
+  <text x="480" y="32" font-size="19" font-weight="700" fill="#334155" text-anchor="middle">The Four Fair-Use Factors</text>
+
+  <!-- FACTOR 1: Purpose (blue) -->
+  <rect x="24" y="52" width="218" height="180" rx="14" fill="#e3f2fd" stroke="#2196f3" stroke-width="2"/>
+  <text x="133" y="82" font-size="18" font-weight="700" fill="#0d47a1" text-anchor="middle">1. Purpose</text>
+  <text x="133" y="101" font-size="12" fill="#64748b" text-anchor="middle">character of the use</text>
+  <text x="40" y="130" font-size="12.5" font-weight="700" fill="#2e7d32">Leans fair:</text>
+  <text x="40" y="147" font-size="13" fill="#42586e">commentary, teaching,</text>
+  <text x="40" y="164" font-size="13" fill="#42586e">parody, transformative</text>
+  <text x="40" y="192" font-size="12.5" font-weight="700" fill="#c62828">Leans unfair:</text>
+  <text x="40" y="209" font-size="13" fill="#42586e">commercial repackaging</text>
+
+  <!-- FACTOR 2: Nature (green) -->
+  <rect x="254" y="52" width="218" height="180" rx="14" fill="#e8f5e9" stroke="#4caf50" stroke-width="2"/>
+  <text x="363" y="82" font-size="18" font-weight="700" fill="#1b5e20" text-anchor="middle">2. Nature</text>
+  <text x="363" y="101" font-size="12" fill="#64748b" text-anchor="middle">of the original work</text>
+  <text x="270" y="130" font-size="12.5" font-weight="700" fill="#2e7d32">Leans fair:</text>
+  <text x="270" y="147" font-size="13" fill="#42586e">factual, published</text>
+  <text x="270" y="192" font-size="12.5" font-weight="700" fill="#c62828">Leans unfair:</text>
+  <text x="270" y="209" font-size="13" fill="#42586e">creative, unpublished</text>
+
+  <!-- FACTOR 3: Amount (orange) -->
+  <rect x="484" y="52" width="218" height="180" rx="14" fill="#fff3e0" stroke="#ff9800" stroke-width="2"/>
+  <text x="593" y="82" font-size="18" font-weight="700" fill="#e65100" text-anchor="middle">3. Amount</text>
+  <text x="593" y="101" font-size="12" fill="#64748b" text-anchor="middle">and substantiality</text>
+  <text x="500" y="130" font-size="12.5" font-weight="700" fill="#2e7d32">Leans fair:</text>
+  <text x="500" y="147" font-size="13" fill="#42586e">a brief excerpt</text>
+  <text x="500" y="175" font-size="12.5" font-weight="700" fill="#c62828">Leans unfair:</text>
+  <text x="500" y="192" font-size="13" fill="#42586e">a whole chapter, or the</text>
+  <text x="500" y="209" font-size="13" fill="#42586e">"heart of the work"</text>
+
+  <!-- FACTOR 4: Effect (purple) -->
+  <rect x="714" y="52" width="218" height="180" rx="14" fill="#f3e5f5" stroke="#9c27b0" stroke-width="2"/>
+  <text x="823" y="82" font-size="18" font-weight="700" fill="#4a148c" text-anchor="middle">4. Effect</text>
+  <text x="823" y="101" font-size="12" fill="#64748b" text-anchor="middle">on the market</text>
+  <text x="730" y="130" font-size="12.5" font-weight="700" fill="#2e7d32">Leans fair:</text>
+  <text x="730" y="147" font-size="13" fill="#42586e">no lost sales</text>
+  <text x="730" y="175" font-size="12.5" font-weight="700" fill="#c62828">Leans unfair:</text>
+  <text x="730" y="192" font-size="13" fill="#42586e">substitutes for the</text>
+  <text x="730" y="209" font-size="13" fill="#42586e">original or its licenses</text>
+
+  <!-- arrows into the scale -->
+  <line x1="133" y1="240" x2="392" y2="288" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="363" y1="240" x2="446" y2="288" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="593" y1="240" x2="514" y2="288" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="823" y1="240" x2="568" y2="288" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- the balance (neutral card) -->
+  <rect x="320" y="296" width="320" height="136" rx="14" fill="#f1f5f9" stroke="#94a3b8" stroke-width="2"/>
+  <!-- scale drawing -->
+  <g stroke="#475569" stroke-width="2.5" stroke-linecap="round" fill="none">
+    <line x1="480" y1="318" x2="480" y2="368"/>
+    <line x1="462" y1="371" x2="498" y2="371"/>
+    <line x1="428" y1="326" x2="532" y2="326"/>
+    <line x1="428" y1="326" x2="428" y2="342"/>
+    <line x1="532" y1="326" x2="532" y2="342"/>
+    <path d="M 414 342 A 14 9 0 0 0 442 342"/>
+    <path d="M 518 342 A 14 9 0 0 0 546 342"/>
+  </g>
+  <text x="480" y="398" font-size="15" font-weight="700" fill="#334155" text-anchor="middle">Weighed together, case by case</text>
+  <text x="480" y="418" font-size="12.5" fill="#64748b" text-anchor="middle">each factor is a sliding scale, not a checkbox</text>
+</svg>

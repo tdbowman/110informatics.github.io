@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 470" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" role="img" aria-label="Diagram of the six-step journey of a click. Your device builds the request, your home LAN carries it over Ethernet or Wi-Fi, your router and modem send it out over cable, fiber, or DSL, your ISP forwards it toward the backbone, backbone networks and exchange points relay it hop by hop, possibly across a submarine cable, and a data center server sends the response back along a dashed return path to your device.">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 9 5 L 0 9 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <!-- background -->
+  <rect x="0" y="0" width="960" height="470" fill="#ffffff"/>
+
+  <text x="165" y="32" font-size="12.5" font-style="italic" fill="#64748b" text-anchor="middle">you tap a link&#8230;</text>
+
+  <!-- row 1 -->
+  <rect x="40" y="44" width="250" height="124" rx="14" fill="#e3f2fd" stroke="#2196f3" stroke-width="2"/>
+  <text x="165" y="82" font-size="18" font-weight="700" fill="#0d47a1" text-anchor="middle">1. Your device</text>
+  <text x="165" y="110" font-size="13" fill="#42586e" text-anchor="middle">builds the request; its NIC</text>
+  <text x="165" y="128" font-size="13" fill="#42586e" text-anchor="middle">hands it to the local network</text>
+
+  <line x1="296" y1="106" x2="349" y2="106" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <rect x="355" y="44" width="250" height="124" rx="14" fill="#e8f5e9" stroke="#4caf50" stroke-width="2"/>
+  <text x="480" y="82" font-size="18" font-weight="700" fill="#1b5e20" text-anchor="middle">2. Your home LAN</text>
+  <text x="480" y="110" font-size="13" fill="#3f5747" text-anchor="middle">Ethernet or Wi-Fi carries it</text>
+  <text x="480" y="128" font-size="13" fill="#3f5747" text-anchor="middle">across the local network</text>
+
+  <line x1="611" y1="106" x2="664" y2="106" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <rect x="670" y="44" width="250" height="124" rx="14" fill="#fff3e0" stroke="#ff9800" stroke-width="2"/>
+  <text x="795" y="82" font-size="18" font-weight="700" fill="#e65100" text-anchor="middle">3. Router &amp; modem</text>
+  <text x="795" y="110" font-size="13" fill="#6b503a" text-anchor="middle">the router directs it out; the</text>
+  <text x="795" y="128" font-size="13" fill="#6b503a" text-anchor="middle">modem speaks cable,</text>
+  <text x="795" y="146" font-size="13" fill="#6b503a" text-anchor="middle">fiber, or DSL</text>
+
+  <!-- down to row 2 -->
+  <line x1="795" y1="174" x2="795" y2="244" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="812" y="214" font-size="12.5" fill="#64748b">out of the house</text>
+
+  <!-- row 2 (flows right to left) -->
+  <rect x="670" y="250" width="250" height="124" rx="14" fill="#f3e5f5" stroke="#9c27b0" stroke-width="2"/>
+  <text x="795" y="288" font-size="18" font-weight="700" fill="#4a148c" text-anchor="middle">4. Your ISP</text>
+  <text x="795" y="316" font-size="13" fill="#5a4a63" text-anchor="middle">receives the request and</text>
+  <text x="795" y="334" font-size="13" fill="#5a4a63" text-anchor="middle">forwards it toward the backbone</text>
+
+  <line x1="664" y1="312" x2="611" y2="312" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <rect x="355" y="250" width="250" height="124" rx="14" fill="#f1f5f9" stroke="#94a3b8" stroke-width="2"/>
+  <text x="480" y="288" font-size="18" font-weight="700" fill="#334155" text-anchor="middle">5. Backbone &amp; IXPs</text>
+  <text x="480" y="316" font-size="13" fill="#42586e" text-anchor="middle">hop by hop, router by router,</text>
+  <text x="480" y="334" font-size="13" fill="#42586e" text-anchor="middle">maybe across a submarine cable</text>
+
+  <line x1="349" y1="312" x2="296" y2="312" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <rect x="40" y="250" width="250" height="124" rx="14" fill="#e3f2fd" stroke="#2196f3" stroke-width="2"/>
+  <text x="165" y="288" font-size="18" font-weight="700" fill="#0d47a1" text-anchor="middle">6. The server</text>
+  <text x="165" y="316" font-size="13" fill="#42586e" text-anchor="middle">a data center reassembles the</text>
+  <text x="165" y="334" font-size="13" fill="#42586e" text-anchor="middle">request and sends the response</text>
+
+  <!-- response retraces the path -->
+  <line x1="140" y1="244" x2="140" y2="176" stroke="#64748b" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+  <text x="156" y="204" font-size="12.5" fill="#64748b">the response</text>
+  <text x="156" y="220" font-size="12.5" fill="#64748b">retraces the path</text>
+
+  <!-- bottom note -->
+  <text x="480" y="420" font-size="13" fill="#64748b" text-anchor="middle">The whole round trip routinely completes in under a couple hundred milliseconds.</text>
+  <text x="480" y="440" font-size="13" fill="#64748b" text-anchor="middle">Every element in the chain is physical, owned by someone, powered by electricity &#8212; and capable of failing.</text>
+</svg>

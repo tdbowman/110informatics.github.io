@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 500" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" role="img" aria-label="Four cards mapping disability types to assistive technologies. Visual: screen readers such as JAWS, NVDA, VoiceOver, and TalkBack; magnifiers and zoom; high-contrast modes; refreshable braille displays. Auditory: captions and transcripts with human review; visual alerts instead of chimes. Motor: keyboard navigation and voice control; switch access including sip-and-puff devices; eye tracking. Cognitive: the design itself: plain language, predictable layouts, consistent navigation, no time pressure. A bottom note states the shared requirement that everything on screen must work without a mouse.">
+  <rect x="0" y="0" width="960" height="500" fill="#ffffff"/>
+
+  <!-- VISUAL -->
+  <rect x="25" y="24" width="445" height="184" rx="14" fill="#e3f2fd" stroke="#2196f3" stroke-width="2"/>
+  <text x="47" y="56" font-size="18" font-weight="700" fill="#0d47a1">Visual</text>
+  <text x="47" y="78" font-size="12" font-style="italic" fill="#5b7288">blindness · low vision · color blindness</text>
+  <text x="47" y="108" font-size="13" fill="#42586e">• screen readers: JAWS, NVDA, VoiceOver, TalkBack</text>
+  <text x="47" y="132" font-size="13" fill="#42586e">• refreshable braille displays</text>
+  <text x="47" y="156" font-size="13" fill="#42586e">• magnifiers &amp; zoom</text>
+  <text x="47" y="180" font-size="13" fill="#42586e">• high-contrast modes</text>
+
+  <!-- AUDITORY -->
+  <rect x="490" y="24" width="445" height="184" rx="14" fill="#e8f5e9" stroke="#4caf50" stroke-width="2"/>
+  <text x="512" y="56" font-size="18" font-weight="700" fill="#1b5e20">Auditory</text>
+  <text x="512" y="78" font-size="12" font-style="italic" fill="#4f6b57">deafness · hard of hearing</text>
+  <text x="512" y="108" font-size="13" fill="#3f5747">• captions &amp; transcripts</text>
+  <text x="512" y="132" font-size="13" fill="#3f5747">• visual alerts instead of notification chimes</text>
+  <text x="512" y="156" font-size="13" fill="#3f5747">• auto-captions still mangle names &amp; accents,</text>
+  <text x="524" y="176" font-size="13" fill="#3f5747">so human review stays part of the work</text>
+
+  <!-- MOTOR -->
+  <rect x="25" y="228" width="445" height="184" rx="14" fill="#fff3e0" stroke="#ff9800" stroke-width="2"/>
+  <text x="47" y="260" font-size="18" font-weight="700" fill="#e65100">Motor</text>
+  <text x="47" y="282" font-size="12" font-style="italic" fill="#8a6a4d">limited mobility · tremors</text>
+  <text x="47" y="312" font-size="13" fill="#6b503a">• keyboard navigation &amp; voice control</text>
+  <text x="47" y="336" font-size="13" fill="#6b503a">• switch access: button by hand, foot, or head,</text>
+  <text x="59" y="356" font-size="13" fill="#6b503a">or sip-and-puff operated by breath</text>
+  <text x="47" y="380" font-size="13" fill="#6b503a">• eye tracking: point and click by gaze alone</text>
+
+  <!-- COGNITIVE -->
+  <rect x="490" y="228" width="445" height="184" rx="14" fill="#f3e5f5" stroke="#9c27b0" stroke-width="2"/>
+  <text x="512" y="260" font-size="18" font-weight="700" fill="#4a148c">Cognitive</text>
+  <text x="512" y="282" font-size="12" font-style="italic" fill="#776380">learning disabilities · attention disorders</text>
+  <text x="512" y="312" font-size="13" font-style="italic" fill="#54405c">the most powerful AT is the design itself:</text>
+  <text x="512" y="336" font-size="13" fill="#54405c">• plain language &amp; predictable layouts</text>
+  <text x="512" y="360" font-size="13" fill="#54405c">• consistent navigation</text>
+  <text x="512" y="384" font-size="13" fill="#54405c">• no time pressure or distracting motion</text>
+
+  <!-- shared requirement -->
+  <rect x="160" y="436" width="640" height="46" rx="10" fill="#f1f5f9" stroke="#94a3b8" stroke-width="1.5"/>
+  <text x="480" y="464" font-size="13" font-weight="700" fill="#334155" text-anchor="middle">One shared requirement: everything on screen must work without a mouse.</text>
+</svg>

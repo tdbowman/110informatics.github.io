@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 340" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" role="img" aria-label="Spectrum of the three types of AI. Narrow AI, designed for specific tasks, exists today. General AI, human-level intelligence across all domains, does not exist yet. Superintelligent AI, exceeding human intelligence, is hypothetical. An arrow points toward broader, more general intelligence.">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 9 5 L 0 9 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <!-- background -->
+  <rect x="0" y="0" width="960" height="340" fill="#ffffff"/>
+
+  <!-- NARROW AI card -->
+  <rect x="40" y="52" width="272" height="180" rx="14" fill="#e8f5e9" stroke="#4caf50" stroke-width="2"/>
+  <text x="176" y="92" font-size="19" font-weight="700" fill="#1b5e20" text-anchor="middle">Narrow AI</text>
+  <text x="176" y="120" font-size="13.5" fill="#3f5747" text-anchor="middle">Designed for specific tasks</text>
+  <text x="176" y="142" font-size="12.5" fill="#64748b" font-style="italic" text-anchor="middle">Siri, chess engines</text>
+  <rect x="110" y="176" width="132" height="28" rx="14" fill="#4caf50"/>
+  <text x="176" y="195" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="middle">exists today</text>
+
+  <!-- GENERAL AI card -->
+  <rect x="344" y="52" width="272" height="180" rx="14" fill="#fff3e0" stroke="#ff9800" stroke-width="2"/>
+  <text x="480" y="92" font-size="19" font-weight="700" fill="#e65100" text-anchor="middle">General AI</text>
+  <text x="480" y="120" font-size="13.5" fill="#6b503a" text-anchor="middle">Human-level intelligence</text>
+  <text x="480" y="138" font-size="13.5" fill="#6b503a" text-anchor="middle">across all domains</text>
+  <text x="480" y="160" font-size="12.5" fill="#64748b" font-style="italic" text-anchor="middle">how close? loudly debated</text>
+  <rect x="404" y="176" width="152" height="28" rx="14" fill="#ff9800"/>
+  <text x="480" y="195" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="middle">doesn't exist yet</text>
+
+  <!-- SUPERINTELLIGENT AI card -->
+  <rect x="648" y="52" width="272" height="180" rx="14" fill="#f3e5f5" stroke="#9c27b0" stroke-width="2"/>
+  <text x="784" y="92" font-size="19" font-weight="700" fill="#4a148c" text-anchor="middle">Superintelligent AI</text>
+  <text x="784" y="120" font-size="13.5" fill="#544157" text-anchor="middle">Exceeds human intelligence</text>
+  <rect x="714" y="176" width="140" height="28" rx="14" fill="#9c27b0"/>
+  <text x="784" y="195" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="middle">hypothetical</text>
+
+  <!-- spectrum axis -->
+  <line x1="60" y1="284" x2="896" y2="284" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="480" y="312" font-size="12.5" fill="#64748b" text-anchor="middle">toward broader, more general intelligence</text>
+</svg>

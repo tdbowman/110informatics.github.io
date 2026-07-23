@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" role="img" aria-label="Decision guide for choosing a visualization. Starting from the question 'What's my goal?', eight goals branch to their best chart types: comparing categories points to a bar or column chart, change over time to a line graph, parts of a whole to a pie chart or stacked bar, distributions to a histogram or box plot, relationships between variables to a scatter plot, geographic patterns to a map, connections to a network graph, and exact values to a table.">
+  <defs>
+    <marker id="arrowC" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 9 5 L 0 9 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="960" height="520" fill="#ffffff"/>
+
+  <!-- hub -->
+  <rect x="30" y="216" width="180" height="88" rx="14" fill="#f1f5f9" stroke="#94a3b8" stroke-width="2"/>
+  <text x="120" y="252" font-size="18" font-weight="700" fill="#334155" text-anchor="middle">What's my</text>
+  <text x="120" y="276" font-size="18" font-weight="700" fill="#334155" text-anchor="middle">goal?</text>
+
+  <!-- fan lines -->
+  <g stroke="#94a3b8" stroke-width="1.5" fill="none">
+    <path d="M 210 236 C 250 220 260 100 282 58"/>
+    <path d="M 210 244 C 250 232 260 160 282 116"/>
+    <path d="M 210 252 C 250 246 260 210 282 174"/>
+    <path d="M 210 258 C 245 256 260 245 282 232"/>
+    <path d="M 210 264 C 245 266 260 277 282 290"/>
+    <path d="M 210 270 C 250 276 260 312 282 348"/>
+    <path d="M 210 278 C 250 290 260 362 282 406"/>
+    <path d="M 210 286 C 250 302 260 422 282 464"/>
+  </g>
+
+  <!-- rows: goal pill, arrow, chart card -->
+  <!-- row 1 -->
+  <rect x="286" y="30" width="280" height="44" rx="22" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="426" y="58" font-size="13" fill="#334155" text-anchor="middle">Compare values across categories</text>
+  <line x1="566" y1="52" x2="606" y2="52" stroke="#64748b" stroke-width="2" marker-end="url(#arrowC)"/>
+  <rect x="612" y="30" width="310" height="44" rx="14" fill="#e3f2fd" stroke="#2196f3" stroke-width="2"/>
+  <text x="767" y="58" font-size="14.5" font-weight="700" fill="#0d47a1" text-anchor="middle">Bar or column chart</text>
+
+  <!-- row 2 -->
+  <rect x="286" y="88" width="280" height="44" rx="22" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="426" y="116" font-size="13" fill="#334155" text-anchor="middle">Show change over time</text>
+  <line x1="566" y1="110" x2="606" y2="110" stroke="#64748b" stroke-width="2" marker-end="url(#arrowC)"/>
+  <rect x="612" y="88" width="310" height="44" rx="14" fill="#e8f5e9" stroke="#4caf50" stroke-width="2"/>
+  <text x="767" y="116" font-size="14.5" font-weight="700" fill="#1b5e20" text-anchor="middle">Line graph</text>
+
+  <!-- row 3 -->
+  <rect x="286" y="146" width="280" height="44" rx="22" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="426" y="174" font-size="13" fill="#334155" text-anchor="middle">Show parts of a whole</text>
+  <line x1="566" y1="168" x2="606" y2="168" stroke="#64748b" stroke-width="2" marker-end="url(#arrowC)"/>
+  <rect x="612" y="146" width="310" height="44" rx="14" fill="#fff3e0" stroke="#ff9800" stroke-width="2"/>
+  <text x="767" y="174" font-size="14.5" font-weight="700" fill="#e65100" text-anchor="middle">Pie (under 6 parts) or stacked bar</text>
+
+  <!-- row 4 -->
+  <rect x="286" y="204" width="280" height="44" rx="22" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="426" y="232" font-size="13" fill="#334155" text-anchor="middle">See a distribution</text>
+  <line x1="566" y1="226" x2="606" y2="226" stroke="#64748b" stroke-width="2" marker-end="url(#arrowC)"/>
+  <rect x="612" y="204" width="310" height="44" rx="14" fill="#f3e5f5" stroke="#9c27b0" stroke-width="2"/>
+  <text x="767" y="232" font-size="14.5" font-weight="700" fill="#4a148c" text-anchor="middle">Histogram or box plot</text>
+
+  <!-- row 5 -->
+  <rect x="286" y="262" width="280" height="44" rx="22" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="426" y="290" font-size="13" fill="#334155" text-anchor="middle">Relationship between variables</text>
+  <line x1="566" y1="284" x2="606" y2="284" stroke="#64748b" stroke-width="2" marker-end="url(#arrowC)"/>
+  <rect x="612" y="262" width="310" height="44" rx="14" fill="#e3f2fd" stroke="#2196f3" stroke-width="2"/>
+  <text x="767" y="290" font-size="14.5" font-weight="700" fill="#0d47a1" text-anchor="middle">Scatter plot</text>
+
+  <!-- row 6 -->
+  <rect x="286" y="320" width="280" height="44" rx="22" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="426" y="348" font-size="13" fill="#334155" text-anchor="middle">Show geographic patterns</text>
+  <line x1="566" y1="342" x2="606" y2="342" stroke="#64748b" stroke-width="2" marker-end="url(#arrowC)"/>
+  <rect x="612" y="320" width="310" height="44" rx="14" fill="#e8f5e9" stroke="#4caf50" stroke-width="2"/>
+  <text x="767" y="348" font-size="14.5" font-weight="700" fill="#1b5e20" text-anchor="middle">Map</text>
+
+  <!-- row 7 -->
+  <rect x="286" y="378" width="280" height="44" rx="22" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="426" y="406" font-size="13" fill="#334155" text-anchor="middle">Display connections or networks</text>
+  <line x1="566" y1="400" x2="606" y2="400" stroke="#64748b" stroke-width="2" marker-end="url(#arrowC)"/>
+  <rect x="612" y="378" width="310" height="44" rx="14" fill="#fff3e0" stroke="#ff9800" stroke-width="2"/>
+  <text x="767" y="406" font-size="14.5" font-weight="700" fill="#e65100" text-anchor="middle">Network graph</text>
+
+  <!-- row 8 -->
+  <rect x="286" y="436" width="280" height="44" rx="22" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="426" y="464" font-size="13" fill="#334155" text-anchor="middle">Present exact values</text>
+  <line x1="566" y1="458" x2="606" y2="458" stroke="#64748b" stroke-width="2" marker-end="url(#arrowC)"/>
+  <rect x="612" y="436" width="310" height="44" rx="14" fill="#f1f5f9" stroke="#94a3b8" stroke-width="2"/>
+  <text x="767" y="464" font-size="14.5" font-weight="700" fill="#334155" text-anchor="middle">Table (yes, really)</text>
+</svg>

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" role="img" aria-label="Three routes into the public domain: copyright expires after life plus seventy years, the work was never eligible for protection, or the creator dedicates it voluntarily. All three arrows flow into one pool labeled the public domain, which belongs to everyone.">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 9 5 L 0 9 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <!-- background -->
+  <rect x="0" y="0" width="960" height="420" fill="#ffffff"/>
+
+  <text x="480" y="34" font-size="19" font-weight="700" fill="#334155" text-anchor="middle">Three Roads into the Public Domain</text>
+
+  <!-- ROUTE 1: copyright expires (blue) -->
+  <rect x="36" y="58" width="310" height="104" rx="14" fill="#e3f2fd" stroke="#2196f3" stroke-width="2"/>
+  <text x="54" y="88" font-size="17" font-weight="700" fill="#0d47a1">1. Copyright expires</text>
+  <text x="54" y="112" font-size="13" fill="#42586e">life + 70 years, then into the pool</text>
+  <text x="54" y="129" font-size="13" fill="#42586e">every January 1: "Public Domain Day"</text>
+  <text x="54" y="146" font-size="12" fill="#64748b" font-style="italic">Steamboat Willie arrived in 2024</text>
+
+  <!-- ROUTE 2: never eligible (orange) -->
+  <rect x="36" y="182" width="310" height="104" rx="14" fill="#fff3e0" stroke="#ff9800" stroke-width="2"/>
+  <text x="54" y="212" font-size="17" font-weight="700" fill="#e65100">2. Never eligible</text>
+  <text x="54" y="236" font-size="13" fill="#42586e">facts, US federal government works,</text>
+  <text x="54" y="253" font-size="13" fill="#42586e">purely AI-generated output</text>
+  <text x="54" y="270" font-size="12" fill="#64748b" font-style="italic">protection never attached at all</text>
+
+  <!-- ROUTE 3: voluntary dedication (purple) -->
+  <rect x="36" y="306" width="310" height="104" rx="14" fill="#f3e5f5" stroke="#9c27b0" stroke-width="2"/>
+  <text x="54" y="336" font-size="17" font-weight="700" fill="#4a148c">3. Voluntary dedication</text>
+  <text x="54" y="360" font-size="13" fill="#42586e">the creator gives the work</text>
+  <text x="54" y="377" font-size="13" fill="#42586e">to everyone, on purpose</text>
+
+  <!-- arrows -->
+  <line x1="350" y1="110" x2="562" y2="192" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="350" y1="234" x2="562" y2="234" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="350" y1="358" x2="562" y2="276" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- THE POOL (green) -->
+  <rect x="574" y="140" width="350" height="190" rx="20" fill="#e8f5e9" stroke="#4caf50" stroke-width="2"/>
+  <text x="749" y="192" font-size="19" font-weight="700" fill="#1b5e20" text-anchor="middle">The Public Domain</text>
+  <text x="749" y="216" font-size="13" fill="#3f5747" text-anchor="middle">the pool of work that belongs to everyone</text>
+  <text x="749" y="244" font-size="13.5" font-weight="700" fill="#2e7d32" text-anchor="middle">free to copy · adapt · remix · sell</text>
+  <text x="749" y="276" font-size="12.5" fill="#64748b" text-anchor="middle">no permission, no fee, no expiration:</text>
+  <text x="749" y="293" font-size="12.5" fill="#64748b" text-anchor="middle">once in the pool, a work never leaves</text>
+</svg>

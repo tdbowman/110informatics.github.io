@@ -1,3 +1,8 @@
+---
+banner: images/module-07-banner.png
+thumbnail: images/module-07-banner.png
+---
+
 # Module 7: Data Visualization & Infographics 📊
 
 **Week 7 | Communicating with Data**
@@ -72,6 +77,14 @@ The workflow runs roughly like this:
 3. **Analyze** using whichever of the five analysis types fits: statistical, temporal, geospatial, topical, or network (you'll meet these in [Types of Visualizations](visualization-types.md)).
 4. **Design the visualization**, choosing encodings that make the answer visible at a glance.
 5. **Deploy and interpret with the user**, then watch what they actually do with it.
+
+```{figure} images/needs-driven-workflow.svg
+:alt: Flowchart of the needs-driven visualization workflow in five steps. Step one, the question, asks who the stakeholder is and what they need to know. Step two acquires and prepares data that can answer it. Step three analyzes the data using statistical, temporal, geospatial, topical, or network analysis. Step four designs the visualization with encodings that make the answer visible. Step five deploys the visualization and interprets it with the user. A dashed arrow loops from step five back to step one, labeled "iterate: version one teaches you what version two should be."
+:width: 100%
+:name: fig-needs-driven-workflow
+
+The needs-driven workflow starts with a person's question, not a dataset. The dashed arrow is the step beginners skip.
+```
 
 And then, almost always, you go around again. As Börner and Polley put it, information visualization is an **iterative process**. The first version of a chart teaches you what the second version should be: the stakeholder squints at a legend, asks a question the chart can't answer, or spots something you didn't expect (Tukey would be pleased). Treat version one as a conversation starter, not a deliverable.
 

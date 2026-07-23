@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 360" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" role="img" aria-label="Spectrum of usage rights from most open to most restricted: public domain, Creative Commons, open source and copyleft, then all rights reserved, with an arrow showing restrictions increasing from left to right.">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 9 5 L 0 9 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <!-- background -->
+  <rect x="0" y="0" width="960" height="360" fill="#ffffff"/>
+
+  <text x="480" y="34" font-size="19" font-weight="700" fill="#334155" text-anchor="middle">The Rights Spectrum</text>
+
+  <!-- PUBLIC DOMAIN (green) -->
+  <rect x="24" y="60" width="218" height="176" rx="14" fill="#e8f5e9" stroke="#4caf50" stroke-width="2"/>
+  <circle cx="133" cy="94" r="17" fill="none" stroke="#2e7d32" stroke-width="2.5"/>
+  <text x="133" y="99" font-size="13" font-weight="700" fill="#2e7d32" text-anchor="middle">PD</text>
+  <text x="133" y="136" font-size="17" font-weight="700" fill="#1b5e20" text-anchor="middle">Public Domain</text>
+  <text x="133" y="155" font-size="12" fill="#64748b" text-anchor="middle">no rights reserved</text>
+  <text x="133" y="181" font-size="13" fill="#42586e" text-anchor="middle">free to copy, adapt,</text>
+  <text x="133" y="198" font-size="13" fill="#42586e" text-anchor="middle">remix, and sell</text>
+
+  <!-- CREATIVE COMMONS (blue) -->
+  <rect x="254" y="60" width="218" height="176" rx="14" fill="#e3f2fd" stroke="#2196f3" stroke-width="2"/>
+  <circle cx="363" cy="94" r="17" fill="none" stroke="#1565c0" stroke-width="2.5"/>
+  <text x="363" y="99" font-size="13" font-weight="700" fill="#1565c0" text-anchor="middle">CC</text>
+  <text x="363" y="136" font-size="17" font-weight="700" fill="#0d47a1" text-anchor="middle">Creative Commons</text>
+  <text x="363" y="155" font-size="12" fill="#64748b" text-anchor="middle">some rights reserved</text>
+  <text x="363" y="181" font-size="13" fill="#42586e" text-anchor="middle">author-chosen terms:</text>
+  <text x="363" y="198" font-size="13" fill="#42586e" text-anchor="middle">attribution, non-</text>
+  <text x="363" y="215" font-size="13" fill="#42586e" text-anchor="middle">commercial, and more</text>
+
+  <!-- OPEN SOURCE / COPYLEFT (purple) -->
+  <rect x="484" y="60" width="218" height="176" rx="14" fill="#f3e5f5" stroke="#9c27b0" stroke-width="2"/>
+  <circle cx="593" cy="94" r="17" fill="none" stroke="#7b1fa2" stroke-width="2.5"/>
+  <text x="593" y="99" font-size="13" font-weight="700" fill="#7b1fa2" text-anchor="middle">OS</text>
+  <text x="593" y="136" font-size="17" font-weight="700" fill="#4a148c" text-anchor="middle">Open Source</text>
+  <text x="593" y="155" font-size="12" fill="#64748b" text-anchor="middle">licensed, with conditions</text>
+  <text x="593" y="181" font-size="13" fill="#42586e" text-anchor="middle">source freely available;</text>
+  <text x="593" y="198" font-size="13" fill="#42586e" text-anchor="middle">copyleft: derivatives</text>
+  <text x="593" y="215" font-size="13" fill="#42586e" text-anchor="middle">keep the same license</text>
+
+  <!-- ALL RIGHTS RESERVED (warning red) -->
+  <rect x="714" y="60" width="218" height="176" rx="14" fill="#ffebee" stroke="#ef5350" stroke-width="2"/>
+  <circle cx="823" cy="94" r="17" fill="none" stroke="#c62828" stroke-width="2.5"/>
+  <text x="823" y="99" font-size="14" font-weight="700" fill="#c62828" text-anchor="middle">©</text>
+  <text x="823" y="136" font-size="17" font-weight="700" fill="#b71c1c" text-anchor="middle">All Rights Reserved</text>
+  <text x="823" y="155" font-size="12" fill="#64748b" text-anchor="middle">the automatic default</text>
+  <text x="823" y="181" font-size="13" fill="#42586e" text-anchor="middle">full copyright;</text>
+  <text x="823" y="198" font-size="13" fill="#42586e" text-anchor="middle">permission needed</text>
+  <text x="823" y="215" font-size="13" fill="#42586e" text-anchor="middle">for most uses</text>
+
+  <!-- spectrum arrow -->
+  <line x1="80" y1="284" x2="880" y2="284" stroke="#64748b" stroke-width="2" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+  <text x="90" y="316" font-size="13" fill="#2e7d32" font-weight="700">fewer restrictions</text>
+  <text x="870" y="316" font-size="13" fill="#b71c1c" font-weight="700" text-anchor="end">more restrictions</text>
+  <text x="480" y="316" font-size="12.5" fill="#64748b" text-anchor="middle">how much permission do you need?</text>
+</svg>

@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 400" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" role="img" aria-label="Diagram of the path a SQL JOIN query takes. The query at the top selects student names and course titles. Arrows trace the path from the Students table, joined on StudentID to the Enrollments bridge table, then joined on CourseID to the Courses table, ending at a result row reading Maria, Foundations of Informatics, labeled as the one-big-table view rebuilt on demand.">
+  <defs>
+    <marker id="arrow6" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 9 5 L 0 9 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <!-- background -->
+  <rect x="0" y="0" width="960" height="400" fill="#ffffff"/>
+
+  <!-- the query -->
+  <text x="42" y="18" font-size="12" font-style="italic" fill="#64748b">the query</text>
+  <rect x="40" y="25" width="880" height="88" rx="12" fill="#f1f5f9" stroke="#94a3b8" stroke-width="1.5"/>
+  <g font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="13.5" fill="#334155">
+    <text x="64" y="50">SELECT Students.Name, Courses.Title</text>
+    <text x="64" y="72">FROM Students JOIN Enrollments ON Students.StudentID = Enrollments.StudentID</text>
+    <text x="64" y="94">JOIN Courses ON Enrollments.CourseID = Courses.CourseID</text>
+  </g>
+
+  <!-- arrow from query into Students -->
+  <line x1="175" y1="113" x2="175" y2="156" stroke="#64748b" stroke-width="2" marker-end="url(#arrow6)"/>
+
+  <!-- STUDENTS card -->
+  <rect x="60" y="163" width="230" height="118" rx="14" fill="#e3f2fd" stroke="#2196f3" stroke-width="2"/>
+  <text x="175" y="193" font-size="17" font-weight="700" fill="#0d47a1" text-anchor="middle">1. Students</text>
+  <text x="175" y="222" font-size="13.5" fill="#42586e" text-anchor="middle">001 · Maria</text>
+  <text x="175" y="252" font-size="12" fill="#64748b" text-anchor="middle">supplies Students.Name</text>
+
+  <!-- join arrow 1 -->
+  <line x1="290" y1="222" x2="358" y2="222" stroke="#64748b" stroke-width="2" marker-end="url(#arrow6)"/>
+  <text x="324" y="196" font-size="12" fill="#64748b" text-anchor="middle">JOIN ON</text>
+  <text x="324" y="211" font-size="12" fill="#64748b" text-anchor="middle">StudentID</text>
+
+  <!-- ENROLLMENTS card -->
+  <rect x="365" y="163" width="230" height="118" rx="14" fill="#fff3e0" stroke="#ff9800" stroke-width="2"/>
+  <text x="480" y="193" font-size="17" font-weight="700" fill="#e65100" text-anchor="middle">2. Enrollments</text>
+  <text x="480" y="222" font-size="13.5" fill="#6b503a" text-anchor="middle">001 · INF110 · A</text>
+  <text x="480" y="252" font-size="12" fill="#64748b" text-anchor="middle">the bridge row that links them</text>
+
+  <!-- join arrow 2 -->
+  <line x1="595" y1="222" x2="663" y2="222" stroke="#64748b" stroke-width="2" marker-end="url(#arrow6)"/>
+  <text x="629" y="196" font-size="12" fill="#64748b" text-anchor="middle">JOIN ON</text>
+  <text x="629" y="211" font-size="12" fill="#64748b" text-anchor="middle">CourseID</text>
+
+  <!-- COURSES card -->
+  <rect x="670" y="163" width="230" height="118" rx="14" fill="#e8f5e9" stroke="#4caf50" stroke-width="2"/>
+  <text x="785" y="193" font-size="17" font-weight="700" fill="#1b5e20" text-anchor="middle">3. Courses</text>
+  <text x="785" y="222" font-size="12.5" fill="#3f5747" text-anchor="middle">INF110 · Foundations of Inf.</text>
+  <text x="785" y="252" font-size="12" fill="#64748b" text-anchor="middle">supplies Courses.Title</text>
+
+  <!-- path to result -->
+  <path d="M 785 281 V 342 H 698" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrow6)"/>
+
+  <!-- result card -->
+  <rect x="270" y="316" width="420" height="56" rx="14" fill="#f3e5f5" stroke="#9c27b0" stroke-width="2"/>
+  <text x="480" y="340" font-size="14.5" font-weight="700" fill="#4a148c" text-anchor="middle">Maria | Foundations of Informatics</text>
+  <text x="480" y="360" font-size="12" fill="#54405c" text-anchor="middle">the "one big table" view, rebuilt on demand</text>
+</svg>

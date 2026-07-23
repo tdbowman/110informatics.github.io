@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 380" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" role="img" aria-label="The four WCAG POUR principles as cards: Perceivable, Operable, Understandable, and Robust, each with concrete examples, and a warning that if any one principle fails, users with disabilities cannot use the content.">
+  <rect x="0" y="0" width="960" height="380" fill="#ffffff"/>
+
+  <!-- PERCEIVABLE -->
+  <rect x="20" y="24" width="215" height="240" rx="14" fill="#e3f2fd" stroke="#2196f3" stroke-width="2"/>
+  <text x="127" y="58" font-size="18" font-weight="700" fill="#0d47a1" text-anchor="middle">Perceivable</text>
+  <text x="127" y="86" font-size="13" fill="#42586e" text-anchor="middle">users can perceive it</text>
+  <text x="127" y="104" font-size="13" fill="#42586e" text-anchor="middle">with senses they have</text>
+  <line x1="44" y1="122" x2="211" y2="122" stroke="#2196f3" stroke-width="1" opacity="0.5"/>
+  <text x="127" y="150" font-size="12.5" fill="#42586e" text-anchor="middle">• alt text on images</text>
+  <text x="127" y="172" font-size="12.5" fill="#42586e" text-anchor="middle">• captions on video</text>
+  <text x="127" y="194" font-size="12.5" fill="#42586e" text-anchor="middle">• 4.5:1 color contrast</text>
+
+  <!-- OPERABLE -->
+  <rect x="255" y="24" width="215" height="240" rx="14" fill="#e8f5e9" stroke="#4caf50" stroke-width="2"/>
+  <text x="362" y="58" font-size="18" font-weight="700" fill="#1b5e20" text-anchor="middle">Operable</text>
+  <text x="362" y="86" font-size="13" fill="#3f5747" text-anchor="middle">works without abilities</text>
+  <text x="362" y="104" font-size="13" fill="#3f5747" text-anchor="middle">a user may not have</text>
+  <line x1="279" y1="122" x2="446" y2="122" stroke="#4caf50" stroke-width="1" opacity="0.5"/>
+  <text x="362" y="150" font-size="12.5" fill="#3f5747" text-anchor="middle">• keyboard-only use</text>
+  <text x="362" y="172" font-size="12.5" fill="#3f5747" text-anchor="middle">• extendable time limits</text>
+  <text x="362" y="194" font-size="12.5" fill="#3f5747" text-anchor="middle">• no rapid flashing</text>
+
+  <!-- UNDERSTANDABLE -->
+  <rect x="490" y="24" width="215" height="240" rx="14" fill="#fff3e0" stroke="#ff9800" stroke-width="2"/>
+  <text x="597" y="58" font-size="18" font-weight="700" fill="#e65100" text-anchor="middle">Understandable</text>
+  <text x="597" y="86" font-size="13" fill="#6b503a" text-anchor="middle">content and controls</text>
+  <text x="597" y="104" font-size="13" fill="#6b503a" text-anchor="middle">make sense</text>
+  <line x1="514" y1="122" x2="681" y2="122" stroke="#ff9800" stroke-width="1" opacity="0.5"/>
+  <text x="597" y="150" font-size="12.5" fill="#6b503a" text-anchor="middle">• clear form labels</text>
+  <text x="597" y="172" font-size="12.5" fill="#6b503a" text-anchor="middle">• errors explained in text</text>
+  <text x="597" y="194" font-size="12.5" fill="#6b503a" text-anchor="middle">• predictable navigation</text>
+
+  <!-- ROBUST -->
+  <rect x="725" y="24" width="215" height="240" rx="14" fill="#f3e5f5" stroke="#9c27b0" stroke-width="2"/>
+  <text x="832" y="58" font-size="18" font-weight="700" fill="#4a148c" text-anchor="middle">Robust</text>
+  <text x="832" y="86" font-size="13" fill="#54405c" text-anchor="middle">works with assistive</text>
+  <text x="832" y="104" font-size="13" fill="#54405c" text-anchor="middle">tech, now and future</text>
+  <line x1="749" y1="122" x2="916" y2="122" stroke="#9c27b0" stroke-width="1" opacity="0.5"/>
+  <text x="832" y="150" font-size="12.5" fill="#54405c" text-anchor="middle">• valid, standard markup</text>
+  <text x="832" y="172" font-size="12.5" fill="#54405c" text-anchor="middle">• names, roles, values</text>
+  <text x="832" y="194" font-size="12.5" fill="#54405c" text-anchor="middle">exposed to screen readers</text>
+
+  <!-- letters strip inside cards -->
+  <text x="127" y="240" font-size="26" font-weight="800" fill="#2196f3" text-anchor="middle" opacity="0.55">P</text>
+  <text x="362" y="240" font-size="26" font-weight="800" fill="#4caf50" text-anchor="middle" opacity="0.55">O</text>
+  <text x="597" y="240" font-size="26" font-weight="800" fill="#ff9800" text-anchor="middle" opacity="0.55">U</text>
+  <text x="832" y="240" font-size="26" font-weight="800" fill="#9c27b0" text-anchor="middle" opacity="0.55">R</text>
+
+  <!-- warning: all four must hold -->
+  <rect x="180" y="296" width="600" height="60" rx="10" fill="#ffebee" stroke="#ef5350" stroke-width="1.5"/>
+  <text x="480" y="321" font-size="13" font-weight="700" fill="#b71c1c" text-anchor="middle">If any ONE principle fails, users with disabilities can't use the content:</text>
+  <text x="480" y="341" font-size="13" fill="#8d3535" text-anchor="middle">POUR is the test, not a wish list.</text>
+</svg>

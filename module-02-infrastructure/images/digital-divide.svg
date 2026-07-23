@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 340" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" role="img" aria-label="Diagram of the three digital divides. The access divide is the physical availability of internet and devices, the skills divide is the ability to use technology effectively, and the usage divide is how people use technology, entertainment versus empowerment.">
+  <defs>
+    <marker id="arrowOrange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 9 5 L 0 9 z" fill="#ef6c00"/>
+    </marker>
+  </defs>
+
+  <!-- background -->
+  <rect x="0" y="0" width="960" height="340" fill="#ffffff"/>
+
+  <!-- heading -->
+  <text x="480" y="48" font-size="19" font-weight="700" fill="#334155" text-anchor="middle">The Digital Divide</text>
+  <text x="480" y="74" font-size="13.5" fill="#64748b" text-anchor="middle">the gap between those who have access to modern information technology &#8212; and those who don&#8217;t</text>
+
+  <!-- Access card -->
+  <rect x="40" y="104" width="280" height="196" rx="14" fill="#e3f2fd" stroke="#2196f3" stroke-width="2"/>
+  <g fill="#1565c0">
+    <rect x="152" y="158" width="11" height="14" rx="2"/>
+    <rect x="167" y="148" width="11" height="24" rx="2"/>
+    <rect x="182" y="138" width="11" height="34" rx="2"/>
+    <rect x="197" y="128" width="11" height="44" rx="2" opacity="0.35"/>
+  </g>
+  <text x="180" y="212" font-size="18" font-weight="700" fill="#0d47a1" text-anchor="middle">Access Divide</text>
+  <text x="180" y="240" font-size="13" fill="#42586e" text-anchor="middle">physical availability of</text>
+  <text x="180" y="258" font-size="13" fill="#42586e" text-anchor="middle">internet and devices</text>
+
+  <!-- Skills card -->
+  <rect x="340" y="104" width="280" height="196" rx="14" fill="#e8f5e9" stroke="#4caf50" stroke-width="2"/>
+  <circle cx="480" cy="144" r="17" fill="none" stroke="#2e7d32" stroke-width="2.5"/>
+  <rect x="472" y="164" width="16" height="9" rx="3" fill="#2e7d32"/>
+  <g stroke="#2e7d32" stroke-width="2" stroke-linecap="round">
+    <line x1="480" y1="120" x2="480" y2="113"/>
+    <line x1="459" y1="128" x2="453" y2="122"/>
+    <line x1="501" y1="128" x2="507" y2="122"/>
+  </g>
+  <text x="480" y="212" font-size="18" font-weight="700" fill="#1b5e20" text-anchor="middle">Skills Divide</text>
+  <text x="480" y="240" font-size="13" fill="#3f5747" text-anchor="middle">the ability to use</text>
+  <text x="480" y="258" font-size="13" fill="#3f5747" text-anchor="middle">technology effectively</text>
+
+  <!-- Usage card -->
+  <rect x="640" y="104" width="280" height="196" rx="14" fill="#fff3e0" stroke="#ff9800" stroke-width="2"/>
+  <g stroke="#ef6c00" stroke-width="2.5" fill="none" stroke-linecap="round">
+    <path d="M 780 174 V 152 C 780 138 770 134 758 134 H 750" marker-end="url(#arrowOrange)"/>
+    <path d="M 780 174 V 152 C 780 138 790 134 802 134 H 810" marker-end="url(#arrowOrange)"/>
+  </g>
+  <text x="780" y="212" font-size="18" font-weight="700" fill="#e65100" text-anchor="middle">Usage Divide</text>
+  <text x="780" y="240" font-size="13" fill="#6b503a" text-anchor="middle">how people use it &#8212;</text>
+  <text x="780" y="258" font-size="13" fill="#6b503a" text-anchor="middle">entertainment vs. empowerment</text>
+</svg>

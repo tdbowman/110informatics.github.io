@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 340" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" role="img" aria-label="Diagram of the autonomy dial: four levels of AI agent autonomy from left to right. Level 1, suggest only: the agent drafts and you act, like a draft email you send yourself. Level 2, act with confirmation: the agent asks before each action, like booking a flight only after a yes. Level 3, act within limits: the agent acts freely inside preset bounds, like booking anything under 200 dollars without asking. Level 4, fully autonomous: the agent runs the whole workflow, managing your inbox, calendar, and purchases. A double-headed arrow underneath shows that each step to the right trades oversight for convenience.">
+  <defs>
+    <marker id="arrowA" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 9 5 L 0 9 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="960" height="340" fill="#ffffff"/>
+
+  <!-- Level 1: suggest only (blue) -->
+  <rect x="24" y="40" width="210" height="176" rx="14" fill="#e3f2fd" stroke="#2196f3" stroke-width="2"/>
+  <circle cx="129" cy="72" r="16" fill="#2196f3"/>
+  <text x="129" y="78" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">1</text>
+  <text x="129" y="112" font-size="17" font-weight="700" fill="#0d47a1" text-anchor="middle">Suggest only</text>
+  <text x="129" y="136" font-size="13" fill="#42586e" text-anchor="middle">the agent drafts,</text>
+  <text x="129" y="153" font-size="13" fill="#42586e" text-anchor="middle">you do the acting</text>
+  <text x="129" y="179" font-size="12" fill="#5b7288" font-style="italic" text-anchor="middle">"Here's a draft email;</text>
+  <text x="129" y="196" font-size="12" fill="#5b7288" font-style="italic" text-anchor="middle">you send it"</text>
+
+  <!-- Level 2: act with confirmation (green) -->
+  <rect x="258" y="40" width="210" height="176" rx="14" fill="#e8f5e9" stroke="#4caf50" stroke-width="2"/>
+  <circle cx="363" cy="72" r="16" fill="#4caf50"/>
+  <text x="363" y="78" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">2</text>
+  <text x="363" y="106" font-size="17" font-weight="700" fill="#1b5e20" text-anchor="middle">Act with</text>
+  <text x="363" y="125" font-size="17" font-weight="700" fill="#1b5e20" text-anchor="middle">confirmation</text>
+  <text x="363" y="149" font-size="13" fill="#3f5747" text-anchor="middle">asks before each action</text>
+  <text x="363" y="179" font-size="12" fill="#5b7288" font-style="italic" text-anchor="middle">"I found the flight.</text>
+  <text x="363" y="196" font-size="12" fill="#5b7288" font-style="italic" text-anchor="middle">Book it? [Yes/No]"</text>
+
+  <!-- Level 3: act within limits (orange) -->
+  <rect x="492" y="40" width="210" height="176" rx="14" fill="#fff3e0" stroke="#ff9800" stroke-width="2"/>
+  <circle cx="597" cy="72" r="16" fill="#ff9800"/>
+  <text x="597" y="78" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">3</text>
+  <text x="597" y="106" font-size="17" font-weight="700" fill="#e65100" text-anchor="middle">Act within</text>
+  <text x="597" y="125" font-size="17" font-weight="700" fill="#e65100" text-anchor="middle">limits</text>
+  <text x="597" y="149" font-size="13" fill="#6b503a" text-anchor="middle">free inside preset bounds</text>
+  <text x="597" y="179" font-size="12" fill="#5b7288" font-style="italic" text-anchor="middle">"Book anything under</text>
+  <text x="597" y="196" font-size="12" fill="#5b7288" font-style="italic" text-anchor="middle">$200 without asking"</text>
+
+  <!-- Level 4: fully autonomous (warning red) -->
+  <rect x="726" y="40" width="210" height="176" rx="14" fill="#ffebee" stroke="#ef5350" stroke-width="2"/>
+  <circle cx="831" cy="72" r="16" fill="#ef5350"/>
+  <text x="831" y="78" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">4</text>
+  <text x="831" y="106" font-size="17" font-weight="700" fill="#b71c1c" text-anchor="middle">Fully</text>
+  <text x="831" y="125" font-size="17" font-weight="700" fill="#b71c1c" text-anchor="middle">autonomous</text>
+  <text x="831" y="149" font-size="13" fill="#8d3535" text-anchor="middle">runs the whole workflow</text>
+  <text x="831" y="179" font-size="12" fill="#5b7288" font-style="italic" text-anchor="middle">manages your inbox,</text>
+  <text x="831" y="196" font-size="12" fill="#5b7288" font-style="italic" text-anchor="middle">calendar &amp; purchases</text>
+
+  <!-- oversight/convenience axis -->
+  <line x1="96" y1="266" x2="864" y2="266" stroke="#64748b" stroke-width="2" marker-start="url(#arrowA)" marker-end="url(#arrowA)"/>
+  <text x="96" y="250" font-size="13" font-weight="700" fill="#334155" text-anchor="start">more oversight</text>
+  <text x="864" y="250" font-size="13" font-weight="700" fill="#334155" text-anchor="end">more convenience</text>
+  <text x="480" y="298" font-size="13" fill="#64748b" text-anchor="middle" font-style="italic">every step down the dial trades oversight for convenience. Where's your line?</text>
+</svg>

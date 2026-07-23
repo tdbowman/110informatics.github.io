@@ -162,6 +162,14 @@ Here's a quick decision guide. Ask yourself: **"What's my goal?"**
 - **Relationship between variables?** → Scatter Plot or Network
 - **Location-based data?** → Map
 
+```{figure} images/chart-chooser.svg
+:alt: Decision guide for choosing a visualization, fanning out from a starting question, "What's my goal?", to eight goal-and-chart pairings. Comparing values across categories points to a bar or column chart. Showing change over time points to a line graph. Showing parts of a whole points to a pie chart with under six parts or a stacked bar. Seeing a distribution points to a histogram or box plot. A relationship between variables points to a scatter plot. Geographic patterns point to a map. Connections or networks point to a network graph. Presenting exact values points to a table.
+:width: 100%
+:name: fig-chart-chooser
+
+Chart choice starts with your goal, not your data: name the question first and the chart type mostly picks itself.
+```
+
 ### Quick Reference Table
 
 | Your Goal | Suggested Chart Type |

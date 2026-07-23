@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 470" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" role="img" aria-label="Venn diagram comparing data analytics and data science. The left ellipse, data analytics, asks what happened and covers understanding past data, statistics and visualization, and reports and dashboards. The right ellipse, data science, asks what will happen and covers predicting future outcomes, machine learning and AI, and predictive models. The overlap holds SQL and data cleaning, statistical thinking, domain knowledge, and communicating results.">
+
+  <!-- background -->
+  <rect x="0" y="0" width="960" height="470" fill="#ffffff"/>
+
+  <!-- venn ellipses -->
+  <ellipse cx="350" cy="225" rx="290" ry="175" fill="#e3f2fd" fill-opacity="0.75" stroke="#2196f3" stroke-width="2"/>
+  <ellipse cx="610" cy="225" rx="290" ry="175" fill="#f3e5f5" fill-opacity="0.55" stroke="#9c27b0" stroke-width="2"/>
+
+  <!-- left: data analytics -->
+  <text x="200" y="145" font-size="19" font-weight="700" fill="#0d47a1" text-anchor="middle">Data Analytics</text>
+  <text x="200" y="170" font-size="14" font-style="italic" fill="#1565c0" text-anchor="middle">&#8220;What happened?&#8221;</text>
+  <text x="200" y="205" font-size="13" fill="#42586e" text-anchor="middle">understands past data</text>
+  <text x="200" y="227" font-size="13" fill="#42586e" text-anchor="middle">statistics &amp; visualization</text>
+  <text x="200" y="249" font-size="13" fill="#42586e" text-anchor="middle">reports &amp; dashboards</text>
+  <text x="200" y="278" font-size="12" fill="#64748b" text-anchor="middle">Excel &#183; Tableau &#183; Power BI</text>
+
+  <!-- middle: shared skills -->
+  <text x="480" y="150" font-size="14" font-weight="700" fill="#334155" text-anchor="middle">Both</text>
+  <text x="480" y="185" font-size="13" fill="#42586e" text-anchor="middle">SQL &amp; data cleaning</text>
+  <text x="480" y="207" font-size="13" fill="#42586e" text-anchor="middle">statistical thinking</text>
+  <text x="480" y="229" font-size="13" fill="#42586e" text-anchor="middle">domain knowledge</text>
+  <text x="480" y="251" font-size="13" fill="#42586e" text-anchor="middle">communicating results</text>
+
+  <!-- right: data science -->
+  <text x="755" y="145" font-size="19" font-weight="700" fill="#4a148c" text-anchor="middle">Data Science</text>
+  <text x="755" y="170" font-size="14" font-style="italic" fill="#6a1b9a" text-anchor="middle">&#8220;What will happen?&#8221;</text>
+  <text x="755" y="205" font-size="13" fill="#42586e" text-anchor="middle">predicts future outcomes</text>
+  <text x="755" y="227" font-size="13" fill="#42586e" text-anchor="middle">machine learning &amp; AI</text>
+  <text x="755" y="249" font-size="13" fill="#42586e" text-anchor="middle">predictive models</text>
+  <text x="755" y="278" font-size="12" fill="#64748b" text-anchor="middle">Python &#183; R &#183; ML libraries</text>
+
+  <!-- bottom note -->
+  <text x="480" y="442" font-size="13" font-style="italic" fill="#64748b" text-anchor="middle">The two overlap heavily &#8212; in smaller organizations, one person often does both.</text>
+</svg>
