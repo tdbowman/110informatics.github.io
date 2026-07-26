@@ -69,6 +69,18 @@ This module contains three sections:
 
 ---
 
+:::{seealso} Keep Learning at Dominican 🎓
+Ready to build databases for real? These Dominican courses go deeper:
+
+- **INF 251 Database Management**: database design and implementation with hands-on practice in a real database management system.
+- **CPSC 285 Database Design and Programming**: the computer science route into serious database work.
+- **CPSC 416 Data Mining**: what becomes possible once the data is well organized: finding patterns at scale.
+
+Talk with your advisor (or Dr. Bowman!) about fitting these into your plan; course details are in the Dominican course bulletin.
+:::
+
+---
+
 ## 📝 This Week's Assignments
 
 | Assignment | Due | Notes |

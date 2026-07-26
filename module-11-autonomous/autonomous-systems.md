@@ -73,6 +73,19 @@ This module contains three sections:
 
 ---
 
+:::{seealso} Keep Learning at Dominican 🎓
+Want to understand the brains inside autonomous systems? These Dominican courses go deeper:
+
+- **CPSC 425 Artificial Intelligence**: the algorithms that let machines perceive, plan, and decide.
+- **CPSC 428 Applied Machine Learning**: build and train the learning systems this module described.
+- **INF 352 Value-Sensitive Design**: designing systems so human values survive the automation (prerequisite: INF 130).
+- **INF 400 Information Ethics and Policy**: who is accountable when the system decides (prerequisites: INF 110 and INF 120).
+
+Talk with your advisor (or Dr. Bowman!) about fitting these into your plan; course details are in the Dominican course bulletin.
+:::
+
+---
+
 ## 📝 This Week's Assignments
 
 | Assignment | Due | Notes |

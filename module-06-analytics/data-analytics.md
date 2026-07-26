@@ -71,6 +71,18 @@ This module contains three sections:
 
 ---
 
+:::{seealso} Keep Learning at Dominican 🎓
+Caught the data bug? These Dominican courses go deeper:
+
+- **INF 160 Introduction to Data Science**: cleaning, analysis, and visualization in R, no programming background required.
+- **INF 351 Data Analytics for Information Professionals**: hands-on work with a full suite of analytics tools (prerequisite: INF 160).
+- **QUAN 301 Business Analytics**: regression, clustering, and classification applied to real business problems (prerequisite: QUAN 201).
+
+Talk with your advisor (or Dr. Bowman!) about fitting these into your plan; course details are in the Dominican course bulletin.
+:::
+
+---
+
 ## 📝 This Week's Assignments
 
 | Assignment | Due | Notes |

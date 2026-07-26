@@ -65,6 +65,19 @@ This module contains three sections:
 
 ---
 
+:::{seealso} Keep Learning at Dominican 🎓
+Thinking about a security path? These Dominican courses go deeper:
+
+- **INF 200 Cybersecurity Informatics**: technical, organizational, and legal sides of security through high-profile case studies.
+- **INF 254 Foundations of Information Security**: hardening systems, access controls, and permission levels from the ground up.
+- **INF 464 Ethical Hacking**: hands-on penetration testing in a controlled environment, with the ethics and law that keep it legal.
+- **INF 454 Digital Forensics**: when the breach happens anyway: collecting and preserving digital evidence.
+
+Talk with your advisor (or Dr. Bowman!) about fitting these into your plan; course details are in the Dominican course bulletin.
+:::
+
+---
+
 ## 📝 This Week's Assignments
 
 | Assignment | Due | Notes |

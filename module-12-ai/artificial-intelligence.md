@@ -67,6 +67,19 @@ This module contains two sections:
 
 ---
 
+:::{seealso} Keep Learning at Dominican 🎓
+Ready to go from AI user to AI builder (or AI critic)? These Dominican courses go deeper:
+
+- **CPSC 425 Artificial Intelligence**: the classic algorithms and ideas underneath the headlines.
+- **CPSC 428 Applied Machine Learning**: hands-on model building and training.
+- **INF 410 Code and Power**: how code frames thought and concentrates power (prerequisites: INF 110 and INF 120).
+- **INF 400 Information Ethics and Policy**: the ethics and policy questions AI keeps raising (prerequisites: INF 110 and INF 120).
+
+Talk with your advisor (or Dr. Bowman!) about fitting these into your plan; course details are in the Dominican course bulletin.
+:::
+
+---
+
 ## 📝 This Week's Assignments
 
 | Assignment | Due | Notes |

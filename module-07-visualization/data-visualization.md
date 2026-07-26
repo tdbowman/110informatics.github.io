@@ -117,6 +117,18 @@ Visualization has its own accessibility rules: don't encode meaning in color alo
 
 ---
 
+:::{seealso} Keep Learning at Dominican 🎓
+Want to make charts people trust and remember? These Dominican courses go deeper:
+
+- **INF 451 Data Visualization**: perception, aesthetics, and interaction; critique real visualizations and build your own from open datasets (prerequisite: INF 160).
+- **INF 160 Introduction to Data Science**: the data skills underneath every good chart, taught in R.
+- **INF 351 Data Analytics for Information Professionals**: from raw data to insight, the step before the chart (prerequisite: INF 160).
+
+Talk with your advisor (or Dr. Bowman!) about fitting these into your plan; course details are in the Dominican course bulletin.
+:::
+
+---
+
 ## 📝 This Week's Assignments
 
 | Assignment | Due | Points |

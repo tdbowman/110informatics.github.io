@@ -68,6 +68,19 @@ This module contains three sections:
 
 ---
 
+:::{seealso} Keep Learning at Dominican 🎓
+Enjoyed this week's big questions? These Dominican courses go deeper:
+
+- **INF 100 Exploring Informatics**: a tour of the whole field, the informatics major and minor, and the careers it leads to.
+- **INF 130 Research and Design for Informatics**: the research methods informaticians actually use, from interviews to experiments (prerequisite: INF 110 or INF 120, concurrent enrollment counts).
+- **INF 256 Information Seeking and Use Behavior**: how people really hunt for information, including a structured look at your own habits.
+- **INF 420 The Information Society**: how an industrial society became an information society, and what digital citizenship means now (prerequisites: INF 110 and INF 120).
+
+Talk with your advisor (or Dr. Bowman!) about fitting these into your plan; course details are in the Dominican course bulletin.
+:::
+
+---
+
 ## 📝 This Week's Assignments
 
 | Assignment | Due | Notes |

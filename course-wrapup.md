@@ -30,13 +30,15 @@ Notice something about this course: several things we studied *changed while the
 
 ## Where To From Here?
 
-| If you liked... | Consider exploring... |
-|-----------------|----------------------|
-| The data and analysis weeks | Statistics, Python/R, data science courses |
-| Design and accessibility | UX research, human-computer interaction |
-| Security and privacy | Cybersecurity, information policy |
-| The law and policy weeks | Technology law, information ethics |
-| AI and robotics | Machine learning, AI ethics, cognitive science |
+| If you liked... | Take these Dominican courses next |
+|-----------------|-----------------------------------|
+| The data and analysis weeks | INF 160 Introduction to Data Science, INF 351 Data Analytics, INF 451 Data Visualization |
+| Design and accessibility | INF 252 Design Thinking for HCI, INF 452 User Experience Evaluation, INF 352 Value-Sensitive Design |
+| Security and privacy | INF 200 Cybersecurity Informatics, INF 254 Foundations of Information Security, INF 464 Ethical Hacking |
+| The law and policy weeks | INF 400 Information Ethics and Policy, INF 410 Code and Power, INF 420 The Information Society |
+| AI, robotics, and games | CPSC 425 Artificial Intelligence, CPSC 428 Applied Machine Learning, INF 355 Game Based Learning |
+
+Every module page also ends with a "Keep Learning at Dominican" box pointing to the courses that extend that week's topic. If this course clicked for you, consider the informatics major or minor: **INF 130 Research and Design for Informatics** is the natural next step (INF 110 satisfies its prerequisite), and the path runs all the way to the **INF 480 Capstone Experience**. The School of Information Studies also offers graduate programs when you're ready for them.
 
 Thank you for your curiosity, your questions, and your contributions to our learning community. The future of informatics is in your hands! 🌟
 

@@ -66,6 +66,18 @@ This module contains three sections:
 
 ---
 
+:::{seealso} Keep Learning at Dominican 🎓
+Want to design for everyone as a practice, not a checklist? These Dominican courses go deeper:
+
+- **INF 253 Introduction to Web Design**: build working websites to web standards, accessibility standards included.
+- **INF 352 Value-Sensitive Design**: inclusion as a design value you can engineer for, not an afterthought (prerequisite: INF 130).
+- **INF 430 Information Divides**: who gets left out of the information society and what closes the gaps (prerequisites: INF 110 and INF 120).
+
+Talk with your advisor (or Dr. Bowman!) about fitting these into your plan; course details are in the Dominican course bulletin.
+:::
+
+---
+
 ## 📝 This Week's Assignments
 
 | Assignment | Due | Notes |

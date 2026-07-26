@@ -72,6 +72,19 @@ This module contains three sections:
 
 ---
 
+:::{seealso} Keep Learning at Dominican 🎓
+If designing for people clicked with you, these Dominican courses go deeper:
+
+- **INF 252 Design Thinking for Human-Computer Interaction**: build a product with a team, from user needs through prototype and usability test (prerequisite: INF 130).
+- **INF 352 Value-Sensitive Design**: whose values get built into a system, and how to design with values on purpose (prerequisite: INF 130).
+- **INF 452 User Experience Evaluation**: an advanced toolkit for testing real systems with real users.
+- **INF 356 User Studies**: how people employ, modify, and resist technology in an information society.
+
+Talk with your advisor (or Dr. Bowman!) about fitting these into your plan; course details are in the Dominican course bulletin.
+:::
+
+---
+
 ## 📝 This Week's Assignments
 
 | Assignment | Due | Notes |

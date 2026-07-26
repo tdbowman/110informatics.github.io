@@ -58,6 +58,18 @@ This module contains two sections:
 
 ---
 
+:::{seealso} Keep Learning at Dominican 🎓
+Games, simulation, and embodied AI have whole courses of their own at Dominican:
+
+- **CPSC 336 Computer Gaming**: build games with the same engines that train robots.
+- **INF 355 Game Based Learning**: analyze game mechanics and design your own game-based learning system.
+- **CPSC 428 Applied Machine Learning**: the learning techniques that power both generative AI and modern robotics.
+
+Talk with your advisor (or Dr. Bowman!) about fitting these into your plan; course details are in the Dominican course bulletin.
+:::
+
+---
+
 ## 📝 This Week's Assignments
 
 | Assignment | Due | Notes |

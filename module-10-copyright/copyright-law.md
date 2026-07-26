@@ -46,6 +46,18 @@ This module contains three sections:
 
 ---
 
+:::{seealso} Keep Learning at Dominican 🎓
+Drawn to where law meets technology? These Dominican courses go deeper:
+
+- **INF 400 Information Ethics and Policy**: intellectual property, free speech, and privacy in depth (prerequisites: INF 110 and INF 120).
+- **INF 410 Code and Power**: open versus closed code, the DMCA, and how code itself becomes a form of control (prerequisites: INF 110 and INF 120).
+- **INF 420 The Information Society**: the bigger historical picture behind every policy fight in this module (prerequisites: INF 110 and INF 120).
+
+Talk with your advisor (or Dr. Bowman!) about fitting these into your plan; course details are in the Dominican course bulletin.
+:::
+
+---
+
 ## 📝 This Week's Assignments
 
 | Assignment | Due | Notes |

@@ -67,6 +67,18 @@ This module contains three sections:
 
 ---
 
+:::{seealso} Keep Learning at Dominican 🎓
+Fascinated by how people find things? These Dominican courses go deeper:
+
+- **INF 256 Information Seeking and Use Behavior**: the human half of search: how people look for information and why they stop.
+- **INF 453 Information Architecture**: organization schemes, labeling, navigation, and search systems, the craft behind findable content.
+- **INF 456 User Services**: prototype real information services for diverse users, from reference resources to online help.
+
+Talk with your advisor (or Dr. Bowman!) about fitting these into your plan; course details are in the Dominican course bulletin.
+:::
+
+---
+
 ## 📝 This Week's Assignments
 
 | Assignment | Due | Notes |

@@ -74,6 +74,18 @@ This module contains three sections:
 
 ---
 
+:::{seealso} Keep Learning at Dominican 🎓
+Want more of the machinery and who gets access to it? These Dominican courses go deeper:
+
+- **INF 120 Foundations of Information Technology**: hands-on work with hardware, code, networks, and the systems that move information.
+- **INF 240 Community Informatics**: how social, cultural, and economic factors shape technology adoption in real communities.
+- **INF 430 Information Divides**: the divides this module introduced, examined through economics, education, health, and democracy (prerequisites: INF 110 and INF 120).
+
+Talk with your advisor (or Dr. Bowman!) about fitting these into your plan; course details are in the Dominican course bulletin.
+:::
+
+---
+
 ## 📝 This Week's Assignments
 
 | Assignment | Due | Notes |
